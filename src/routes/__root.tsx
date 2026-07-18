@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Rwanda Provisional Driving License Exam" },
       { name: "description", content: "Practice the official Rwanda Provisional Driving License examination — 20 randomized questions, 20 minutes, in Kinyarwanda, English or French." },
       { name: "author", content: "Rwanda Provisional License Practice" },
-      { property: "og:title", content: "Rwanda Provisional Driving License Practice Exam" },
-      { property: "og:description", content: "Prepare for the Rwanda provisional driving licence test with realistic timed practice exams." },
+      { property: "og:title", content: "Rwanda Provisional Driving License Exam" },
+      { property: "og:description", content: "Practice the official Rwanda Provisional Driving License examination — 20 randomized questions, 20 minutes, in Kinyarwanda, English or French." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Rwanda Provisional Driving License Exam" },
+      { name: "twitter:description", content: "Practice the official Rwanda Provisional Driving License examination — 20 randomized questions, 20 minutes, in Kinyarwanda, English or French." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7bfbbde8-5b60-4f58-8e1f-30db4ad09569/id-preview-dcd045cc--0cafffdf-6c1c-4273-9f89-49ea747985b8.lovable.app-1784360035069.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7bfbbde8-5b60-4f58-8e1f-30db4ad09569/id-preview-dcd045cc--0cafffdf-6c1c-4273-9f89-49ea747985b8.lovable.app-1784360035069.png" },
     ],
     links: [
       {

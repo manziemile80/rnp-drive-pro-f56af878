@@ -1,0 +1,107 @@
+import { Link, useRouterState } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { Moon, Sun, Shield } from "lucide-react";
+import { getLang, setLang, getTheme, setTheme, isAdmin } from "@/lib/exam/store";
+import { LANGS, t, type Lang } from "@/lib/exam/i18n";
+
+export function SiteHeader() {
+  const [lang, setL] = useState<Lang>("rw");
+  const [theme, setTh] = useState<"light" | "dark">("light");
+  const [admin, setA] = useState(false);
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+
+  useEffect(() => {
+    setL(getLang());
+    const th = getTheme();
+    setTh(th);
+    setTheme(th);
+    setA(isAdmin());
+  }, []);
+
+  const changeLang = (l: Lang) => {
+    setLang(l);
+    setL(l);
+  };
+  const toggleTheme = () => {
+    const nt = theme === "light" ? "dark" : "light";
+    setTheme(nt);
+    setTh(nt);
+  };
+
+  const link = (to: string, label: string) => (
+    <Link
+      to={to}
+      className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+        pathname === to
+          ? "bg-primary-foreground/10 text-primary-foreground"
+          : "text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/5"
+      }`}
+    >
+      {label}
+    </Link>
+  );
+
+  return (
+    <header className="sticky top-0 z-40 border-b border-primary-foreground/10 print:hidden" style={{ background: "var(--gradient-hero)" }}>
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+        <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3 md:flex md:justify-between">
+          <Link to="/" className="flex min-w-0 items-center gap-3">
+            <div className="grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-[oklch(0.82_0.15_84)] bg-[oklch(0.14_0.04_260)]">
+              <Shield className="h-5 w-5 text-[oklch(0.82_0.15_84)]" />
+            </div>
+            <div className="min-w-0">
+              <div className="truncate text-sm font-bold uppercase tracking-wider text-[oklch(0.82_0.15_84)]">Provisional Licence Exam</div>
+              <div className="truncate text-[11px] text-primary-foreground/70">Republic of Rwanda · Practice System</div>
+            </div>
+          </Link>
+          <nav className="hidden items-center gap-1 md:flex">
+            {link("/", t("home", lang))}
+            {link("/stats", t("stats", lang))}
+            {link("/admin", t("admin", lang) + (admin ? " ✓" : ""))}
+          </nav>
+          <div className="col-span-2 flex items-center justify-between gap-2 border-t border-primary-foreground/10 pt-3 md:col-span-1 md:border-0 md:pt-0">
+            <div className="flex items-center gap-1 rounded-md bg-primary-foreground/5 p-1">
+              {LANGS.map((l) => (
+                <button
+                  key={l.code}
+                  onClick={() => changeLang(l.code)}
+                  className={`rounded px-2 py-1 text-xs font-medium transition ${
+                    lang === l.code
+                      ? "bg-[oklch(0.82_0.15_84)] text-[oklch(0.2_0.05_260)]"
+                      : "text-primary-foreground/70 hover:text-primary-foreground"
+                  }`}
+                  aria-label={l.label}
+                >
+                  <span className="mr-1">{l.flag}</span>
+                  <span className="hidden sm:inline">{l.native}</span>
+                </button>
+              ))}
+            </div>
+            <button
+              onClick={toggleTheme}
+              className="grid h-9 w-9 place-items-center rounded-md text-primary-foreground/80 hover:bg-primary-foreground/10 hover:text-primary-foreground"
+              aria-label="Toggle theme"
+            >
+              {theme === "light" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
+            </button>
+          </div>
+        </div>
+        <nav className="flex items-center gap-1 pb-2 md:hidden">
+          {link("/", t("home", lang))}
+          {link("/stats", t("stats", lang))}
+          {link("/admin", t("admin", lang))}
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+export function SiteFooter() {
+  return (
+    <footer className="mt-16 border-t bg-secondary/40 py-6 text-center text-xs text-muted-foreground print:hidden">
+      <div className="mx-auto max-w-7xl px-4">
+        Rwanda Provisional Driving Licence — Practice Examination System · Original design inspired by Rwanda National Police public materials · Not an official government service.
+      </div>
+    </footer>
+  );
+}

@@ -1,17 +1,24 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useMemo, useState } from "react";
-import { Lock, LogOut, Search, Plus, Trash2, Edit2, Save, Upload, Download, RefreshCw, Info } from "lucide-react";
+import { Lock, Search, Plus, Trash2, Edit2, Save, Upload, Download, RefreshCw, Info, KeyRound, Users, ClipboardCheck, Copy, Ban, CheckCircle2 } from "lucide-react";
 import {
-  ADMIN_PASSWORD,
   RawQuestion,
   clearHistory,
   getHistory,
-  isAdmin,
   loadBank,
   resetBank,
   saveBank,
-  setAdmin,
 } from "@/lib/exam/store";
+import { supabase } from "@/integrations/supabase/client";
+import {
+  getMyRole,
+  createTokens,
+  listTokens,
+  setTokenRevoked,
+  deleteToken,
+  listAllAttempts,
+  grantAdmin,
+} from "@/lib/exam/exam.functions";
 
 export const Route = createFileRoute("/admin")({
   head: () => ({ meta: [{ title: "Admin · Rwanda Provisional Licence" }, { name: "robots", content: "noindex" }] }),
@@ -19,54 +26,231 @@ export const Route = createFileRoute("/admin")({
 });
 
 function AdminPage() {
-  const [authed, setAuthed] = useState(false);
-  const [pw, setPw] = useState("");
-  const [err, setErr] = useState<string | null>(null);
+  const [state, setState] = useState<"loading" | "unauth" | "notadmin" | "ok">("loading");
 
-  useEffect(() => setAuthed(isAdmin()), []);
+  useEffect(() => {
+    (async () => {
+      const { data } = await supabase.auth.getUser();
+      if (!data.user) return setState("unauth");
+      try {
+        const r = await getMyRole();
+        setState(r.isAdmin ? "ok" : "notadmin");
+      } catch {
+        setState("notadmin");
+      }
+    })();
+  }, []);
 
-  if (!authed) {
+  if (state === "loading") return <div className="p-10 text-center text-muted-foreground">Loading…</div>;
+  if (state === "unauth") {
     return (
-      <div className="mx-auto flex min-h-[70vh] max-w-md items-center px-4">
-        <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            if (pw === ADMIN_PASSWORD) {
-              setAdmin(true);
-              setAuthed(true);
-              setErr(null);
-            } else {
-              setErr("Incorrect password");
-            }
-          }}
-          className="w-full rounded-xl border bg-card p-8 shadow-[var(--shadow-elegant)]"
-        >
-          <div className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-primary text-primary-foreground">
-            <Lock className="h-5 w-5" />
-          </div>
-          <h1 className="mt-4 text-center text-xl font-bold">Admin Access</h1>
-          <p className="mt-1 text-center text-sm text-muted-foreground">Restricted area — password protected.</p>
-          <label className="mt-6 block text-xs font-semibold uppercase tracking-wider text-muted-foreground">Password</label>
-          <input
-            type="password"
-            value={pw}
-            onChange={(e) => setPw(e.target.value)}
-            className="mt-1 w-full rounded-md border bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-            autoFocus
-          />
-          {err && <div className="mt-2 text-sm text-destructive">{err}</div>}
-          <button className="mt-4 w-full rounded-md bg-primary py-2.5 text-sm font-semibold text-primary-foreground hover:opacity-95">
-            Sign in
-          </button>
-        </form>
+      <div className="mx-auto max-w-md p-10 text-center">
+        <Lock className="mx-auto h-8 w-8 text-muted-foreground" />
+        <h1 className="mt-3 text-xl font-bold">Sign in required</h1>
+        <p className="mt-1 text-sm text-muted-foreground">Please sign in to access the admin panel.</p>
+        <Link to="/auth" className="mt-4 inline-block rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground">Sign in</Link>
       </div>
     );
   }
-
-  return <AdminPanel onLogout={() => { setAdmin(false); setAuthed(false); }} />;
+  if (state === "notadmin") {
+    return (
+      <div className="mx-auto max-w-md p-10 text-center">
+        <Lock className="mx-auto h-8 w-8 text-destructive" />
+        <h1 className="mt-3 text-xl font-bold">Access denied</h1>
+        <p className="mt-1 text-sm text-muted-foreground">This account does not have admin privileges.</p>
+      </div>
+    );
+  }
+  return <AdminPanel />;
 }
 
-function AdminPanel({ onLogout }: { onLogout: () => void }) {
+type Tab = "bank" | "tokens" | "attempts" | "admins";
+
+function AdminPanel() {
+  const [tab, setTab] = useState<Tab>("tokens");
+  return (
+    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+      <div className="flex items-center justify-between">
+        <div>
+          <h1 className="text-2xl font-bold">Admin Panel</h1>
+          <p className="text-sm text-muted-foreground">Manage access tokens, review candidate performance, and edit the question bank.</p>
+        </div>
+      </div>
+      <div className="mt-6 flex flex-wrap gap-1 border-b">
+        {([
+          ["tokens", "Access Tokens", KeyRound],
+          ["attempts", "Attempts", ClipboardCheck],
+          ["admins", "Administrators", Users],
+          ["bank", "Question Bank", Edit2],
+        ] as [Tab, string, typeof KeyRound][]).map(([id, label, Icon]) => (
+          <button
+            key={id}
+            onClick={() => setTab(id)}
+            className={`inline-flex items-center gap-1.5 border-b-2 px-4 py-2 text-sm font-semibold transition ${
+              tab === id ? "border-primary text-primary" : "border-transparent text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <Icon className="h-4 w-4" /> {label}
+          </button>
+        ))}
+      </div>
+      <div className="mt-6">
+        {tab === "tokens" && <TokensTab />}
+        {tab === "attempts" && <AttemptsTab />}
+        {tab === "admins" && <AdminsTab />}
+        {tab === "bank" && <BankTab />}
+      </div>
+    </div>
+  );
+}
+
+function TokensTab() {
+  type Tok = { id: string; code: string; assigned_to: string | null; redeemed_at: string | null; revoked: boolean; note: string | null; created_at: string };
+  const [tokens, setTokens] = useState<Tok[]>([]);
+  const [count, setCount] = useState(5);
+  const [note, setNote] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+
+  const load = async () => {
+    try { setTokens((await listTokens()) as Tok[]); } catch (e) { setErr(e instanceof Error ? e.message : "Failed to load"); }
+  };
+  useEffect(() => { load(); }, []);
+
+  const create = async () => {
+    setBusy(true); setErr(null);
+    try {
+      await createTokens({ data: { count, note: note || undefined } });
+      setNote("");
+      await load();
+    } catch (e) { setErr(e instanceof Error ? e.message : "Failed"); }
+    finally { setBusy(false); }
+  };
+
+  return (
+    <div>
+      <div className="rounded-lg border bg-card p-4">
+        <div className="text-sm font-semibold">Generate tokens</div>
+        <div className="mt-3 flex flex-wrap items-end gap-2">
+          <div>
+            <label className="block text-[10px] font-semibold uppercase text-muted-foreground">Count</label>
+            <input type="number" min={1} max={200} value={count} onChange={(e) => setCount(Math.max(1, Math.min(200, Number(e.target.value))))} className="mt-1 w-24 rounded-md border bg-background px-2 py-1.5 text-sm" />
+          </div>
+          <div className="flex-1 min-w-[200px]">
+            <label className="block text-[10px] font-semibold uppercase text-muted-foreground">Note (optional)</label>
+            <input value={note} onChange={(e) => setNote(e.target.value)} placeholder="e.g. Group A - July batch" className="mt-1 w-full rounded-md border bg-background px-2 py-1.5 text-sm" />
+          </div>
+          <button disabled={busy} onClick={create} className="inline-flex items-center gap-1 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground disabled:opacity-50">
+            <Plus className="h-4 w-4" /> Generate
+          </button>
+        </div>
+        {err && <div className="mt-2 text-xs text-destructive">{err}</div>}
+      </div>
+
+      <div className="mt-4 overflow-hidden rounded-lg border bg-card">
+        <table className="w-full text-sm">
+          <thead className="bg-secondary/70 text-left text-xs uppercase text-muted-foreground">
+            <tr><th className="p-3">Code</th><th className="p-3">Status</th><th className="p-3">Redeemed</th><th className="p-3">Note</th><th className="p-3"></th></tr>
+          </thead>
+          <tbody>
+            {tokens.map((t) => (
+              <tr key={t.id} className="border-t">
+                <td className="p-3 font-mono">{t.code}</td>
+                <td className="p-3">
+                  {t.revoked ? <span className="rounded bg-destructive/10 px-2 py-0.5 text-xs text-destructive">Revoked</span>
+                    : t.assigned_to ? <span className="rounded bg-[oklch(0.65_0.16_150)]/15 px-2 py-0.5 text-xs text-[oklch(0.45_0.15_150)]">Used</span>
+                    : <span className="rounded bg-secondary px-2 py-0.5 text-xs">Available</span>}
+                </td>
+                <td className="p-3 text-xs text-muted-foreground">{t.redeemed_at ? new Date(t.redeemed_at).toLocaleString() : "—"}</td>
+                <td className="p-3 text-xs">{t.note ?? "—"}</td>
+                <td className="p-3">
+                  <div className="flex justify-end gap-1">
+                    <button title="Copy" onClick={() => navigator.clipboard.writeText(t.code)} className="grid h-8 w-8 place-items-center rounded hover:bg-secondary"><Copy className="h-3.5 w-3.5" /></button>
+                    <button title={t.revoked ? "Restore" : "Revoke"} onClick={async () => { await setTokenRevoked({ data: { id: t.id, revoked: !t.revoked } }); load(); }} className="grid h-8 w-8 place-items-center rounded hover:bg-secondary">
+                      {t.revoked ? <CheckCircle2 className="h-3.5 w-3.5" /> : <Ban className="h-3.5 w-3.5" />}
+                    </button>
+                    <button title="Delete" onClick={async () => { if (confirm(`Delete token ${t.code}?`)) { await deleteToken({ data: { id: t.id } }); load(); } }} className="grid h-8 w-8 place-items-center rounded text-destructive hover:bg-destructive/10"><Trash2 className="h-3.5 w-3.5" /></button>
+                  </div>
+                </td>
+              </tr>
+            ))}
+            {tokens.length === 0 && <tr><td colSpan={5} className="p-6 text-center text-muted-foreground">No tokens yet.</td></tr>}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+function AttemptsTab() {
+  type Att = { id: string; user_email: string | null; score: number; total: number; percentage: number; passed: boolean; correct: number; wrong: number; unanswered: number; time_used_ms: number; lang: string; created_at: string };
+  const [rows, setRows] = useState<Att[]>([]);
+  const [err, setErr] = useState<string | null>(null);
+  useEffect(() => {
+    listAllAttempts().then((r) => setRows(r as Att[])).catch((e) => setErr(e instanceof Error ? e.message : "Failed"));
+  }, []);
+  const passRate = rows.length ? Math.round((rows.filter((r) => r.passed).length / rows.length) * 100) : 0;
+  return (
+    <div>
+      <div className="grid gap-3 sm:grid-cols-3">
+        <Card label="Total attempts" value={String(rows.length)} />
+        <Card label="Pass rate" value={`${passRate}%`} />
+        <Card label="Passed" value={String(rows.filter((r) => r.passed).length)} />
+      </div>
+      {err && <div className="mt-3 rounded-md border border-destructive/40 bg-destructive/10 px-3 py-2 text-xs text-destructive">{err}</div>}
+      <div className="mt-4 overflow-hidden rounded-lg border bg-card">
+        <table className="w-full text-sm">
+          <thead className="bg-secondary/70 text-left text-xs uppercase text-muted-foreground">
+            <tr><th className="p-3">User</th><th className="p-3">Score</th><th className="p-3">%</th><th className="p-3">Status</th><th className="p-3">Lang</th><th className="p-3">When</th></tr>
+          </thead>
+          <tbody>
+            {rows.map((r) => (
+              <tr key={r.id} className="border-t">
+                <td className="p-3">{r.user_email ?? <span className="text-muted-foreground">—</span>}</td>
+                <td className="p-3 font-mono">{r.score}/{r.total}</td>
+                <td className="p-3 font-semibold">{Math.round(r.percentage)}%</td>
+                <td className="p-3">
+                  {r.passed ? <span className="rounded bg-[oklch(0.65_0.16_150)]/15 px-2 py-0.5 text-xs text-[oklch(0.45_0.15_150)]">Pass</span>
+                    : <span className="rounded bg-destructive/10 px-2 py-0.5 text-xs text-destructive">Fail</span>}
+                </td>
+                <td className="p-3 text-xs uppercase">{r.lang}</td>
+                <td className="p-3 text-xs text-muted-foreground">{new Date(r.created_at).toLocaleString()}</td>
+              </tr>
+            ))}
+            {rows.length === 0 && <tr><td colSpan={6} className="p-6 text-center text-muted-foreground">No attempts recorded yet.</td></tr>}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+function AdminsTab() {
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState<{ type: "ok" | "err"; text: string } | null>(null);
+  const [busy, setBusy] = useState(false);
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setMsg(null); setBusy(true);
+    try {
+      await grantAdmin({ data: { email: email.trim() } });
+      setMsg({ type: "ok", text: `Granted admin to ${email}` });
+      setEmail("");
+    } catch (e) { setMsg({ type: "err", text: e instanceof Error ? e.message : "Failed" }); }
+    finally { setBusy(false); }
+  };
+  return (
+    <form onSubmit={submit} className="max-w-lg rounded-lg border bg-card p-6">
+      <h3 className="text-sm font-semibold">Grant admin role</h3>
+      <p className="mt-1 text-xs text-muted-foreground">The user must have signed up at least once with this email.</p>
+      <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="user@example.com" className="mt-3 w-full rounded-md border bg-background px-3 py-2 text-sm" />
+      {msg && <div className={`mt-2 rounded-md px-3 py-2 text-xs ${msg.type === "ok" ? "border border-[oklch(0.65_0.16_150)]/40 bg-[oklch(0.65_0.16_150)]/10 text-[oklch(0.45_0.15_150)]" : "border border-destructive/40 bg-destructive/10 text-destructive"}`}>{msg.text}</div>}
+      <button type="submit" disabled={busy} className="mt-3 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground disabled:opacity-50">Grant admin</button>
+    </form>
+  );
+}
+
+function BankTab() {
   const [bank, setBank] = useState<RawQuestion[]>([]);
   const [q, setQ] = useState("");
   const [editing, setEditing] = useState<RawQuestion | null>(null);
@@ -123,20 +307,10 @@ function AdminPanel({ onLogout }: { onLogout: () => void }) {
   const totalAttempts = getHistory().length;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-      <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 md:flex md:justify-between">
-        <div className="min-w-0">
-          <h1 className="truncate text-2xl font-bold">Admin Panel</h1>
-          <p className="text-sm text-muted-foreground">Manage the question bank, imports and exports.</p>
-        </div>
-        <button onClick={onLogout} className="inline-flex shrink-0 items-center gap-1 rounded-md border px-3 py-2 text-sm hover:bg-secondary">
-          <LogOut className="h-4 w-4" /> Sign out
-        </button>
-      </div>
-
-      <div className="mt-6 grid gap-3 sm:grid-cols-3">
+    <div>
+      <div className="grid gap-3 sm:grid-cols-3">
         <Card label="Bank size" value={String(bank.length)} />
-        <Card label="Exams taken" value={String(totalAttempts)} />
+        <Card label="Local attempts" value={String(totalAttempts)} />
         <Card label="With images" value={String(bank.filter((b) => b.has_image).length)} />
       </div>
 

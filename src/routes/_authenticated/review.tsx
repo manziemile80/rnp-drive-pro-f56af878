@@ -5,7 +5,7 @@ import { ExamResult, getLastResult } from "@/lib/exam/store";
 import { t } from "@/lib/exam/i18n";
 import { getQuestionImage } from "@/lib/exam/question-images";
 
-export const Route = createFileRoute("/review")({
+export const Route = createFileRoute("/_authenticated/review")({
   head: () => ({ meta: [{ title: "Review Answers · Rwanda Provisional Licence" }, { name: "robots", content: "noindex" }] }),
   component: ReviewPage,
 });

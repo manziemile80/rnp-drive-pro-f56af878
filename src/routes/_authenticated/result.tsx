@@ -3,17 +3,45 @@ import { useEffect, useState } from "react";
 import { CheckCircle2, XCircle, Clock, Target, Award, Printer, Download, RotateCw, ListChecks } from "lucide-react";
 import { EXAM_LENGTH, ExamResult, PASS_MARK, buildExam, formatTime, getLang, getLastResult } from "@/lib/exam/store";
 import { t } from "@/lib/exam/i18n";
+import { submitAttempt } from "@/lib/exam/exam.functions";
 
-export const Route = createFileRoute("/result")({
+export const Route = createFileRoute("/_authenticated/result")({
   head: () => ({ meta: [{ title: "Exam Result · Rwanda Provisional Licence" }, { name: "robots", content: "noindex" }] }),
   component: ResultPage,
 });
 
 function ResultPage() {
   const [r, setR] = useState<ExamResult | null>(null);
+  const [synced, setSynced] = useState<"idle" | "ok" | "err">("idle");
   const navigate = useNavigate();
   useEffect(() => {
-    setR(getLastResult());
+    const res = getLastResult();
+    setR(res);
+    if (res && !sessionStorage.getItem(`rwexam.synced.${res.id}`)) {
+      const answeredCount = Object.values(res.answers).filter(Boolean).length;
+      const wrong = res.total - res.score - (res.total - answeredCount);
+      const unanswered = res.total - answeredCount;
+      submitAttempt({
+        data: {
+          score: res.score,
+          total: res.total,
+          percentage: Math.round((res.score / res.total) * 100),
+          passed: res.passed,
+          correct: res.score,
+          wrong,
+          unanswered,
+          timeUsedMs: res.timeUsedMs,
+          lang: res.lang,
+          answers: Object.fromEntries(Object.entries(res.answers).map(([k, v]) => [String(k), v ?? null])),
+          questions: res.questions.map((q) => ({ id: q.id, correctLetter: q.correctLetter, stem: q.stem })),
+        },
+      })
+        .then(() => {
+          sessionStorage.setItem(`rwexam.synced.${res.id}`, "1");
+          setSynced("ok");
+        })
+        .catch(() => setSynced("err"));
+    }
   }, []);
   if (!r)
     return (

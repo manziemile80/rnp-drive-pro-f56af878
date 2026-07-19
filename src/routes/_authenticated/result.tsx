@@ -4,7 +4,7 @@ import { CheckCircle2, XCircle, Clock, Target, Award, Printer, Download, RotateC
 import { EXAM_LENGTH, ExamResult, PASS_MARK, buildExam, formatTime, getLang, getLastResult } from "@/lib/exam/store";
 import { t } from "@/lib/exam/i18n";
 
-export const Route = createFileRoute("/result")({
+export const Route = createFileRoute("/_authenticated/result")({
   head: () => ({ meta: [{ title: "Exam Result · Rwanda Provisional Licence" }, { name: "robots", content: "noindex" }] }),
   component: ResultPage,
 });

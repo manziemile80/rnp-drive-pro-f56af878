@@ -9,33 +9,13 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as StatsRouteImport } from './routes/stats'
-import { Route as ReviewRouteImport } from './routes/review'
-import { Route as ResultRouteImport } from './routes/result'
-import { Route as ExamRouteImport } from './routes/exam'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuthenticatedStatsRouteImport } from './routes/_authenticated/stats'
+import { Route as AuthenticatedReviewRouteImport } from './routes/_authenticated/review'
+import { Route as AuthenticatedResultRouteImport } from './routes/_authenticated/result'
+import { Route as AuthenticatedExamRouteImport } from './routes/_authenticated/exam'
 
-const StatsRoute = StatsRouteImport.update({
-  id: '/stats',
-  path: '/stats',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ReviewRoute = ReviewRouteImport.update({
-  id: '/review',
-  path: '/review',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ResultRoute = ResultRouteImport.update({
-  id: '/result',
-  path: '/result',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ExamRoute = ExamRouteImport.update({
-  id: '/exam',
-  path: '/exam',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const AdminRoute = AdminRouteImport.update({
   id: '/admin',
   path: '/admin',
@@ -46,79 +26,78 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AuthenticatedStatsRoute = AuthenticatedStatsRouteImport.update({
+  id: '/_authenticated/stats',
+  path: '/stats',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedReviewRoute = AuthenticatedReviewRouteImport.update({
+  id: '/_authenticated/review',
+  path: '/review',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedResultRoute = AuthenticatedResultRouteImport.update({
+  id: '/_authenticated/result',
+  path: '/result',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedExamRoute = AuthenticatedExamRouteImport.update({
+  id: '/_authenticated/exam',
+  path: '/exam',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/admin': typeof AdminRoute
-  '/exam': typeof ExamRoute
-  '/result': typeof ResultRoute
-  '/review': typeof ReviewRoute
-  '/stats': typeof StatsRoute
+  '/exam': typeof AuthenticatedExamRoute
+  '/result': typeof AuthenticatedResultRoute
+  '/review': typeof AuthenticatedReviewRoute
+  '/stats': typeof AuthenticatedStatsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/admin': typeof AdminRoute
-  '/exam': typeof ExamRoute
-  '/result': typeof ResultRoute
-  '/review': typeof ReviewRoute
-  '/stats': typeof StatsRoute
+  '/exam': typeof AuthenticatedExamRoute
+  '/result': typeof AuthenticatedResultRoute
+  '/review': typeof AuthenticatedReviewRoute
+  '/stats': typeof AuthenticatedStatsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/admin': typeof AdminRoute
-  '/exam': typeof ExamRoute
-  '/result': typeof ResultRoute
-  '/review': typeof ReviewRoute
-  '/stats': typeof StatsRoute
+  '/_authenticated/exam': typeof AuthenticatedExamRoute
+  '/_authenticated/result': typeof AuthenticatedResultRoute
+  '/_authenticated/review': typeof AuthenticatedReviewRoute
+  '/_authenticated/stats': typeof AuthenticatedStatsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths: '/' | '/admin' | '/exam' | '/result' | '/review' | '/stats'
   fileRoutesByTo: FileRoutesByTo
   to: '/' | '/admin' | '/exam' | '/result' | '/review' | '/stats'
-  id: '__root__' | '/' | '/admin' | '/exam' | '/result' | '/review' | '/stats'
+  id:
+    | '__root__'
+    | '/'
+    | '/admin'
+    | '/_authenticated/exam'
+    | '/_authenticated/result'
+    | '/_authenticated/review'
+    | '/_authenticated/stats'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AdminRoute: typeof AdminRoute
-  ExamRoute: typeof ExamRoute
-  ResultRoute: typeof ResultRoute
-  ReviewRoute: typeof ReviewRoute
-  StatsRoute: typeof StatsRoute
+  AuthenticatedExamRoute: typeof AuthenticatedExamRoute
+  AuthenticatedResultRoute: typeof AuthenticatedResultRoute
+  AuthenticatedReviewRoute: typeof AuthenticatedReviewRoute
+  AuthenticatedStatsRoute: typeof AuthenticatedStatsRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/stats': {
-      id: '/stats'
-      path: '/stats'
-      fullPath: '/stats'
-      preLoaderRoute: typeof StatsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/review': {
-      id: '/review'
-      path: '/review'
-      fullPath: '/review'
-      preLoaderRoute: typeof ReviewRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/result': {
-      id: '/result'
-      path: '/result'
-      fullPath: '/result'
-      preLoaderRoute: typeof ResultRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/exam': {
-      id: '/exam'
-      path: '/exam'
-      fullPath: '/exam'
-      preLoaderRoute: typeof ExamRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/admin': {
       id: '/admin'
       path: '/admin'
@@ -133,16 +112,44 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_authenticated/stats': {
+      id: '/_authenticated/stats'
+      path: '/stats'
+      fullPath: '/stats'
+      preLoaderRoute: typeof AuthenticatedStatsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/review': {
+      id: '/_authenticated/review'
+      path: '/review'
+      fullPath: '/review'
+      preLoaderRoute: typeof AuthenticatedReviewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/result': {
+      id: '/_authenticated/result'
+      path: '/result'
+      fullPath: '/result'
+      preLoaderRoute: typeof AuthenticatedResultRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/exam': {
+      id: '/_authenticated/exam'
+      path: '/exam'
+      fullPath: '/exam'
+      preLoaderRoute: typeof AuthenticatedExamRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AdminRoute: AdminRoute,
-  ExamRoute: ExamRoute,
-  ResultRoute: ResultRoute,
-  ReviewRoute: ReviewRoute,
-  StatsRoute: StatsRoute,
+  AuthenticatedExamRoute: AuthenticatedExamRoute,
+  AuthenticatedResultRoute: AuthenticatedResultRoute,
+  AuthenticatedReviewRoute: AuthenticatedReviewRoute,
+  AuthenticatedStatsRoute: AuthenticatedStatsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

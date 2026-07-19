@@ -13,7 +13,7 @@ import {
 import { t } from "@/lib/exam/i18n";
 import { getQuestionImage } from "@/lib/exam/question-images";
 
-export const Route = createFileRoute("/exam")({
+export const Route = createFileRoute("/_authenticated/exam")({
   head: () => ({ meta: [{ title: "Exam in progress · Rwanda Provisional Licence" }, { name: "robots", content: "noindex" }] }),
   component: ExamPage,
 });

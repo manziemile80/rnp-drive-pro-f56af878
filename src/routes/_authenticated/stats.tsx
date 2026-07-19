@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { BarChart3, TrendingUp, TrendingDown, Trophy, Users, ArrowLeft } from "lucide-react";
 import { ExamResult, getHistory, loadBank, questionStats } from "@/lib/exam/store";
 
-export const Route = createFileRoute("/stats")({
+export const Route = createFileRoute("/_authenticated/stats")({
   head: () => ({ meta: [{ title: "Statistics · Rwanda Provisional Licence Practice" }, { name: "description", content: "Personal exam statistics dashboard." }] }),
   component: StatsPage,
 });

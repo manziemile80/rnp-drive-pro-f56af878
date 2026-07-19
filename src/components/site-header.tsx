@@ -1,8 +1,9 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Moon, Sun, Shield } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { getLang, setLang, getTheme, setTheme, isAdmin } from "@/lib/exam/store";
 import { LANGS, t, type Lang } from "@/lib/exam/i18n";
+import rnpLogo from "@/assets/rnp-logo.png.asset.json";
 
 export function SiteHeader() {
   const [lang, setL] = useState<Lang>("rw");
@@ -46,9 +47,11 @@ export function SiteHeader() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3 md:flex md:justify-between">
           <Link to="/" className="flex min-w-0 items-center gap-3">
-            <div className="grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-[oklch(0.82_0.15_84)] bg-[oklch(0.14_0.04_260)]">
-              <Shield className="h-5 w-5 text-[oklch(0.82_0.15_84)]" />
-            </div>
+            <img
+              src={rnpLogo.url}
+              alt="Rwanda National Police"
+              className="h-11 w-11 shrink-0 rounded-full bg-[oklch(0.14_0.04_260)] object-contain ring-2 ring-[oklch(0.82_0.15_84)]"
+            />
             <div className="min-w-0">
               <div className="truncate text-sm font-bold uppercase tracking-wider text-[oklch(0.82_0.15_84)]">Provisional Licence Exam</div>
               <div className="truncate text-[11px] text-primary-foreground/70">Republic of Rwanda · Practice System</div>

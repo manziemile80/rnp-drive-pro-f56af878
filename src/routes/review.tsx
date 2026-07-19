@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { Check, X, ArrowLeft, Filter } from "lucide-react";
 import { ExamResult, getLastResult } from "@/lib/exam/store";
 import { t } from "@/lib/exam/i18n";
+import { getQuestionImage } from "@/lib/exam/question-images";
 
 export const Route = createFileRoute("/review")({
   head: () => ({ meta: [{ title: "Review Answers · Rwanda Provisional Licence" }, { name: "robots", content: "noindex" }] }),
@@ -76,6 +77,14 @@ function ReviewPage() {
                 )}
               </div>
               <p className="font-semibold leading-relaxed">{q.stem}</p>
+              {q.hasImage && (() => {
+                const src = getQuestionImage(q.id);
+                return src ? (
+                  <div className="mt-3 overflow-hidden rounded-md border bg-white">
+                    <img src={src} alt={`Road sign for question ${q.id}`} className="mx-auto max-h-[360px] w-full object-contain" />
+                  </div>
+                ) : null;
+              })()}
               <div className="mt-4 space-y-1.5">
                 {q.options.map((o) => {
                   const isAns = ans === o.letter;

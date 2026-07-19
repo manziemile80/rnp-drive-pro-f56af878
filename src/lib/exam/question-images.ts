@@ -1,12 +1,20 @@
-// Maps a question number to the PDF page image that shows its road sign.
-// The image bundles multiple signs and the full page context because the
-// original PDF didn't isolate them per question.
-const modules = import.meta.glob("@/assets/questions/page*.png.asset.json", {
+// Prefer a cropped per-question image at src/assets/questions/q/q{ID}.{ext}.asset.json.
+// Falls back to the whole PDF page image while cropped images are still being uploaded.
+const perQuestionMods = import.meta.glob(
+  "@/assets/questions/q/q*.{png,jpg,jpeg,webp}.asset.json",
+  { eager: true },
+) as Record<string, { default: { url: string } }>;
+const pageMods = import.meta.glob("@/assets/questions/page*.png.asset.json", {
   eager: true,
 }) as Record<string, { default: { url: string } }>;
 
+const qUrl: Record<number, string> = {};
+for (const [path, mod] of Object.entries(perQuestionMods)) {
+  const m = path.match(/q(\d+)\.(?:png|jpg|jpeg|webp)/);
+  if (m) qUrl[Number(m[1])] = mod.default.url;
+}
 const pageUrl: Record<number, string> = {};
-for (const [path, mod] of Object.entries(modules)) {
+for (const [path, mod] of Object.entries(pageMods)) {
   const m = path.match(/page(\d+)\.png/);
   if (m) pageUrl[Number(m[1])] = mod.default.url;
 }
@@ -21,7 +29,12 @@ const questionToPage: Record<number, number> = {
 };
 
 export function getQuestionImage(qid: number): string | null {
+  if (qUrl[qid]) return qUrl[qid];
   const page = questionToPage[qid];
   if (!page) return null;
   return pageUrl[page] ?? null;
+}
+
+export function hasCroppedImage(qid: number): boolean {
+  return !!qUrl[qid];
 }

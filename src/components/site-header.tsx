@@ -1,14 +1,15 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Moon, Sun } from "lucide-react";
-import { getLang, setLang, getTheme, setTheme, isAdmin } from "@/lib/exam/store";
+import { Moon, Sun, LogIn, LogOut, User } from "lucide-react";
+import { getLang, setLang, getTheme, setTheme } from "@/lib/exam/store";
 import { LANGS, t, type Lang } from "@/lib/exam/i18n";
+import { supabase } from "@/integrations/supabase/client";
 import rnpLogo from "@/assets/rnp-logo.png.asset.json";
 
 export function SiteHeader() {
   const [lang, setL] = useState<Lang>("rw");
   const [theme, setTh] = useState<"light" | "dark">("light");
-  const [admin, setA] = useState(false);
+  const [email, setEmail] = useState<string | null>(null);
   const pathname = useRouterState({ select: (s) => s.location.pathname });
 
   useEffect(() => {
@@ -16,8 +17,17 @@ export function SiteHeader() {
     const th = getTheme();
     setTh(th);
     setTheme(th);
-    setA(isAdmin());
+    supabase.auth.getUser().then(({ data }) => setEmail(data.user?.email ?? null));
+    const { data: sub } = supabase.auth.onAuthStateChange((_e, session) => {
+      setEmail(session?.user?.email ?? null);
+    });
+    return () => sub.subscription.unsubscribe();
   }, []);
+
+  const signOut = async () => {
+    await supabase.auth.signOut();
+    window.location.href = "/";
+  };
 
   const changeLang = (l: Lang) => {
     setLang(l);
@@ -60,7 +70,7 @@ export function SiteHeader() {
           <nav className="hidden items-center gap-1 md:flex">
             {link("/", t("home", lang))}
             {link("/stats", t("stats", lang))}
-            {link("/admin", t("admin", lang) + (admin ? " ✓" : ""))}
+            {link("/admin", t("admin", lang))}
           </nav>
           <div className="col-span-2 flex items-center justify-between gap-2 border-t border-primary-foreground/10 pt-3 md:col-span-1 md:border-0 md:pt-0">
             <div className="flex items-center gap-1 rounded-md bg-primary-foreground/5 p-1">
@@ -80,6 +90,29 @@ export function SiteHeader() {
                 </button>
               ))}
             </div>
+            {email ? (
+              <div className="flex items-center gap-1">
+                <span className="hidden items-center gap-1 rounded-md bg-primary-foreground/5 px-2 py-1 text-xs text-primary-foreground/80 sm:inline-flex" title={email}>
+                  <User className="h-3 w-3" />
+                  <span className="max-w-[140px] truncate">{email}</span>
+                </span>
+                <button
+                  onClick={signOut}
+                  className="inline-flex items-center gap-1 rounded-md px-2 py-1.5 text-xs font-medium text-primary-foreground/80 hover:bg-primary-foreground/10 hover:text-primary-foreground"
+                  aria-label="Sign out"
+                >
+                  <LogOut className="h-3.5 w-3.5" />
+                  <span className="hidden sm:inline">Sign out</span>
+                </button>
+              </div>
+            ) : (
+              <Link
+                to="/auth"
+                className="inline-flex items-center gap-1 rounded-md bg-[oklch(0.82_0.15_84)] px-3 py-1.5 text-xs font-semibold text-[oklch(0.2_0.05_260)] hover:brightness-105"
+              >
+                <LogIn className="h-3.5 w-3.5" /> Sign in
+              </Link>
+            )}
             <button
               onClick={toggleTheme}
               className="grid h-9 w-9 place-items-center rounded-md text-primary-foreground/80 hover:bg-primary-foreground/10 hover:text-primary-foreground"

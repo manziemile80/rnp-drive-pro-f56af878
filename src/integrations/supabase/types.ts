@@ -14,16 +14,140 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      access_tokens: {
+        Row: {
+          assigned_to: string | null
+          code: string
+          created_at: string
+          created_by: string | null
+          id: string
+          note: string | null
+          redeemed_at: string | null
+          revoked: boolean
+        }
+        Insert: {
+          assigned_to?: string | null
+          code: string
+          created_at?: string
+          created_by?: string | null
+          id?: string
+          note?: string | null
+          redeemed_at?: string | null
+          revoked?: boolean
+        }
+        Update: {
+          assigned_to?: string | null
+          code?: string
+          created_at?: string
+          created_by?: string | null
+          id?: string
+          note?: string | null
+          redeemed_at?: string | null
+          revoked?: boolean
+        }
+        Relationships: []
+      }
+      exam_attempts: {
+        Row: {
+          answers: Json
+          correct: number
+          created_at: string
+          id: string
+          lang: string
+          passed: boolean
+          percentage: number
+          questions: Json
+          score: number
+          time_used_ms: number
+          token_id: string | null
+          total: number
+          unanswered: number
+          user_email: string | null
+          user_id: string
+          wrong: number
+        }
+        Insert: {
+          answers?: Json
+          correct: number
+          created_at?: string
+          id?: string
+          lang: string
+          passed: boolean
+          percentage: number
+          questions?: Json
+          score: number
+          time_used_ms: number
+          token_id?: string | null
+          total: number
+          unanswered: number
+          user_email?: string | null
+          user_id: string
+          wrong: number
+        }
+        Update: {
+          answers?: Json
+          correct?: number
+          created_at?: string
+          id?: string
+          lang?: string
+          passed?: boolean
+          percentage?: number
+          questions?: Json
+          score?: number
+          time_used_ms?: number
+          token_id?: string | null
+          total?: number
+          unanswered?: number
+          user_email?: string | null
+          user_id?: string
+          wrong?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "exam_attempts_token_id_fkey"
+            columns: ["token_id"]
+            isOneToOne: false
+            referencedRelation: "access_tokens"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      user_roles: {
+        Row: {
+          created_at: string
+          id: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "admin" | "user"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +274,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["admin", "user"],
+    },
   },
 } as const

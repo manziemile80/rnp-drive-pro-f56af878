@@ -11,6 +11,7 @@ import {
   submitExam,
 } from "@/lib/exam/store";
 import { t } from "@/lib/exam/i18n";
+import { getQuestionImage } from "@/lib/exam/question-images";
 
 export const Route = createFileRoute("/exam")({
   head: () => ({ meta: [{ title: "Exam in progress · Rwanda Provisional Licence" }, { name: "robots", content: "noindex" }] }),
@@ -156,11 +157,21 @@ function ExamPage() {
             <span>{t("no_translation", state.lang)} <em>({state.lang === "rw" ? "" : "Kinyarwanda"})</em></span>
           </div>
         )}
-        {q.hasImage && (
-          <div className="mb-3 rounded-md border border-dashed bg-muted/60 p-3 text-xs text-muted-foreground">
-            📷 This question references a road sign image from the official PDF (image not shown).
-          </div>
-        )}
+        {q.hasImage && (() => {
+          const src = getQuestionImage(q.id);
+          return src ? (
+            <div className="mb-4 overflow-hidden rounded-md border bg-white">
+              <img src={src} alt={`Road sign for question ${q.id}`} className="mx-auto max-h-[420px] w-full object-contain" />
+              <div className="border-t bg-muted/60 px-3 py-1.5 text-[10px] text-muted-foreground">
+                📷 Reference image from the official Rwanda Provisional Licence PDF (page context shown).
+              </div>
+            </div>
+          ) : (
+            <div className="mb-3 rounded-md border border-dashed bg-muted/60 p-3 text-xs text-muted-foreground">
+              📷 This question references a road sign image (not available).
+            </div>
+          );
+        })()}
         <h2 className="text-base font-semibold leading-relaxed sm:text-lg">
           <span className="mr-2 rounded bg-primary/10 px-2 py-0.5 font-mono text-xs text-primary">Q{q.id}</span>
           {q.stem}

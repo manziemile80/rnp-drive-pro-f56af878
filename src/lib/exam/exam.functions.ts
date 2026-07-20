@@ -23,24 +23,11 @@ export const redeemToken = createServerFn({ method: "POST" })
   .middleware([requireSupabaseAuth])
   .inputValidator((d: { code: string }) => z.object({ code: z.string().trim().min(4).max(64) }).parse(d))
   .handler(async ({ data, context }) => {
-    const { supabase, userId } = context;
+    const { supabase } = context;
     const code = data.code.toUpperCase();
-    const { data: tok, error } = await supabase
-      .from("access_tokens")
-      .select("id, assigned_to, revoked")
-      .eq("code", code)
-      .maybeSingle();
-    if (error || !tok) throw new Error("Invalid access token");
-    if (tok.revoked) throw new Error("This token has been revoked");
-    if (tok.assigned_to && tok.assigned_to !== userId) throw new Error("This token has already been used by another account");
-    if (tok.assigned_to === userId) return { ok: true, tokenId: tok.id };
-    const { error: upErr } = await supabase
-      .from("access_tokens")
-      .update({ assigned_to: userId, redeemed_at: new Date().toISOString() })
-      .eq("id", tok.id)
-      .is("assigned_to", null);
-    if (upErr) throw new Error(upErr.message);
-    return { ok: true, tokenId: tok.id };
+    const { data: tokenId, error } = await supabase.rpc("redeem_access_token", { _code: code });
+    if (error) throw new Error(error.message || "Invalid access token");
+    return { ok: true, tokenId };
   });
 
 // ------- Attempts -------

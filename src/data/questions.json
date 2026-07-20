@@ -1,2918 +1,2918 @@
 [
- {
-  "number": 2,
-  "stem_rw": "Ijambo “akayira” bivuga inzira nyabagendwa ifunganye yagenewe gusa:",
-  "options_rw": [
-   "Abanyamaguru",
-   "Ibinyabiziga bigendera ku biziga bibiri",
-   "A na B ni ibisubizo by’ukuri",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 3,
-  "stem_rw": "Umurongo uciyemo uduce umenyesha ahegereye umurongo ushobora kuzuzwa n’ uturanga gukata tw’ibara ryera utwo turanga cyerekezo tumenyesha :",
-  "options_rw": [
-   "Igisate cy’umuhanda abayobozi bagomba gukurikira",
-   "Ahegereye umurongo ukomeje",
-   "Igabanurwa ry’umubare w’ibisate by’ umuhanda mu cyerekezo bajyamo",
-   "A na C nibyo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 4,
-  "stem_rw": "Ahantu ho kugendera mu muhanda herekanwa n’ ibimenyetso bimurika ibinyabiziga ntibishobora kuhagenda :",
-  "options_rw": [
-   "Biteganye",
-   "Ku murongo umwe",
-   "A na B nibyo",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 5,
-  "stem_rw": "Ibinyabiziga bikurikira bigomba gukorerwa isuzumwa buri mwaka:",
-  "options_rw": [
-   "Ibinyabiziga bigenewe gutwara abagenzi muri rusange",
-   "Ibinyabiziga bigenewe gutwara ibintu birengeje toni 3.5",
-   "Ibinyabiziga bigenewe kwigisha gutwara",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 8,
-  "stem_rw": "Ikinyabiziga kibujijwe guhagarara akanya kanini aha hakurikira :",
-  "options_rw": [
-   "Ahatarengeje metero 1 imbere cyangwa inyuma y’ikinyabiziga gihagaze akanya gato cyangwa kanini :",
-   "Ahantu hari ibimenyetso bibuza byabugenewe",
-   "Aho abanyamaguru banyura mu muhanda ngo bakikire inkomyi",
-   "Ibisubizo byose nibyo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 10,
-  "stem_rw": "Icyapa cyerekana umuvuduko ntarengwa ikinyabiziga kitagomba kurenza gishyirwa gusa ku binyabiziga bifite uburemere ntarengwa bukurikira:",
-  "options_rw": [
-   "Burenga toni 1",
-   "Burenga toni 2",
-   "Burenga toni 24",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 11,
-  "stem_rw": "Ahatari mu nsisiro umuvuduko ntarengwa mu isaha wa velomoteri ni:",
-  "options_rw": [
-   "Km50",
-   "Km40",
-   "Km30",
-   "Nta gisubizo cy’ukuri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 12,
-  "stem_rw": "Umuyobozi ugenda mu muhanda igihe ubugari bwawo budatuma anyuranaho nta nkomyi ashobora kunyura mu kayira k’abanyamaguru ariko amaze kureba ibi bikurikira:",
-  "options_rw": [
-   "Umuvuduko w’abanyamaguru",
-   "Ubugari bw’umuhanda",
-   "Umubare w’abanyamaguru",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 13,
-  "stem_rw": "Ku byerekeye kwerekana ibinyabiziga n’ ukumurika kwabyo ndetse no kwerekana ihindura ry’ibyerekezo byabyo. Birabujijwe gukora andi matara cyangwa utugarurarumuri uretse ibitegetswe ariko ntibireba amatara akurikira:",
-  "options_rw": [
-   "Amatara ndanga",
-   "Amatara ari imbere mu modoka",
-   "Amatara ndangaburambarare",
-   "Ibisubizo byose nibyo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 15,
-  "stem_rw": "Uburyo bukoreshwa kugirango ikinyabiziga kigende gahoro igihe feri idakora neza babwita:",
-  "options_rw": [
-   "Feri y’urugendo",
-   "Feri yo guhagarara umwanya munini",
-   "Feri yo gutabara",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 16,
-  "stem_rw": "Nibura ikinyabiziga gitegetswe kugira uduhanagurakirahure tungahe:",
-  "options_rw": [
-   "2",
-   "3",
-   "1",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 17,
-  "stem_rw": "Amatara maremare y’ikinyabiziga agomba kuzimwa mu bihe bikurikira:",
-  "options_rw": [
-   "Iyo umuhanda umurikiye umuyobozi abasha kureba muri metero 20",
-   "Iyo ikinyabiziga kigiye kubisikana n’ibindi",
-   "Iyo ari mu nsisiro",
-   "Ibisubizo byose ni ukuri"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 18,
-  "stem_rw": "Ikinyabiziga ntigishobora kugira amatara arenga abiri y’ubwoko bumwe keretse kubyerekeye amatara akurikira:",
-  "options_rw": [
-   "Itara ndangamubyimba",
-   "Itara ryerekana icyerekezo",
-   "Itara ndangaburumbarare",
-   "Ibisubizo byose ni ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 19,
-  "stem_rw": "Ubugari bwa romoruki ikuruwe n’igare cyangwa velomoteri ntiburenza ibipimo bikurikira:",
-  "options_rw": [
-   "cm25",
-   "cm125",
-   "cm45",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 20,
-  "stem_rw": "Ibinyabiziga bikoreshwa nka tagisi, bitegerereza abantu mu nzira nyabagendwa, bishobora gushyirwaho itara ryerekana ko ikinyabiziga kitakodeshejwe. Iryo tara rishyirwaho ku buryo bukurikira:",
-  "options_rw": [
-   "Ni itara ry’icyatsi rishyirwa imbere ku kinyabiziga",
-   "Ni itara ry’icyatsi rishyirwa ibumoso",
-   "Ni itara ry’umuhondo rishyirwa inyuma",
-   "A na C ni ibisubizo by’ukuri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 21,
-  "stem_rw": "Za otobisi zagenewe gutwara abanyeshuri zishobora gushyirwaho amatara abiri asa n’icunga rihishije amyasa kugirango yerekane ko zihagaze no kwerekana ko bagomba kwitonda, ayo matara ashyirwaho ku buryo bukurikira :",
-  "options_rw": [
-   "Amatara abiri ashyirwa inyuma",
-   "Amatara abiri ashyirwa imbere",
-   "Rimwe rishyirwa imbere irindi inyuma",
-   "b na c ni ibisubizo by’ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 22,
-  "stem_rw": "Itara ryo guhagarara ry’ibara ritukura rigomba kugaragara igihe ijuru rikeye nibura mu ntera ikurikira:",
-  "options_rw": [
-   "Metero 100 ku manywa na metero 20 mu ijoro",
-   "Metero 150 ku manywa na metero50 mu ijoro",
-   "Metero 200 ku manywa na metero100 mu ijoro",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 25,
-  "stem_rw": "Igice cy'inzira nyabagendwa kigarukira ku mirongo ibiri yera icagaguye ibangikanye kandi gifite ubugari budahagije kugira ngo imodoka zitambuke neza, kiba ari:",
-  "options_rw": [
-   "Ahanyurwa n’amagare na velomoteri",
-   "Ahanyurwa n’ingorofani",
-   "Ahanyurwa n’ibinyamitende",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 26,
-  "stem_rw": "Ubugari bwa romoruki ntiburenza ubugari bw’ ikinyabiziga kiyikurura iyo ikuruwe n’ibinyabiziga bikurikira:",
-  "options_rw": [
-   "Igare",
-   "Velomoteri",
-   "Ipikipiki ifite akanyabiziga kometse ku ruhande rwayo",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 27,
-  "stem_rw": "Iyo hatarimo indi myanya birabujijwe gutwara ku ntebe y’imbere y’imodoka abana badafite imyaka:",
-  "options_rw": [
-   "Imyaka 10",
-   "Imyaka 12",
-   "Imyaka 7",
-   "Ntagisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 28,
-  "stem_rw": "Icyapa kivuga gutambuka mbere y’ ibinyabiziga biturutse imbere gifite amabara akurikira:",
-  "options_rw": [
-   "Ubuso ni umweru",
-   "Ikirango ni umutuku n’umukara",
-   "Ikirango ni umweru n’umukara",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 29,
-  "stem_rw": "Ni ryari itegeko rigenga gutambuka mbere kw’ iburyo rikurikizwa mu masangano:",
-  "options_rw": [
-   "Iyo nta cyapa cyo gutambuka mbere gihari",
-   "Iyo ikimenyetso kimurika cyagenewe ibinyabiziga kidakora",
-   "A na B ni ibisubizo by’ukuri",
-   "Nta gisubizo cy’ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 30,
-  "stem_rw": "Ibimenyetso bimurika byerekana uburyo bwo kugendera mu muhanda kw'ibinyabiziga bishyirwa iburyo bw'umuhanda. Ariko bishobora no gushyirwa ibumoso cyangwa hejuru y’umuhanda:",
-  "options_rw": [
-   "Hakurikijwe icyerekezo abagenzi bireba baganamo",
-   "Hakurikijwe icyo ibyo bimenyetso bigamije kwerekana",
-   "Kugirango birusheho kugaragara neza",
-   "Ibisubizo byose ni ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 31,
-  "stem_rw": "Iyo itara ry’umuhondo rimyatsa rikoreshejwe mu masangano y’amayira ahwanyije agaciro rishyirwa ahagana he:",
-  "options_rw": [
-   "Kuri buri nzira",
-   "Hagati y’amasangano",
-   "Iburyo bw’amasangano",
-   "a na b ni ibisubizo by’ ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 32,
-  "stem_rw": "Inkombe z’inzira nyabagendwa cyangwa z’ umuhanda zishobora kugaragazwa n’ibikoresho ngarurarumuri. Ibyo bikoresho bigomba gushyirwaho ku buryo abagenzi babibona :",
-  "options_rw": [
-   "Babona gusa ibumoso bwabo iby’ibara ritukura",
-   "Iburyo babona iby’ibara risa n’icunga rihishije gusa",
-   "Babona iby’ibara ry’umuhondo ibumoso",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 33,
-  "stem_rw": "Ibinyabiziga bikurikira bigomba gukorerwa isuzumwa rimwe mu mezi 6:",
-  "options_rw": [
-   "Ibinyabiziga bitwara abagenzi muri rusange",
-   "Ibinyabiziga bigenewe gutwara ibintu birengeje toni 3.5",
-   "Ibinyabiziga bigenewe kwigisha gutwara",
-   "Ibisubizo byose ni ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 34,
-  "stem_rw": "Iyo kuyobya umuhanda ari ngombwa bigaragazwa kuva aho uhera no kuburebure bwawo n’icyapa gifite ubuso bw’amabara akurikira:",
-  "options_rw": [
-   "Ubururu",
-   "Umweru",
-   "Umutuku",
-   "Nta gisubizo cy’ukuri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 35,
-  "stem_rw": "Ku mihanda ibyapa bikurikira bigomba kugaragazwa ku buryo bumwe:",
-  "options_rw": [
-   "Ibyapa biyobora n’ibitegeka",
-   "Ibyapa biburira n’ibitegeka",
-   "Ibyapa bibuza n’ibitegeka",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 36,
-  "stem_rw": "Ni iyihe feri ituma imodoka igenda buhoro kandi igahagarara ku buryo bwizewe bubangutse kandi nyabwo, uko imodoka yaba yikoreye kose yaba igeze ahacuramye cyangwa ahaterera:",
-  "options_rw": [
-   "Feri y’urugendo",
-   "Feri yo gutabara",
-   "Feri yo guhagarara umwanya munini",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 37,
-  "stem_rw": "Ibizirikisho by’iminyururu cyangwa by’insinga kimwe n’ibindi by’ingoboka bikoreshwa gusa igihe nta kundi umuntu yabigenza kandi nta kindi bigiriwe uretse gusa kugirango ikinyabiziga kigere aho kigomba gukorerwa kandi nturenze na rimwe km 20 mu isaha, ibyo bizirikisho bigaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "Agatambaro gatukura kuri cm 50 z’umuhanda",
-   "Ikimenyetso cy’itara risa n’icunga rihishije",
-   "Icyapa cyera cya mpande enye zingana gifite cm 20 kuri buri ruhande",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 38,
-  "stem_rw": "Uretse mu mujyi, ku yindi mihanda yajyenwe na minisitiri ushinzwe gutwara abantu n’ibintu, uburemere ntarengwa ku binyabiziga bifite imitambiko itatu cyangwa irenga hatarimo makuzungu ni :",
-  "options_rw": [
-   "Toni 10",
-   "Toni 12",
-   "Toni 16",
-   "Toni 24"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 39,
-  "stem_rw": "Ubugari bw’imizigo yikorewe n’ibinyamitende itatu n’ubwiyikorewe n’ibinyamitende 4 bifite cyangwa bidafite moteri kimwe n’ubw’iyikorewe na romuruki zikuruwe n’ibyo binyabiziga ntibushobora kurenga ibipimo bikurikira:",
-  "options_rw": [
-   "cm 30 ku bugari bw’icyo kinyabiziga kidapakiye",
-   "Ubugari ntarengwa budakuka ni metero 2 na sentimetero 50",
-   "A na B ni ibisubizo by’ukuri",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 40,
-  "stem_rw": "Kunyura ku binyabiziga bindi, uretse icy’ ibiziga bibiri, bibujijwe aha hakurikira:",
-  "options_rw": [
-   "Hafi y’iteme iyo hari umuhanda ufunganye",
-   "Hafi y’aho abanyamaguru banyura",
-   "Hafi y’ibice by’umuhanda bimeze nabi",
-   "Ibi bisubizo byose ni ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 41,
-  "stem_rw": "Iyo nta mategeko awugabanya by’umwihariko, umuvuduko ntarengwa ku modoka zitwara abagenzi mu buryo bwa rusange ni:",
-  "options_rw": [
-   "Km 60 mu isaha",
-   "Km 40 mu isaha",
-   "Km 25 mu isaha",
-   "Km20 mu isaha"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 42,
-  "stem_rw": "Iyo nta mategeko awugabanya by’umwihariko, umuvuduko ntarengwa ku modoka zikoreshwa nk’ amavatiri y’ifasi cyangwa amatagisi zifite uburemere bwemewe butarenga kilogarama 3500 ni:",
-  "options_rw": [
-   "Km 60 mu isaha",
-   "Km 40 mu isaha",
-   "Km 75 mu isaha",
-   "Km20 mu isaha"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 43,
-  "stem_rw": "Ikinyabiziga kibujijwe guhagarara akanya kanini aha hakurikira :",
-  "options_rw": [
-   "Imbere y’ahantu hinjirwa hakasohokerwa n’ abantu benshi",
-   "Mu muhanda aho ugabanyijemo ibisate bigaragazwa n’imirongo idacagaguye",
-   "A na B ni ibisubizo by’ukuri",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 44,
-  "stem_rw": "Iyo bwije kugeza bukeye cyangwa bitewe n’ uko ibihe bimeze nk’igihe cy’ibihu cyangwa cy’ imvura bitagishoboka kubona neza muri m 200, udutsiko twose tw’abanyamaguru nk’imperekerane cyangwa udutsiko tw’abanyeshuri bari ku murongo bayobowe n’umwarimu, iyo bagenda mu muhanda ku isonga hakaba hari abantu barenze umwe bagomba kugaragazwa kuburyo bukurikira :",
-  "options_rw": [
-   "Imbere ni itara ry’umuhondo ritwariwe ibumoso",
-   "Inyuma ni itara ryera ritwariwe ibumoso n’ umuntu uri ku murongo w’inyuma hafi y’ umurongo ugabanya umuhanda mo kabiri",
-   "A na B ni ibisubizo by’ukuri",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 45,
-  "stem_rw": "Utuyira turi ku mpande z’umuhanda n’ inkengero zigiye hejuru biharirwa abanyamaguru mu bihe bikurikira:",
-  "options_rw": [
-   "Iyo hari amategeko yihariye yerekanwa n’ ibimenyetso",
-   "Iyo badatatanye kandi bayobowe n’umwarimu",
-   "Iyo hatari amategeko yihariye yerekanwa n’ ibimenyetso",
-   "Ibisubizo byose ni ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 46,
-  "stem_rw": "Imburira zimurika zemerewe gukoreshwa kugirango bamenyeshe umuyobozi ko bagiye kumunyuraho aha hakurikira:",
-  "options_rw": [
-   "Mu nsisiro gusa",
-   "Ahegereye inyamaswa zikurura",
-   "Hafi y’amatungo",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 47,
-  "stem_rw": "Uburemere ntarengwa bwemewe ntibushobora kurenga ½ cy’uburemere bw’ikinyabiziga gikurura nubw’umuyobozi kuri romoruki zikurikira :",
-  "options_rw": [
-   "Romoruki ifite feri y’urugendo",
-   "Romoruki idafite feri y’urugendo",
-   "Romoruki itarenza kg 750",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 48,
-  "stem_rw": "Ibinyabiziga bifite ubugari bufite ibipimo bikurikira bigomba kugira amatara ndangaburumbarare :",
-  "options_rw": [
-   "Metero 2 na cm 10",
-   "Metero 2 na cm 50",
-   "Metero 3",
-   "Metero 2"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 49,
-  "stem_rw": "Nta tara na rimwe cyangwa akagarurarumuri bishobora kuba bifunze ku buryo igice cyabyo cyo hasi cyane kimurika kitaba kiri hasi y’ibipimo bikurikira kuva ku butaka igihe ikinyabiziga kidapakiye :",
-  "options_rw": [
-   "Cm 30",
-   "Cm 40",
-   "Cm 50",
-   "Metero 1 na cm 55"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 50,
-  "stem_rw": "Iyo ikinyabiziga gifite amatara abiri cyangwa menshi y’ubwoko bumwe ayo matara agomba kugira ibara rimwe n’ingufu zingana kandi akagomba gushyirwaho ku buryo buteganye uhereye ku murongo ugabanya ikinyabizigamo kabiri mu burebure bwacyo. Ariko ibi ntibikurikizwa ku matara akurikira:",
-  "options_rw": [
-   "itara ndangamubyimba",
-   "itara ndangaburumbarare",
-   "itara ribonesha icyapa kiranga numero y’ ikinyabiziga inyuma",
-   "A na B byose nibyo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 51,
-  "stem_rw": "Ahari hejuru cyane y’ubuso bumurika h’ amatara ndangambere na ndanganyuma ntihashobora kuba aharenze ibipimo bikurikira hejuru y’ubutaka iyo ikinyabiziga kidapakiye:",
-  "options_rw": [
-   "m1 na cm 50",
-   "m1 na cm 75",
-   "m 1 na cm 90",
-   "m2 na cm 10"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 52,
-  "stem_rw": "Ni ryari ikinyabiziga gishobora kugenda mu muhanda moteri itaka cyangwa vitesi idakora:",
-  "options_rw": [
-   "igihe kigenda ahamanuka",
-   "igihe gikuruwe n’ikindi kinyabiziga",
-   "igihe gifite feri y’urugendo",
-   "ibisubizo byose ni byo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 53,
-  "stem_rw": "Buri modoka cyangwa buri romoruki ikuruwe n’iyo modoka bishobora kugira itara risa n’icyatsi kibisi bituma umuyobozi yerekana ko yabonye ikimenyetso cy’uwitegura kumunyuraho. Iryo tara rigomba gushyirwa aha hakurikira:",
-  "options_rw": [
-   "hafi y’inguni y’ibumoso bw’ikinyabiziga",
-   "inyuma hafi y’impera y’iburyo bw’ikinyabiziga",
-   "inyuma ahegereye inguni y’iburyo",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 54,
-  "stem_rw": "Ibinyabiziga bikurikira bigomba kugira icyerekana umuvuduko kiri aho umuyobozi areba neza kandi kigahora kitabwaho kugirango kigume gukora neza:",
-  "options_rw": [
-   "ibinyabiziga bifite umuvuduko nibura wa km 60 mu isaha",
-   "ibinyabiziga bishobora kurenza km 40 mu isaha",
-   "ibinyabiziga bishobora kurenza km 30 mu isaha",
-   "ibinyabiziga bishobora kurenza km 25 mu isaha"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 55,
-  "stem_rw": "Ubugari bw’imizigo yikorewe n’ipikipiki idafite akanyabiziga ko kuruhande kimwe n’ubwa romoruki ikuruwe na bene icyo kinyabiziga ntibushobora kurenza ibipimo bikurikira:",
-  "options_rw": [
-   "m 1.25",
-   "cm 30",
-   "cm 75",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 56,
-  "stem_rw": "Ibinyabiziga bikurikira bigomba kugira itara ry’ ubururu rimyatsa riboneka mu mpande zose:",
-  "options_rw": [
-   "ibinyabiziga bifite ubugari burenga m 2 na cm",
-   "ibinyabiziga bya police y’igihugu",
-   "ibinyabiziga ndakumirwa",
-   "ibisubizo byose ni ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 57,
-  "stem_rw": "Ibinyabiziga bihinga n’ibindi bikoresho byihariye bikoreshwa n’ibigo bipatana imirimo, iyo bigenda mu nzira nyabagendwa igihe cya nijoro cyangwa bitewe n’uko ibihe bimeze bitagishoboka kubona neza muri m 200 bishobora kugaragazwa inyuma n’amatara 2 atukura, bipfa kuba bitarenza ibipimo bikurikira:",
-  "options_rw": [
-   "kutarenza umuvuduko wa km20 mu isaha",
-   "uburebure bwabyo habariwemo ibyo bitwaye bukaba butarengeje m6",
-   "uburebure ntarengwa ntiburenga m8",
-   "A na B nibyo bisubizo by’ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 58,
-  "stem_rw": "Iyo romoruki iziritse ku kinyamitende, velomoteri n’amapikipiki bidafite akanyabiziga ko kuruhande uretse ikinyamitende na velomoteri bidafite umuyobozi, iyo uburumbarare bwayo cyangwa bw’ibyo yikoreye bituma itara ry’ ikinyabiziga gikurura ritagaragara igihe bitagishoboka kubona neza muri m 200 bigomba kugaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "itara ryera cyangwa ry’umuhondo cyangwa risa n’icunga rihishije riri kuri rumoruki inyuma",
-   "itara ry’icyatsi cyangwa ry’umuhondo cyangwa risa n’icunga rihishije riri kuri rumoruki inyuma",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 59,
-  "stem_rw": "Ku kinyabiziga cyangwa ibinyabiziga bikururana igice kirenga ku biziga ntikigomba kurenga ibipimo bikurikira:",
-  "options_rw": [
-   "inyuma ni m 3 na cm 50",
-   "imbere ni m 1 na cm 70",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 60,
-  "stem_rw": "Iyo amatara y’ikinyabiziga agomba gucanwa kandi igihe imizigo isumba impera y’ikinyabiziga ho metero irenga igice gihera cy’imizigo kigaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "itara ritukura cyangwa akagarurarumuri ku mutuku ku manywa",
-   "agatambaro gatukura gafite nibura cm 50 z’ uruhande mu ijoro",
-   "itara ry’umuhondo cyangwa akagarurarumuri k’ umuhondo",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 61,
-  "stem_rw": "Iyo imizigo igizwe n’ibinyampeke, ikawa, ipamba idatonoye, ibishara, ibyatsi, ibishami cyangwa ubwatsi bw’amatungo bidahambiriye uretse amapaki afunze, ubugari bwayo bushobora kugera ku bipimo bikurikira:",
-  "options_rw": [
-   "m 2.50",
-   "m 2.75",
-   "m 3",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 63,
-  "stem_rw": "Buri modoka cyangwa buri romoruki ikuruwe n’iyo modoka bishobora kugira itara rituma umuyobozi yerekana ko yabonye ikimenyetso cy’ uwitegura kumunyuraho. Iryo tara rifite amabara akurikira:",
-  "options_rw": [
-   "umuhondo",
-   "icyatsi kibisi",
-   "umweru",
-   "umutuku"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 64,
-  "stem_rw": "Ikinyabiziga cyangwa ibinyabiziga bikururana bifite imitambiko ibiri ikurikiranye mu bugari bwayo ni ukuvuga imitambiko yihindukiza kucyo ifungiyeho, uburebure bwabyo ntibugomba kurenza ibipimo bikurikira:",
-  "options_rw": [
-   "m11",
-   "m10",
-   "m7",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 65,
-  "stem_rw": "Bumwe muri ubu bwoko bwa feri ituma imodoka iguma aho iri uko yaba yikoreye kose ku muzamuko cyangwa ku gacuri bya 16%, imyanya ya feri igomba gufata igakomeza kwegera kuburyo bw’ibyuma niyo umuyobozi yaba atarimo:",
-  "options_rw": [
-   "feri yo guhagarara umwanya munini",
-   "feri y’urugendo",
-   "feri yo gutabara",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 66,
-  "stem_rw": "Utugarurarumuri turi mu mbavu z’ikinyabiziga tugomba kugira ibara rikurikira:",
-  "options_rw": [
-   "umweru",
-   "umuhondo",
-   "umutuku",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 67,
-  "stem_rw": "Romoruki zifite ubugari ntarengwa bwa cm 80 zishobora gushyirwaho akagarurarumuri kamwe gusa iyo zikuruwe n’ibinyabiziga bikurikira:",
-  "options_rw": [
-   "velomoteri",
-   "ipikipiki idafite akanyabiziga ku ruhande",
-   "amavatiri y’ifasi",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 68,
-  "stem_rw": "Amatara maremare y’ibara ryera cyangwa ry’ umuhondo agomba, nijoro igihe ijuru rikeye, kumurika mu muhanda mu ntera ya m 100 nibura imbere y’ikinyabiziga, ariko ku binyabiziga bifite moteri itarengeje za sentimetero kibe 125 iyo ntera igira ibipimo bikurikira:",
-  "options_rw": [
-   "m200",
-   "m100",
-   "m85",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 69,
-  "stem_rw": "Iyo banyuze iruhande rw’inkomyi abanyamaguru bagomba gukikira banyuze mu muhanda, abayobozi bagomba gusiga umwanya ufite ubugari bwa m 1 nibura hagati yabo nayo. Iyo ibyo bidashobora kubahirizwa kandi umunyamaguru akaba anyura hafi yiyo nkomyi, umuyobozi agomba kuyikikira afite umuvuduko utarengeje ibipimo bikurikira:",
-  "options_rw": [
-   "km 10 mu isaha",
-   "km 20 mu isaha",
-   "km 30 mu isaha",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 70,
-  "stem_rw": "Guhagarara akanya gato no guhagarara akanya kanini bibujijwe cyane cyane aha hakurikira:",
-  "options_rw": [
-   "ku mihanda y’icyerekezo kimwe hose",
-   "mu ruhande ruteganye n’urwo ikindi kinyabiziga gihagazemo akanya gato cyangwa kanini",
-   "ku mihanda ibisikanirwamo, iyo ubugari bw’ umwanya w’ibinyabiziga ugomba gutuma bibisikana butagifite m12",
-   "ibisubizo byose nibyo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 71,
-  "stem_rw": "Amatara ndangambere n’aya ndanganyuma y’ imodoka zitarengeje m 6 z’uburebure na m 2 z’ ubugari habariwemo imitwaro kdi nta kinyabiziga kindi kiziritseho ashobora gusimburwa n’amatara akurikira, iyo ibyo binyabiziga bihagaze umwanya muto cyangwa munini mu nsisiro bibangikanye ku ruhande rw’umuhanda:",
-  "options_rw": [
-   "amatara magufi",
-   "amatara ndangaburumbarare",
-   "amatara yo guhagarara umwanya munini",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 72,
-  "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe nuko ibihe bimeze nk’igihe cy’igihu cyangwa cy’ imvura bitagishoboka kubona neza muri m 200, imirongo y’ingabo z’igihugu zigendera kuri gahunda n’utundi dutsiko twose tw’abanyamaguru nk’imperekerane cyangwa udutsiko tw’ abanyeshuri bari ku murongo bayobowe na mwarimu, iyo bagenda mu muhanda ku isonga hakaba hari abantu barenze umwe, bagaragzwa ku buryo bukurikira:",
-  "options_rw": [
-   "imbere ni itara ryera ritwariwe ku ruhande rw’ ibumoso n’umuntu uri ku murongo w’imbere hafi y’umurongo ugabanya umuhanda mo kabiri",
-   "inyuma ni itara umuhondo ritwariwe ku ruhande rw’ibumoso n’umuntu uri ku murongo w’inyuma hafi y’umurongo ugabanya umuhanda mo kabiri",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 73,
-  "stem_rw": "Imizigo yikorewe n’amagare, velomoteri, amapikipiki, ibinyamitende by’ibiziga bitatu nibyo ibiziga bine bifite cyangwa bidafite moteri inyuma ntishobora kurenza ibipimo bikurikira:",
-  "options_rw": [
-   "cm 20",
-   "cm 30",
-   "cm 50",
-   "cm 60"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 75,
-  "stem_rw": "Nta tara na rimwe cyangwa utugarurarumuri bishobora kuba bifunze kuburyo igice cyabyo cyo hasi cyane kimurika kitaba kiri hasi ya cm 40 kuva ku butaka igihe ikinyabiziga kidapakiye ariko ibyo ntibikurikizwa ku matara akurikira:",
-  "options_rw": [
-   "amatara kamenabihu",
-   "amatara yo gusubira inyuma",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 76,
-  "stem_rw": "Iyo tumuritswe n’amatara y’urugendo y’i kinyabiziga utugarurarumuri tugomba n’ijoro, igihe ijuru rikeye kubonwa n’umuyobozi w’ ikinyabiziga kiri mu ntera ikurikira:",
-  "options_rw": [
-   "metero 100",
-   "metero 150",
-   "metero 200",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 77,
-  "stem_rw": "Ibinyabiziga bigendeshwa na moteri, hatarimo velomoteri n’ibinyabiziga bidapakiye umuvuduko wabyo udashobora kurenga km 50 mu isaha ahateganye bigomba kuba bifite ibikoresho by’ ihoni byumvikanira mu ntera ikurikira:",
-  "options_rw": [
-   "metero 200",
-   "metero 150",
-   "metero 100",
-   "metero 50"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 78,
-  "stem_rw": "Ahatari mu nsisiro ibyapa biburira n’ibyapa byo gutambuka mbere bigomba gushyirwa mu ntera ikurikira y’ahantu habyerekana:",
-  "options_rw": [
-   "metero 150 kugeza kuri 200",
-   "metero 100 kugeza kuri 150",
-   "metero 50 kugeza kuri 100",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 79,
-  "stem_rw": "Inkombe z’inzira nyabagendwa cyangwa z’ umuhanda zishobora kugaragazwa n’ibikoresho ngarurarumuri. Ibyo bikoresho bigomba gushyirwaho ku buryo abagenzi babibona ku buryo bukurikira:",
-  "options_rw": [
-   "babona iburyo bwabo ibyibara ritukura cyangwa ibisa n’icunga rihishije",
-   "ibumoso babona iby’ibara ryera",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 80,
-  "stem_rw": "Ahatari mu nsisiro, umuyobozi wese ugenza ikinyabiziga kimwe cyangwa ibinyabiziga bikomatanye bifite uburemere ntarengwa bwemewe burenga ibiro 3500 cyangwa bifite uburebure bwite burenga metero 10 agomba, keretse iyo anyuze cyangwa agiye kunyura ku bindi binyabiziga, gusiga hagati y’ikinyabiziga cye n’iki muri imbere umwanya uhagije kugirango ibinyabiziga bimuhiseho bishobore kuhigobeka bidateje impanuka igihe bibaye ngombwa ariko ibyo ntibikurikizwa mu bihe bikurikira:",
-  "options_rw": [
-   "mu gihe ibigendera mu muhanda ari byinshi kimwe no mu duce tw'inzira nyabagendwa aho kunyuranaho bibujijwe",
-   "igihe ibigendera mu muhanda ari byinshi",
-   "mu duce tw’inzira nyabagendwa aho kunyuranaho bibujijwe",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 96,
-  "stem_rw": "Ibiziga by’ibinyabiziga bigendeshwa na moteri n’ibya velomoteri kimwe n’ibya romoruki zabyo bigomba kuba byambaye inziga zihagwa zifite amano n’ubujyakuzimu butari munsi ya milimetero imwe ku migongo yabyo yose nubudodo bwabyo ntibugire ahantu na hamwe bugaragara kandi ntibugire aho byacitse bikomeye mu mpande zabyo ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
-  "options_rw": [
-   "ibinyabiziga bidapakiye kandi bitajya birenza umuvuduko wa km 25 mu isaha ahateganye",
-   "ibinyabiziga bya police bijya ahatarenga km 25 uvuye aho biba",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 81,
-  "stem_rw": "Amatara ndangacyerekezo agomba kuba agizwe n’ibintu bifashe ku rumuri rumyasa, biringaniye ku buryo bigira umubare utari igiharwe ku mpande z’imbere n’inyuma z’ ikinyabiziga ayo matara aba afite amabara akurikira:",
-  "options_rw": [
-   "amatara y’imbere aba yera cyangwa ari umuhondo",
-   "ayinyuma aba atukura cyangwa asa n’icunga rihishije",
-   "A na B ni ibisubizo by’ukuri",
-   "ayinyuma aba asa n’icunga rihishije"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 82,
-  "stem_rw": "Amahoni y’ibinyabiziga bigendeshwa na moteri agomba kohereza ijwi ry’injyana imwe rikomeza kandi ridacengera amatwi ariko ibinyabiziga bikurikira bishobora kugira ihoni ridasanzwe ridahuye n’ibivuzwe haruguru:",
-  "options_rw": [
-   "ibinyabiziga ndakumirwa",
-   "ibinyabiziga bikora ku mihanda",
-   "ibinyabiziga bifite ubugari burenze m 2.10",
-   "A na B ni ibisubizo by’ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 83,
-  "stem_rw": "Icyapa kibuza kunyura kubindi binyabiziga byose uretse ibinyamitende ibiri n’amapikipiki adafite akanyabiziga ku ruhande gifite ibimenyetso by’amabara akurikira:",
-  "options_rw": [
-   "umweru n’umukara",
-   "umutuku n’umukara",
-   "ubururu",
-   "A na B ni ibisubizo by’ukuri"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 84,
-  "stem_rw": "Icyapa kivuga ko hatanyurwa mu byerekezo byombi kirangwa n’ubuso bw’ibara rikurikira:",
-  "options_rw": [
-   "umukara",
-   "umweru",
-   "ubururu",
-   "umutuku"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 85,
-  "stem_rw": "Ibinyabiziga bikurikira bigomba kugira ibikoresho by’ihoni byumvikanira mu ntera ya m 20:",
-  "options_rw": [
-   "amapikipiki",
-   "velomoteri",
-   "ibinyabiziga bigendeshwa na moteri bidapakiye",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 86,
-  "stem_rw": "Imirongo y’ingabo z’igihugu zigendera kuri gahunda n’utundi dutsiko twose tw’abanyamaguru nk’imperekerane cyangwa udutsiko tw’ abanyeshuri iyo bitagishoboka kubona neza muri m200, bagaragazwa ni itara ryera imbere naho inyuma ni itara ry’umutuku ariko iyo uburebure bwiyo mirongo cyangwa bw’utwo dutsiko burenga m6 impande zatwo cyangwa zayo zigaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "itara rimwe cyangwa menshi yera",
-   "amatara menshi y’umuhondo",
-   "amatara menshi asa n’icunga rihishije",
-   "ibisubizo byose nibyo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 87,
-  "stem_rw": "Amatara ndangambere na ndanganyuma y’ imodoka zitarengeje m 6 z’uburebure na m 2 z’ ubugari habariwemo imitwaro kandi nta kindi kinyabiziga kiziritseho ashobora gusimburwa n’ amatara yo guhagarara umwanya munini iyo ibyo binyabiziga bihagaze umwanya muto cyangwa munini mu nsisiro bibangikanye ku ruhande rw’ umuhanda. Ayo matara arangwa n’amabara akurikira:",
-  "options_rw": [
-   "umweru cyangwa umuhondo imbere",
-   "umutuku cyangwa umuhondo inyuma",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 88,
-  "stem_rw": "Amatara ndangaburumbarare agomba kubonwa nijoro igihe ijuru rikeye n’umuyobozi w’ ikinyabiziga kiri mu ntera ya :",
-  "options_rw": [
-   "m 50 nibura",
-   "m 100",
-   "m 150",
-   "m 200 nibura"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 89,
-  "stem_rw": "Uretse ku byerekeye imihanda iromboreje y’ ibisate byinshi n’imihanda yimodoka igice cy’ umuhanda kiri hakurya y’umurongo mugari wera ucibwa ku muhanda ngo ugaragaze inkombe mpimbano zawo kigenewe ibi bikurikira:",
-  "options_rw": [
-   "guhagararwamo umwanya muto gusa",
-   "guhagararwamo umwanya munini gusa",
-   "guhagararwamo umwanya muto n’umunini",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 90,
-  "stem_rw": "Ibimenyetso by’agateganyo bigizwe n’ imitemeri y’ibara risa n’icunga rihishije bishobora gusimbura ibi bikurikira:",
-  "options_rw": [
-   "imirongo yera irombereje idacagaguye gusa",
-   "imirongo yera irombereje idacagaguye n’ icagaguye",
-   "imirongo icagaguye n’idacagaguye ibangikanye",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 91,
-  "stem_rw": "Iyo bitagishoboka kubona muri m 200 imodoka zikuruwe n’inyamaswa, ingorofani, inyamaswa zitwaye imizigo cyangwa zigenderwamo kimwe n’amatungo bigomba kurangwa na :",
-  "options_rw": [
-   "imbere ni itara ryera",
-   "imbere ni itara ry’umuhondo cyangwa risa n’ icunga rihishije",
-   "inyuma ni itara rimwe ritukura",
-   "ibisubizo byose ni ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 93,
-  "stem_rw": "Icyapa cyerekana ahantu hagenewe guhagararwamo n’imodoka nini zagenewe gutwara abantu cyirangwa n’ubuso bw’amabara akurikira:",
-  "options_rw": [
-   "ubururu",
-   "umweru",
-   "umutuku",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 94,
-  "stem_rw": "Icyapa cyerekana ko inzira giteyeho mu ntangiriro idakomeza kigaragazwa n’ikirango (ikimenyetso) cy’amabara akurikira:",
-  "options_rw": [
-   "umukara n’umutuku",
-   "umukara n’umweru",
-   "umweru n’umutuku",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 95,
-  "stem_rw": "Buri modoka yagenewe gutwara abantu, ariko umubare wabo ntarengwa ukaba munsi ya 6 umuyobozi abariwemo igomba kugira imikandara yo kurinda ibyago igenewe aba bakurikira:",
-  "options_rw": [
-   "umuyobozi",
-   "umugenzi wicaye ku ntebe y’imbere",
-   "ishobora no kugira imikandara kuzindi ntebe z’ inyuma",
-   "ibisubizo byose ni ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 97,
-  "stem_rw": "Iyo umukumbi ugizwe n’amatungo maremare arenze ane cyangwa amatungo magufi arenze atandatu mu nzira nyabagendwa iyo hatakibona neza kuburyo umuyobozi abona muri m 200 ugomba kugaragazwa kuburyo bukurikira:",
-  "options_rw": [
-   "itara ry’urumuri rwera cyangwa rusa n’icunga rihishije imbere y’umukumbi",
-   "itara ry’urumuri rutukura cyangwaumuhondo ritwawe inyuma y’umukumbi",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 98,
-  "stem_rw": "Ibinyabiziga biherekeranyije mu butumwa ntibishobora gutonda uburebure burenga umurongo wa m 500. Iyi bibaye bityo ibinyabiziga biherekeranye mu butumwa bishobora kugabanwamo amatsinda atonze umurongo atarengeje m 50 z’uburebure kdi hagati yayo hakaba byibura m 50 ariko ibyo ntibikurikizwa kubinyabiziga bikurikira:",
-  "options_rw": [
-   "ibinyabiziga bya police biherekeranyije",
-   "ibinyabiziga by’abasirikare biherekeranyije mu nsisiro",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 99,
-  "stem_rw": "Iyo ikinyabiziga gikururwa n’inyamaswa nacyo gikuruye ikindi uburebure bw’ibikururwa bukaba burenga m 18 hatabariwemo icyo kinyabiziga cya mbere kiziritseho hagomba ibi bikurikira:",
-  "options_rw": [
-   "umuherekeza w’ikinyabiziga cya kabiri",
-   "abaherekeza babiri",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 100,
-  "stem_rw": "Ibinyabiziga bikurikira ntibitegetswe kugira ibimenyetso bibyerekana iyo byambukiranya umuhanda cyangwa bigenda ku ruhande rwawo:",
-  "options_rw": [
-   "ibinyabiziga bigendwamo n’abana",
-   "ibinyabiziga bigendwamo n’abamugaye",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 101,
-  "stem_rw": "Icyapa cy’inyongera kigaragaza ikibanza cy’ ingando cyangwa cy’abantu benshi bagendera ku nyamaswa kirangwa n’amabara akurikira:",
-  "options_rw": [
-   "ubururu, umweru n’umukara",
-   "umukara umweru n’umuhondo",
-   "icyatsi kibisi, umuhondo n’ikirango cy’umukara",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 102,
-  "stem_rw": "Icyapa cyerekana ahantu amategeko y’ Umuhanda urombeje w’ibice byinshi atangirira gukurikizwa, kirangwa n’ibirango (ibimenyetso) by’amabara akurikira:",
-  "options_rw": [
-   "umweru n’umukara",
-   "umweru n’umutuku",
-   "umweru n’umuhondo",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 103,
-  "stem_rw": "Igihe ikorwa ry’imirimo ribangamiye cyane cyangwa buke uburyo bwo kugenda mu nzira nyabagendwa, ahakorerwa imirimo hagaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "icyapa cyera cya mpande enye, zingana zifite uruhande rwa metero 0.30",
-   "uruzitiro ruri ku mpera y’iburyo",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 104,
-  "stem_rw": "Iyo mu muhanda, imirimo yihariye ubugari butuma abayobozi bagomba kuva mu mwanya wabo usanzwe kugirango bakomeze urugendo, ahategetswe kunyurwa hagaragazwa n’ ikimenyetso gishyirwa aho imirimo irangirira mu ruhande rugenderwamo. Icyo kimenyetso kirangwa n’amabara akurikira:",
-  "options_rw": [
-   "ubuso bw’ubururu ikirango cy’umweru",
-   "umuzenguruko w’umutuku, ubuso umweru n’ ikirango cy’umukara",
-   "umuzenguruko w’umutuku, ubuso mu ibara ryera, ikirango mu ibara ry’umutuku n’umukara",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 105,
-  "stem_rw": "Icyapa cyerekana ko hari amabwiriza yihariye mu buryo bwo kugendera mu cyambu cyangwa ku kibuga cy’indege giteye ku buryo bukurikira:",
-  "options_rw": [
-   "ishusho mpandeshatu, ubuso mu ibara ryera, ikirango mu ibara ry’umukara",
-   "ishusho mpandenye, ubuso mu ibara ry’ ubururu n’ikirango kiri mu ibara ryera",
-   "ishusho y’uruziga mu ibara ry’ubururu ni ikirango kiri mu ibara ryera",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 106,
-  "stem_rw": "Nijoro igihe ijuru rikeye, itara ribonesha icyapa kiranga numero y’ikinyabiziga rigomba gutuma izo numero zisomerwa nibura mu ntera ikurikira:",
-  "options_rw": [
-   "m150",
-   "m50",
-   "m20",
-   "m10"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 107,
-  "stem_rw": "Ibyapa byerekana icyago cyidahoraho kandi bigenewe kwerekana aho bagana cyangwa aho berekeza umuhanda nk’igihe cy’impanuka cyangwa hari imirimo ikorwa mu muhanda birangwa n’amabara akurikira:",
-  "options_rw": [
-   "umweru n’umukara",
-   "umweru n’umuhondo",
-   "ubuso bw’umweru gusa",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 108,
-  "stem_rw": "Birabujijwe kubangamira imigendere isanzwe y’ibindi binyabiziga kubera ibi bikurikira:",
-  "options_rw": [
-   "kugabanya umuvuduko kuburyo budasanzwe",
-   "gukacira feri bidatewe no kwirinda ibyago",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 109,
-  "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe n’uko ibihe bimeze bitagishoboka kubona neza muri m 200, mu nzira nyabagendwa, romoruki iziritse kuri velomoteri cyangwa ipikipiki idafite akanyabiziga ku ruhande, uretse velomoteri idafite umuyobozi, kandi uburumbarare bwayo, cyangwa bw’ibyo yikoreye bukaba butuma itara ry’ikinyabiziga biyikurura ritagaragara, iyo romoruki igaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "itara ryera riri kuri romoruki inyuma",
-   "itara ry’umuhondo riri kuri romoruki inyuma",
-   "itara risa n’icunga riri kuri romoruki inyuma",
-   "ibi bisubizo byose nibyo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 110,
-  "stem_rw": "Amatara maremare y’ikinyabiziga agomba kuzimwa mu bihe bikurikira:",
-  "options_rw": [
-   "iyo umuhanda umurikiwe hose kandi umuyobozi ashobora kubona nibura mu ntera ingana na metero 200",
-   "iyo ikinyabiziga gikurikiye mu ntambwe zitagera muri m100 keretse iyo umuyobozi wacyo ashaka kunyura kucyo akurikiye acana azimya vuba vuba amatara maremare",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 111,
-  "stem_rw": "Iyo akanyabiziga gasunikwa cyangwa ibyo gatwaye bidatuma umuyobozi abona neza imbere ye, uwo muyobozi agomba gukora ibi bikurikira:",
-  "options_rw": [
-   "gushaka umuherekeza",
-   "gukurura ikinyabiziga cye",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 112,
-  "stem_rw": "Uretse igihe hari amategeko yihariye akurikizwa muri ako karere cyangwa imitunganyirize bwite y’aho, ikinyabiziga cyose cyangwa inyamaswa ihagaze umwanya muto cyangwa munini igomba kuba iri aha hakurikira:",
-  "options_rw": [
-   "mu kaboko k’iburyo hakurikijwe aho yaganaga uretse igihe ari mu muhanda w’icyerekezo kimwe",
-   "ahegereye bishobotse akayira k’abanyamaguru iyo umuhanda ugafite ariko umwanya w’ibiziga n’ akayira ntube urenga santimetero 50",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 113,
-  "stem_rw": "Iyo ikinyabiziga gihagaritswe n’ijoro ku buryo abayobozi bakigana badashobora kumenya ko kibabereye imbogamizi, kigomba kurangirwa kure n’ikimenyetso cyabigenewe kiri ahantu hagaragara kugirango kiburire hakiri kare abandi bayobozi baza bagisanga, ariko ntibireba ibinyabiziga bikurikira:",
-  "options_rw": [
-   "velomoteri",
-   "ipikipiki idafite akanyabiziga ku ruhande",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 114,
-  "stem_rw": "Abanyamaguru batatanye cyangwa bagize udutsiko tudafatanyije gahunda kdi batanayobowe n’umwarimu bategetswe kunyura mu tuyira turi ku mpande z’umuhanda no ku nkengero zigiye hejuru uretse ubutaka butsindagiye butandukanya imihanda ibiri bwo kunyurwamo gusa n’aba bakurikira:",
-  "options_rw": [
-   "abanyamaguru bashaka guhagarara akanya gato igihe bambukiranya umuhanda",
-   "abanyamaguru bagize udutsiko tw’abantu benshi",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 115,
-  "stem_rw": "Ibinyabiziga biherekeranyije mu butumwa ntibishobora gutonda uburebure burenga umurongo wa m 500, iyo bibaye bityo ibinyabiziga biherekeranyije mu butumwa bishobora kugabanywamo amatsinda atonze umurongo utarengeje ibipimo bikurikira:",
-  "options_rw": [
-   "utarengeje m50",
-   "utarengeje m100",
-   "utarengeje 150",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 116,
-  "stem_rw": "Ibyapa byereka inkomane y’inzira nyabagendwa n’inzira ya gariyamoshi bigomba iteka kumurikwa cyangwa kugarura urumuri ku buryo bigaragarira nibura mu ntera ikurikira igihe ijuru rikeye:",
-  "options_rw": [
-   "m200",
-   "m 250",
-   "m300",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 117,
-  "stem_rw": "Imbibi ziri ku mpera z’ubwihugiko bw’ abanyamaguru kandi ziri mu muhanda kimwe n’ imbibi n’ibindi bikoresho bigenewe gutuma bagenda mu muhanda nta muvundo zisigwa irangi ry’ibara rikurikira:",
-  "options_rw": [
-   "irangi ry’umuhondo ngarurarumuri",
-   "irangi ry’umweru ngarurarumuri",
-   "irangi risa n’icunga rihishije ngarurarumuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 118,
-  "stem_rw": "Kugirango ikinyabiziga kive ahantu hari urwondo cyangwa hanyerera bidasanzwe hashobora gukoreshwa uburyo bukurikira:",
-  "options_rw": [
-   "inziga zishobora gushyirwaho udushyundu",
-   "inziga zishobora gushyirwaho iminyururu irwanya ubunyerere",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 120,
-  "stem_rw": "Mu mujyi no ku mihanda y’igihugu igenwa na minisitiri ushinzwe gutwara abantu n’ibintu, ubwikorere ntarengwa ku ikamyo iyo ariyo yose ntibushobora kurenga ibipimo bikurikira:",
-  "options_rw": [
-   "toni 10",
-   "toni 16",
-   "toni 24",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 121,
-  "stem_rw": "Iyo bitewe n’imiterere y’ahantu intera itandukanya icyapa n’ahantu habi iri munsi ya m150 ku buryo bugaragara, iyo ntera yerekanishwa icyapa cy’inyongera giteye ku buryo bukurikira:",
-  "options_rw": [
-   "kare ifite ubuso bw’ibara ryera",
-   "urukiramende rufite ubuso bw’ibara ryera",
-   "mpandeshatu ifite umuzenguruko utukura",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 122,
-  "stem_rw": "Nijoro, amatara yo kubisikana y’ibara ryera cyangwa y’umuhondo agomba, igihe ijoro rikeye kumurika mu muhanda nibura mu ntera ikurikira:",
-  "options_rw": [
-   "m100",
-   "m50",
-   "m40",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 123,
-  "stem_rw": "Ikintu cyose cyatuma hahindurwa ibyanditse bireba nyirikarita cyangwa ibiranga ikinyabiziga kigomba kumenyeshwa ibiro by’umusoro haba mu magambo cyangwa mu ibaruwa ishinganye ibyo bikorwa mu gihe kingana gute:",
-  "options_rw": [
-   "mu mezi 2",
-   "mu kwezi kumwe",
-   "mu minsi cumi n’itanu",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 124,
-  "stem_rw": "Kugirango berekane ahantu habi cyane, hakoreshwa ikimenyetso cy’itara ry’umuhondo rimyasa, rivuga uburenganzira bwo gutambuka icyo kimenyetso barushijeho kwitonda. Ese icyo kimenyetso gihindura iki ku mategeko agenga gutambuka mbere:",
-  "options_rw": [
-   "ntacyo gihindura",
-   "abo rireba nibo batambuka mbere",
-   "abatwaye ibinyabiziga binini nibo batambuka mbere",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 125,
-  "stem_rw": "Romoruki zifite ubugari ntarengwa bwa sentimetero 80 zishobora gushyirwaho akagarurarumuri kamwe gusa iyo zikuruwe n’ ibinyabiziga bikurikira:",
-  "options_rw": [
-   "velomoteri",
-   "ipikipiki ifite akanyabiziga kuruhande",
-   "igare",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 126,
-  "stem_rw": "Amatara maremare y’ibara ryera cyangwa ry’ umuhondo agomba nijoro igihe ijuru rikeye kumurika mu ntera ikurikira ku binyabiziga bifite moteri itarengeje ingufu zigera kuri sentimetero kibe 125",
-  "options_rw": [
-   "m100",
-   "m75",
-   "m25",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 127,
-  "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe n’uko ibintu bimeze bitagishoboka kubona muri m 200, ibinyabiziga cyangwa imitwaro bifite ubugari burenga m 2.50 iyo bigenda mu nzira nyabagendwa bigaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "inyuma ni amatara abiri atukura",
-   "iyo bibaye ngombwa no ku mpera y’amabondo y’ikinyabiziga cyangwa y’imitwaro ni itara ndangaburumbarare risa n’icunga rihishije cyangwa ry’umuhondo",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 130,
-  "stem_rw": "Iminyururu n’ibindi byuma bifashisha bishobora kuvanwaho cyangwa binagana, hatabariwemo ibimenyetso byerekana ibyerekezo bigomba gutungurwa ku kinyabiziga ku buryo igihe byizunguza bitarenga impande zihera uburumbarare bw’ikinyabiziga kandi ibyo byuma bifashisha ntibigomba gukururuka ku butaka ariko ibyo ntibibujijwe ku binyabiziga bikurikira:",
-  "options_rw": [
-   "imashini zihinga",
-   "ibinyabiziga bitwaye ibintu bidashobora gufata inkongi",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 131,
-  "stem_rw": "Ku binyabiziga cyangwa ibinyabiziga bikururana igice kirenga ku biziga ntigishobora kurenga ibipimo bikurikira:",
-  "options_rw": [
-   "iby’inyuma : m3",
-   "iby’imbere: m2.70",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 132,
-  "stem_rw": "Uretse bibonewe uruhushya, ubundi birabujijwe gushyira no gukomeza kugendesha imodoka cyangwa romoruki mu nzira nyabagendwa iyo uburemere bw’ibyikorewe burenze uburemere ntarengwa bwemewe n’ikarita iranga ikinyabiziga ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
-  "options_rw": [
-   "ibinyabiziga bya police",
-   "ibinyabiziga bihinga",
-   "imashini zikoreshwa mu kubaka imihanda",
-   "ibisubizo byose ni ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 133,
-  "stem_rw": "Gushyira mu muhanda ku buryo budasanzwe ibinyabiziga bikururana birenze bitatu bigomba gutangirwa uruhusa, uretse imashini ihinga iyo zigenda uregendo rutarenze km 25, ibinyabiziga bikururana bitwaye ibyamamazwa n’ibindi biteganwa n’iri teka ariko igiteranyo cy’uburebure bw’ibyo binyabiziga bikururana ntigishobora kurenga ibipimo bikurikira:",
-  "options_rw": [
-   "m50",
-   "m35",
-   "m25",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 134,
-  "stem_rw": "Ibinyamitende itatu bifite moteri bigomba kugira amatara akurikira:",
-  "options_rw": [
-   "amatara abiri ndangambere n’amatara abiri ndanganyuma yerekana ko ikinyabiziga gihagaze",
-   "utugarurarumuri tubiri",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 135,
-  "stem_rw": "Ibyapa bibuza n’ibitegeka bikurikizwa gusa aha hakurikira:",
-  "options_rw": [
-   "mu masangano",
-   "mu gice cy’inzira nyabagendwa kiri hagati yaho bishinze n’inkomane ikurikiyeho ku ruhande rw’inzira bishinzeho",
-   "ibyo byapa bishyirwaho hakurikijwe intera ibitandukanya",
-   "B na C ni ibisubizo by’ukuri"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 136,
-  "stem_rw": "Icyapa cy’inyongera kerekana aho bagobokera ibinyabiziga kirangwa n’amabara akurikira:",
-  "options_rw": [
-   "ubururu, umweru, umutuku",
-   "umweru, umukara, ubururu",
-   "umutuku, umweru n’umukara",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 137,
-  "stem_rw": "Icyapa cyerekana uburebure bw’igice cyatera ibyago cyangwa bw’ahantu amabwiriza y’icyo cyapa agomba gukurikizwa kirangwa n’ubuso n’ ibimenyetso bikurikira:",
-  "options_rw": [
-   "ubuso umweru, ikimenyetso ubururu",
-   "ubuso ubururu, ikimenyetso umweru",
-   "ubuso ubururu, ikimenyetso umweru n’umukara",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 138,
-  "stem_rw": "Umurongo w’umuhondo ucagaguye uciye ku nkombe nyayo y’umuhanda, umusezero w’inzira y’ abanyamaguru cyangwa w’inkengero y’umuhanda yegutse uvuga ibi bikurikira:",
-  "options_rw": [
-   "guhagarara umwanya muto birabujijwe ku burebure bw’uwo murongo",
-   "guhagarara umwanya muto n’umunini birabujijwe ku burebure bw’uwo murongo",
-   "aho bahagarara umwanya munini cyangwa muto",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 139,
-  "stem_rw": "Ku binyabiziga cyangwa ibinyabiziga bikururana igice kirenga ku biziga ntigishobora kurenga ibipimo bikurikira:",
-  "options_rw": [
-   "iby’inyuma m 3.40",
-   "iby’imbere m 2.50",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 172,
-  "stem_rw": "Iyo hagati y’uruhande rw’imbere rwa romoruki n’uruhande rw’inyuma rw’ikinyabiziga kiyikurura hari umwanya urenze m 3 ikibizirikanyije kigomba kugaragazwa ku buryo bukurikira iyo amatara y’ikinyabiziga agomba gucanwa:",
-  "options_rw": [
-   "agatambaro gatukura gafite nibura cm 50 z’ uruhande",
-   "itara risa n’icunga rihishije rigaragara mu mbavu igihe ikibizirikanyije kimuritswe",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 173,
-  "stem_rw": "Itara ryo guhagarara ry’ibara ritukura rigomba kuba ridahumisha, kandi rigomba kugaragarira mu ntera ikurikira:",
-  "options_rw": [
-   "nijoro igihe ijuru rikeye nibura muri m 200",
-   "ku manywa igihe cy’umucyo nibura muri m50",
-   "nijoro nibura muri m 100 igihe ijuru rikeye",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 174,
-  "stem_rw": "Birabujijwe kongera ku mpande z’ ikinyabiziga kigendeshwa na moteri cyangwa velomoteri ibi bikurikira:",
-  "options_rw": [
-   "imitako",
-   "ibintu bifite imigongo cyangwa ibirenga ku mubyimba kandi bishobora gutera ibyago abandi bagenzi",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 175,
-  "stem_rw": "Ikintu cyose cyatuma hahindurwa ibyanditswe bireba nyirikarita cyangwa ibiranga ikinyabiziga kigomba kumenyeshwa ibiro by’ imisoro haba mu magambo cyangwa mu ibaruwa ishinganye. Ibyo bikorwa mu gihe kingana gute:",
-  "options_rw": [
-   "mu minsi 5",
-   "mu minsi 8",
-   "mu minsi 15",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 176,
-  "stem_rw": "Kunyuranaho bikorerwa:",
-  "options_rw": [
-   "mu ruhande rw’iburyo gusa",
-   "igihe cyose ni ibumoso",
-   "iburyo iyo unyura ku nyamaswa",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 177,
-  "stem_rw": "Iyo ubugari bw’inzira nyabagendwa igenderwamo n’ibinyabiziga budahagije kugirango bibisikane nta nkomyi abagenzi bategetswe:",
-  "options_rw": [
-   "kunyura mu nzira z’impande z’abanyamaguru",
-   "guhagarara aho bageze",
-   "koroherana",
-   "gukuraho inkomyi"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 178,
-  "stem_rw": "Umuyobozi ugenda mu muhanda igihe ubugari bwawo budatuma anyuranaho nta nkomyi ashobora kunyura mu kayira k’abanyamaguru ariko amaze kureba ibi bikurikira:",
-  "options_rw": [
-   "umuvuduko w’abanyamaguru",
-   "ubugari bw’umuhanda",
-   "umubare w’abanyamaguru",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 179,
-  "stem_rw": "Icyapa cyerekana umuvuduko ntarengwa ikinyabiziga kitagomba kurenza gishyirwa ku binyabiziga bifite uburebure ntarengwa bukurikira:",
-  "options_rw": [
-   "burenga toni 1",
-   "burenga toni 2",
-   "burenga toni 24",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 180,
-  "stem_rw": "Iyo nta mategeko awugabanya by’ umwihariko, umuvuduko ntarengwa w’ amapikipiki mu isaha ni:",
-  "options_rw": [
-   "km 25",
-   "km 70",
-   "km 40",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 181,
-  "stem_rw": "Ahatari mu nsisiro umuvuduko ntarengwa wa velomoteri mu isaha ni:",
-  "options_rw": [
-   "km 50",
-   "km 40",
-   "km 30",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 182,
-  "stem_rw": "Birabujijwe guhagarara akanya kanini aha hakurikira:",
-  "options_rw": [
-   "mu duhanda tw’abanyamagare",
-   "mu duhanda twagenewe velomoteri",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 183,
-  "stem_rw": "Amatara maremare y’ikinyabiziga agomba kutamurika mu bihe bikurikira:",
-  "options_rw": [
-   "iyo umuhanda umurikiwe umuyobozi abasha kureba muri m 200",
-   "iyo ikinyabiziga kigiye kubisikana nikindi",
-   "iyo ari mu nsisiro",
-   "ibisubizo byose nibyo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 184,
-  "stem_rw": "Ubugari bwa romoruki ikuruwe n’igare cyangwa velomoteri ntiburenza ibipimo bikurikira:",
-  "options_rw": [
-   "cm 25",
-   "cm 125",
-   "cm 45",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 185,
-  "stem_rw": "Uburyo bukoreshwa kugirango ikinyabiziga kigende gahoro igihe feri idakora neza bwitwa:",
-  "options_rw": [
-   "feri y’urugendo",
-   "feri yo guhagarara",
-   "feri yo gutabara",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 186,
-  "stem_rw": "Nta mwanya n’umwe feri ifungiraho ushobora kurekurana n’ibiziga keretse:",
-  "options_rw": [
-   "iyo bireba feri y’urugendo",
-   "iyo kurekurana ari ibyakanya gato",
-   "iyo bireba feri yo guhagarara umwanya munini, ubwo kurekurana bikaba bidashoboka bidakozwe n'umuyobozi",
-   "byose ni ibisubizo by’ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 187,
-  "stem_rw": "Ikinyabiziga ntigishobora kugira amatara arenze abiri y’ubwoko bumwe keretse kubyerekeye amatara akurikira:",
-  "options_rw": [
-   "itara ndangamubyimba",
-   "itara ryerekana icyerekezo",
-   "itara ndangaburumbarare",
-   "ibisubizo byose ni ukuri"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 188,
-  "stem_rw": "Itara ndanganyuma rigomba gushyirwa aha hakurikira:",
-  "options_rw": [
-   "ku nguni y’iburyo y’ikinyabiziga",
-   "ku gice cy’inyuma ku kinyabiziga",
-   "ahegereye inguni y’ibumoso y’ikinyabiziga",
-   "ibisubizo byose ni ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 190,
-  "stem_rw": "Ibiziga by’ibinyabiziga bigendeshwa na moteri n’ibya velomoteri kimwe n’ibya romoruki zabyo bigomba kuba byambaye inziga zihagwa zifite amano n’ubujyakuzimu butari munsi ya milimetero imwe ku migongo yabyo yose, n’ ubudodo bwabyo ntibugire ahantu na hamwe bugaragara kdi ntibigire aho byacitse bikomeye mu mpande zabyo. Ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
-  "options_rw": [
-   "ibinyabiziga bidapakiye kdi bitajya birenza umuvuduko wa km 25 mu isaha ahateganye",
-   "ibinyabiziga bya police bijya ahatarenga km 25 uvuye aho biba",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 191,
-  "stem_rw": "Birabujijwe kugenza ibinyabiziga bigendeshwa na moteri na za romoruki zikururwa nabyo, iyo ibiziga byambaye inziga zidahagwa cyangwa inziga zikururuka zifite umubyimba uri hasi ya cm 4. Ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
-  "options_rw": [
-   "ku binyabiziga by’ingabo",
-   "ibinyabiziga bihinga iyo bigendeshwa mu karere katarenga km 25 uvuye aho ziba",
-   "ibinyabiziga bya police",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 192,
-  "stem_rw": "Imirongo yera iteganye n’umurongo ugabanya umuhanda mo kabiri mu burebure bwawo ugaragaza:",
-  "options_rw": [
-   "ahanyurwa n’amagare na velomoteri",
-   "ahanyurwa n’ingorofani n’ibinyamitende",
-   "ahanyurwa n’abanyamaguru",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 193,
-  "stem_rw": "Iyo harimo indi myanya birabujijwe gutwara ku ntebe y’imbere y’imodoka abana badafite imyaka ikurikira:",
-  "options_rw": [
-   "imyaka 10",
-   "imyaka 12",
-   "imyaka 7",
-   "nta gisubizocy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 194,
-  "stem_rw": "Iyo ikinyabiziga kitagikora cyangwa cyoherejwe mu mahanga burundu ibyapa ndanga bigomba gukurwaho bikoherezwa mu biro by’ imisoro, ibyo bikorwa mu gihe kingana gute:",
-  "options_rw": [
-   "ibyumweru bibiri",
-   "amezi abiri",
-   "ukwezi kumwe",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 195,
-  "stem_rw": "Inkombe z’inzira nyabagendwa cyangwa z’ umuhanda zishobora kugaragazwa n’ibikoresho ngarurarumuri ibyo bikoresho bigomba gushyirwaho ku buryo abagenzi babibona ku buryo bukurikira:",
-  "options_rw": [
-   "babona gusa ibumoso bwabo ibyibara ryera",
-   "iburyo babona iby’ibara ritukura cyangwa risa n’ icunga rihishije gusa",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 196,
-  "stem_rw": "Iyo kuyobya umuhanda ari ngombwa bigaragazwa kuva aho uhera no kuburebure bwawo n’icyapa gifite ubuso bw’amabara akurikira:",
-  "options_rw": [
-   "umukara",
-   "umweru",
-   "umutuku",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 197,
-  "stem_rw": "Ku mihanda yagenwe na minisitiri ubifite mu nshingano ibyapa biburira n’ibyapa byerekana bigomba kugaragazwa kuva bwije kugera bukeye n’urumuri rwihariye cyangwa amatara ku mihanda cyangwa ibintu ngarurarumuri. Igihe ijuru rikeye intera y’ahagaragara igomba kuba nibura:",
-  "options_rw": [
-   "m50",
-   "m120",
-   "m150",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 198,
-  "stem_rw": "Ibizirikisho by’iminyururu cyangwa by’ insinga kimwe n’ibindi by’ingoboka bikoreshwa gusa igihe nta kundi umuntu yabigenza kandi nta kindi bigiriwe uretse gusa kugirango ikinyabiziga kigere aho kigomba gukorerwa kandi nturenze na rimwe km 20 mu isaha, ibyo bizirikisho bigaragazwa ku buryo bukurikira:",
-  "options_rw": [
-   "agatambaro gatukura kuri cm 50 z’umuhanda",
-   "ikimenyetso cy’itara risa n’icunga rihishije",
-   "icyapa cyera cya mpande enye zingana gifite cm 30 kuri buri ruhande",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 199,
-  "stem_rw": "Uretse mu mijyi, kuyindi mihanda yagenywe na minisiteri ushinzwe gutwara ibintu n’abantu, uburemere ntarengwa bwemewe ku binyabiziga bifatanye bifite imitambiko itatu ni:",
-  "options_rw": [
-   "toni 12",
-   "toni 16",
-   "toni 10",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 200,
-  "stem_rw": "Uretse mu mujyi kuyindi mihanda yajyenwe na minisitiri ushinzwe gutwara abantu n’ibintu, uburemere ntarengwa ku binyabiziga bifite imitambiko itatu cyangwa irenga hatarimo mukuzungu ni :",
-  "options_rw": [
-   "toni 10",
-   "toni 12",
-   "toni 15",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 201,
-  "stem_rw": "Iyo nta mategeko awugabanya by’ umwihariko umuvuduko ntarengwa ku modoka zidafite ibizibuza kwiceka kuberako ariko zakozwe ni:",
-  "options_rw": [
-   "km 70 mu isaha",
-   "km 40 mu isaha",
-   "km 25 mu isaha",
-   "km20 mu isaha"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 202,
-  "stem_rw": "Iyo nta mategeko awugabanya by’ umwihariko umuvuduko ntarengwa ku modoka zidafite ibizibuza kwiceka kuberako ariko zakozwe ni:",
-  "options_rw": [
-   "km 20 mu isaha",
-   "km 40 mu isaha",
-   "km 35 mu isaha",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 203,
-  "stem_rw": "Ikinyabiziga kibujijwe guhagarara akanya kanini aha hakurikira :",
-  "options_rw": [
-   "imbere y’ahantu nyabagendwa hinjirwa n’ ahasohokerwa n’abantu benshi",
-   "mu muhanda aho ugabanyijemo ibisate bigaragazwa n’imirongo icagaguye",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 204,
-  "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe n’uko ibihe bimeze nk’igihe cy’ibihu cyangwa cy’imvura bitagishoboka kubona neza muri m 200, udutsiko twose tw’abanyamaguru nk’ imperekerane cyangwa udutsiko tw’abanyeshuri bari ku murongo bayobowe n’umwarimu, iyo bagenda mu muhanda ku isonga hakaba hari abantu barenze umwe bagomba kugaragazwa kuburyo bukurikira:",
-  "options_rw": [
-   "imbere ni itara ry’umuhondo ritwariwe ibumoso",
-   "inyuma ni itara ryumutuku ritwariwe ibumoso n’umuntu uri ku murongo w’inyuma hafi y’ umurongo ugabanya umuhanda mo kabiri",
-   "A na B ni ibisubizo by’ukuri",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 205,
-  "stem_rw": "Imburira zimurika zemerewe gukoreshwa kugirango bamenyeshe umuyobozi ko bagiye kumunyuraho aha hakurikira:",
-  "options_rw": [
-   "mu nsisiro cyangwa ahandi hose",
-   "ahegereye inyamaswa zikurura",
-   "hafi y’amatungo",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 206,
-  "stem_rw": "Ibinyabiziga bifite ubugari bufite ibipimo bikurikira bigomba kugira amatara ndangaburumbarare",
-  "options_rw": [
-   "metero 3",
-   "metero 2 na cm 50",
-   "metero 1 na cm 10",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 207,
-  "stem_rw": "Nta tara na rimwe cyangwa akagarurarumuri bishobora kuba bifunze kuburyo igice cyabyo cyo hasi cyane kimurika kiba kiri hasi y’ibipimo bikurikira kuva ku butaka igihe ikinyabiziga kidapakiye:",
-  "options_rw": [
-   "cm 30",
-   "cm 20",
-   "cm 50",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 208,
-  "stem_rw": "Ahari hejuru cyane y’ubuso bumurika h’ amatara ndangambere na ndanganyuma ntihashobora kuba aharenze ibipimo bikurikira hejuru y’ubutaka iyo ikinyabiziga kidapakiye:",
-  "options_rw": [
-   "m1 na cm 50",
-   "m1 na cm 75",
-   "m 1 na cm 80",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 209,
-  "stem_rw": "Buri modoka cyangwa buri romoruki ikuruwe n’iyo modoka bishobora kugira itara risa n’icyatsi kibisi bituma umuyobozi yerekana ko yabonye ikimenyetso cy’uwitegura kumunyuraho. Iryo tara rigomba gushyirwa aha hakurikira:",
-  "options_rw": [
-   "hafi y’inguni y’ibumoso bw’ikinyabiziga",
-   "inyuma hafi y’impera y’ibumoso bw’ ikinyabiziga",
-   "inyuma ahegereye inguni y’iburyo",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 210,
-  "stem_rw": "Ubugari bw’imizigo yikorewe n’ipikipiki ifite akanyabiziga ko kuruhande kimwe n’ubwa romoruki ikuruwe na bene icyo kinyabiziga ntibushobora kurenza ibipimo bikurikira ku bugari bw’icyo kinyabiziga kidapakiye:",
-  "options_rw": [
-   "m 1.25",
-   "cm 30",
-   "cm 75",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 211,
-  "stem_rw": "Mu gihe telefone yawe ihamagawe utwaye imodoka wakora iki?",
-  "options_rw": [
-   "Kwitaba cyangwa guhagarara ako kanya",
-   "kutayitaba",
-   "Gushyira imodoka iruhande ukayitaba",
-   "B na c ni ibisubizo byukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 212,
-  "stem_rw": "Mu gihe telefone yawe ihamagawe utwaye imodoka wakora iki?",
-  "options_rw": [
-   "Kwitaba cyangwa guhagarara ako kanya",
-   "kutayitaba",
-   "Gushyira imodoka iruhande ukayitaba",
-   "B na c ni ibisubizo byukuri 213.Niki wakora mbere y’uko uhindura icyerekezo?"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 214,
-  "stem_rw": "Niki muribi wakwirinda mugihe ushaka kunyuranaho?",
-  "options_rw": [
-   "Nyuma y’ikona ugategereza kubona uburyo bwo kunyuranaho.",
-   "Mumuhanda w’icyerekezo kimwe",
-   "Aho utagomba kurenza ibirometero 30 mu isaha.",
-   "Ugeze mumuhanda utaringaniye neza"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 216,
-  "stem_rw": "Utegereje gukata iburyo kwiherezo ry’ umuhanda.ukingirijwe nimodoka ihagaze.niki wakora?",
-  "options_rw": [
-   "Guhagarara hanyuma ukagenda gake gake witonze kugezaho ureba neza.",
-   "Kwihuta wegera imbere aho ushobora kureba ugafunga ikindi cyerekezo.",
-   "Gutegereza abanyamaguru bakakumenyesha ko ntakibazo wakata.",
-   "Guhindukiza imodoka vuba kugirango ushake indi nzira wakoresha."
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 217,
-  "stem_rw": "Mugihe uri murugendo rurerure mumuhanda urombereje w’ibice byinshi.niki wakora mugihe wumva utangiye kugira ibitotsi?",
-  "options_rw": [
-   "Gucuranga umuziki cyane.",
-   "Kwihuta cyane kugirango usoze urugendo vuba.",
-   "Kuva mumuhanda urombereje w’ibice byinshi, ugahagarara ahantu hatekanye.",
-   "Ntagisubizo cy’ukuri kirimo."
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 218,
-  "stem_rw": "Kuki ugomba gucana amatara mugihe hatangiye kwijima?",
-  "options_rw": [
-   "Kugirango akerekanamuvuduko kagaragare neza.",
-   "Kugirango abandi biborohere kukubona.",
-   "Kugira ngo ujyane nabandi bayobozi bibinyabiziga.",
-   "Kuko amatara yo ku muhanda ari kwaka"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 219,
-  "stem_rw": "Urimo kugenda munzira nyabagendwa ni gute wanyura k’umuyobozi w’igare?",
-  "options_rw": [
-   "Kuvuza ihoni mugihe umunyuraho",
-   "Kumunyuraho umwegereye",
-   "Gusiga umwanya uhagije igihe umunyuraho",
-   "Kugabanya umuvuduko mbere y’uko umunyuraho"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 223,
-  "stem_rw": "Utwaye ikinyabiziga inyuma ya romoruki.umuyobozi wayo akaguha ikimenyetso cyo kumutambukaho iburyo kandi ugana ibumoso, wakora iki ?",
-  "options_rw": [
-   "Kugabanya umuvuduko ukareka akagenda",
-   "Gukomeza iburyo bwawe",
-   "Kumunyuraho iburyo bwe",
-   "Kugumana umuvuduko wari ufite ukamuvugiriza ihoni 225 Wegereye inzira y’abanyamaguru ugasanga bategereje kwambuka. Ugomba gukora iki?"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 224,
-  "stem_rw": "Uri hafi kunyura k’umuyobozi w’ ikinyamitende. Muri ibi byapa bikurikira nikihe wakwitondera?",
-  "options_rw": [
-   "b)",
-   "Amatara kamena-bihu y’imbere",
-   "d) 227.Kumanywa urumuri rudahagije hatabona neza .Ni ayahe matara y’urugendo ugomba gukoresha.",
-   "Amatara kamena-bihu y’inyuma"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 227,
-  "stem_rw": "Niyihe mpamvu ituma tugomba kugabanya umuvuduko mugihe hari ibihu ?",
-  "options_rw": [
-   "Igihe feri idakora",
-   "Igihe uhumishijwe n’amatara yo kubisikana",
-   "Igihe moteri imara ngo izime",
-   "Nuko biba bitoroshye kubona ikiri imbere"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 230,
-  "stem_rw": "Icyapa gikurikira kivuze iki?",
-  "options_rw": [
-   "Ntihanyurwa",
-   "Birabujijwe guhagarara umwanya munini",
-   "Umuvuduko utarengeje",
-   "Inzira yabanyeshuli"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 238,
-  "stem_rw": "Imbere yawe iki cyapa kikubwiye iki ?",
-  "options_rw": [
-   "Umuvuduko ntarengwa wemewe",
-   "Iherezo ry’ibyo wabuzwaga",
-   "Aho banyura bazengurutse",
-   "Ibisubizo byose nibyo 240.Iki cyapa gisubanura iki?"
-  ],
-  "correct": "c",
-  "has_image": true
- },
- {
-  "number": 241,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Umuyaga w’intambike",
-   "Urusaku rwo mu muhanda",
-   "Ikibuga cy’indege",
-   "Ibisubizko byose nibyo"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 242,
-  "stem_rw": "Iki Cyapa Gisobanura Iki?",
-  "options_rw": [
-   "Iherezo Ry’inzira Y’abanyamaguru",
-   "Iherezo Ry’umuhanda Urombereje W’ibice Byinshi",
-   "A Na B Ni Ibisubizo By’ukuri",
-   "Nta nzira ihari 243.Iki cyapa gisobanura Iki?"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 246,
-  "stem_rw": "wakora iki ubonye icyi cyapa ?",
-  "options_rw": [
-   "guhagarara gusa igihe ibinyabiziga bikwegereye",
-   "guhagarara niyo nta kinyabiziga ubona",
-   "Guhagarara gusa niba hari abana bategereje kwambuka",
-   "Guhagarara gusa igihe ikimenyetso cyaka ari umutuku"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 247,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Uguhinguka ku mwaro cyangwa ku nkombe cyangwa ahegereye icyome",
-   "Inzira nyabagendwa iri kumusozi ucuramye",
-   "Umuhanda utaringaniye",
-   "Umuhanda wangijwe n’isuri"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 248,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Hanyurwa na velomoteri gusa",
-   "Nta modoka",
-   "Hanyurwa nimodoka gusa",
-   "Ntihanyurwa n’amapikipiki"
-  ],
-  "correct": "d",
-  "has_image": true
- },
- {
-  "number": 250,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Ahegereye amasangano y’inzira nyabagendwa n’inzira ya gari ya moshi ibambiye",
-   "Inzira ibambiye imbere",
-   "Inzira itabambiye itanafunze",
-   "Imbere hari ikiraro cy’amatungo 251.Iki cyapa gisobanura iki?"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 252,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Guhindura icyerekezo ibumoso ugana aho bahagarara",
-   "Umuhanda udakomeza",
-   "Nti byemewe guhindura icyerekezo ibumoso",
-   "Guhindura ikirekezo ibumoso ugana ku cyome"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 253,
-  "stem_rw": "Mu bimenyetso bimurika itara ritukura rivuga iki ?",
-  "options_rw": [
-   "Hagarara kereste niba ushaka gukata ibumoso",
-   "Hagarara niba ubona ntabyago byaguteza",
-   "Birabujijwe kurenga icyo kimenyetso",
-   "Wemerewe kugenda niba aho asohokera mu masangano y’umuhanda hafunze"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 254,
-  "stem_rw": "Mubimenyetso bimurika itara ry’umuhondo risobanura iki ?",
-  "options_rw": [
-   "Itegure kugenda",
-   "Birabujijwe gutambuka umurongo wo guhagarara umwanya muto cg igihe uwo murongo udahari icyo kimenyetso ubwacyo",
-   "A na b ni ibisubizo by’ukuri",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 255,
-  "stem_rw": "Mubimenyetso bimurika itara ry’icyatsi risobanura iki ?",
-  "options_rw": [
-   "Kwitegura kugenda",
-   "Uburenganzira bwo kurenga icyo kimenyetso",
-   "Hagarara niba inzira isohoka mu isangano ry’imihanda ifunze",
-   "Ntagisubizo cyukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 257,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Ukugendera mu muhanda ubisikanirwamo",
-   "Ukugendera mu muhanda ubisikanirwamo ntibyemewe",
-   "Cyerekana aho umunyegare agomba kunyura",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 258,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Ahatangirwa serivisi ni muri metero 30.",
-   "Umuvuduko munini ntarengwa utegetswe ni 30 km/h.",
-   "Umuvuduko muto ntarengwa utegetswe ni 30 km/h.",
-   "Aho ibinyabiziga bihagarara ni imbere mu birometero 30."
-  ],
-  "correct": "c",
-  "has_image": true
- },
- {
-  "number": 261,
-  "stem_rw": "Muri iri sangano ry’umuhanda hari icyapa gisobanura “guhagarara” n’umurongo wera urombereje munzira . Niyihe mpamvu hari iki cyapa cyo “guhagarara” hano?",
-  "options_rw": [
-   "Biragoye kubona neza mu muhanda munini",
-   "Umuvuduko mu muhanda munini wavanyweho",
-   "Ni mwisangano ry’umuhanda rikoreshwa cyane",
-   "Hari imirongo iburira ibyago bitunguranye 262.Ni iki gikenewe muri ibi bikurikira kugirango ubashe gutwara imodoka mu muhanda biteganywa nitegeko"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 268,
-  "stem_rw": "Uhuye n’ingorane utwaye ikinyabiziga , mu muhanda ufite ibyerekezo bibiri, ufite ikimenyetso kiburira cya mpandeshatu . wagishyira mu ntera ingana iki uvuye aho ikinyabiziga cyahagaze",
-  "options_rw": [
-   "Metero 5",
-   "Metero 25",
-   "Metero 45",
-   "Metero 100"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 271,
-  "stem_rw": "Iki cyapa gisobanura :",
-  "options_rw": [
-   "uburenganzira bwo gutambuka mbere",
-   "uburenganzira bwo gutambuka mbere mu yandi masangano y’umuhanda akwegereye",
-   "ibyago imbere mu masangano y’umuhanda ukwegereye",
-   "a na b ni ibisubizo by’ukuri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 272,
-  "stem_rw": "Iki cyapa gisobanura:",
-  "options_rw": [
-   "Ntihanyurwa n’abanyamaguru",
-   "Akayira kabanyamaguru",
-   "Aho abanayamaguru bambukira",
-   "B na c ni ibisubizo by’ukuri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 273,
-  "stem_rw": "Urenze munsisiro ,ukahasanga ibyapa bibiri iburyo bwawe bimenyesha ko irangira ry’imirimo bitewe nicyo ibyo byapa bemenyesha wagendera kuwuhe muvuduko ?",
-  "options_rw": [
-   "70 km/h",
-   "50 km/h",
-   "40 km/h",
-   "80 km/h"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 274,
-  "stem_rw": "Iki cyapa gisobanura iki?",
-  "options_rw": [
-   "Hoteli",
-   "Ibitaro",
-   "Ahagenewe kugwa kajugujugu",
-   "B na c ni ibisubizo by’ukuri"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 275,
-  "stem_rw": "igice kinzira nyabagendwa gikikijwe n’ imirongo ibiri y’umweru iciyemo uduce kandi iteganye :",
-  "options_rw": [
-   "ahagenewe guhagarara umwanya munini n’ umuto",
-   "ahagenewe abanayamaguru",
-   "ahagenewe inzira y’ibinyamitende",
-   "a na b ni ibisubizo by’ukuri"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 276,
-  "stem_rw": "iki cyapa kibuza abayobozi bibinyabiziga kunyuranaho :",
-  "options_rw": [
-   "iburyo",
-   "ibumoso",
-   "iburyo n’ibumoso",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 277,
-  "stem_rw": "Iki cyapa kibuza kunyuranaho ibumoso ku binyabiziga bikurikira :",
-  "options_rw": [
-   "ku binyabiziga byose",
-   "ku binyabiziga byose bifite moteri",
-   "kubinyabiziga byose uretse ibinyamitende ibiri n’amapikipiki adafite akanyabiziga ko k’ uruhande",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 278,
-  "stem_rw": "iki kimenyetso cyaka kinyemerera gukomeza:",
-  "options_rw": [
-   "yego",
-   "yego ariko utanga inzira kubanyamaguru",
-   "yego utanga inzira kubandi bayobozi b’ ibinyabizaga baturutse mukindi cyerekezo",
-   "oya"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 279,
-  "stem_rw": "Mu muhanda ufite uruhererekane rw’amakoni, feri y’urugendo ikoreshwa ryari?",
-  "options_rw": [
-   "Mbere ya buri koni",
-   "Muri buri koni",
-   "Nyuma ya buri koni",
-   "Nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 280,
-  "stem_rw": "Ni ikihe cyapa muri ibi kintegeka gutanga inzira:",
-  "options_rw": [
-   "Icyapa A19",
-   "Icyapa B5",
-   "Icyapa B6",
-   "Ntagisubizo cy’ukuri kirimo 281.Iki cyapa gisobanura :"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 282,
-  "stem_rw": "Uri umuyobozi wa velomoteri, uhuye n’ umwe munshuti zawe agusaba ko wa mutwara ukamusiga ku’wundi muhanda. ufite imyaka 18 ariko nta ngofero yindi yabigenewe ufite. wamutwara?",
-  "options_rw": [
-   "yego",
-   "yego usibye urugendo rurerure",
-   "yego usibye urugendo rugufi",
-   "Oya 283.Ni ikihe cyapa cy’inyemerera gutambuka mbere mu masangano y’umuhanda?"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 284,
-  "stem_rw": "Mbere yo kunyura kumuyobozi w’ ikinyabiziga cy’imitende ibiri, ngomba gucana akaranga cyerekezo k’ibumoso?",
-  "options_rw": [
-   "Yego buri gihe",
-   "Yego igihe hari ikinyabiziga kinkurikiye",
-   "Yego iyo nkurikiwe nibindi binyabiziga by’ imitende ibiri",
-   "Oya nta na rimwe kunyura kubinyabiziga by’ imitende ibiri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 285,
-  "stem_rw": "Nshobora kunyuraho umuyobozi w’ ikinyabiziga wahagaze imbere y’inzira yabanyamaguru?",
-  "options_rw": [
-   "yego",
-   "yego nyuma yo kuvuza ihoni",
-   "yego mu gihe nkurikiwe n’ibindi binyabiziga",
-   "Oya 286.Hejuru y’aka kanunga:"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 303,
-  "stem_rw": "N’iyihe myifatire myiza wagira ugeze aho abana bari hafi y’inzira nyabagendwa?",
-  "options_rw": [
-   "Itonde , witegereze ni biba ngongwa ubaburire unitegura kuba wahagarara.",
-   "Ihute urenge aho abo bana bari c ) Komeza ugume ku muvuduko munini",
-   "Emerera umunyegare akomeze inzira ye d. Ongera umuvuuko kugira ngo umutange gukata mbere ye",
-   "Komeza ugendere kuruhande rw’iburyo 304.Umuyobozi w’ikinyabiziga yegereye aho umwana w’umuhungu utwaye akagare k’abana asezera ku nshuti ye . N’iyihe myifatire myiza wagira imbere yabo? a. Ikomereze nkaho ataragera munzira nyabagendwa"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 360,
-  "stem_rw": "Ugeze mu masangano y’umuhanda aho usanga ibimenyetso bimurika bidakora, wakora iki igihe umukozi ubifiye ububasha aguhaye iki kimenyesto ?",
-  "options_rw": [
-   "gukata ibumoso gusa",
-   "gukata iburyo gusa ugakomeza imbere",
-   "Guhagarara kumurongo wo guhagarara umwanya moto",
-   "komeza imbere gusa 361.Amatara ndangacyerekezo agomba kugaragara nijoro igihe ijuru rikeye mu ntera nibura ya: a.m 100 b.m 200"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 390,
-  "stem_rw": "Umuhanda urombereje w’ibice byinshi. Ndashaka kunyura kuri izi kamyo ibyiri mugihe gito ibumoso icyarimwe , biremewe ?",
-  "options_rw": [
-   "yego,",
-   "oya",
-   "yego bikorewe ibumoso",
-   "ntagisubizo cy’ukuri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 391,
-  "stem_rw": "K’umuyobozi w’ivatiri, iki cyapa kivuze iki ?",
-  "options_rw": [
-   "kirambuza gutwara ku muvuduko utarengeje 5km/h",
-   "ntaburenganzira kimpa, mugihe gikurikizwa ku binyabiziga bifite hejuru y atoni 5",
-   "ntacyo bindebaho mugihe bireba gusa zipima tone 5 no kurengaho.",
-   "Ntagisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": true
- },
- {
-  "number": 392,
-  "stem_rw": "Ndashaka gukata iburyo. Biremewe ?",
-  "options_rw": [
-   "yego",
-   "yego, ariko nyuma yo guhagarara",
-   "ntabwo byemewe",
-   "ntagisubizo cyukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 393,
-  "stem_rw": "Umuhanda wambukiranya inzira ya gariyamoshi",
-  "options_rw": [
-   "nshobora gukomeza nkambuka umuhanda kubera ko uruzitiro rufunguye",
-   "ngomba guhagarara munsi yitara ry’umutuku rimyatsa",
-   "ntabwo nakomeza urugendo rwanjye. Ngomba gihita mpagarara",
-   "ntagisubizo cy’ukuri"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 394,
-  "stem_rw": "Kuri iki cyapa cyo mu muhanda cyambere kintegeka ?",
-  "options_rw": [
-   "Kugendera k’umuvuduko uri hejuru ya 30km/h",
-   "kutarenza umuvuduko wa 30km/h",
-   "birabujijwe kugendera kumuvuduko uri hejuru ya 30km/h",
-   "nta gisubizo cyukuri"
-  ],
-  "correct": "c",
-  "has_image": true
- },
- {
-  "number": 396,
-  "stem_rw": "Ngomba :",
-  "options_rw": [
-   "guhagarara igihe gito kuri icyi cyapa cy’ umuhanda",
-   "guhagarara ngatanga inzira kuri metero 100 ntaragera kuri icyi cyapa",
-   "gutanga inzira nkanahagarara iyo ari ngombwa muri m100 ntaragera kuri icyi cyapa",
-   "ntagisubizo cy’ukuri"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 397,
-  "stem_rw": "Ndashaka kugata ibumoso. Imodoka y’icyatsi yaje irahagarara. Ninde ufite uburenganzira bwo gutambuka mbere?",
-  "options_rw": [
-   "mfite uburenganzira bwo gutambuka mbere",
-   "imodoka y’icyatsi ifite uburenganzira bwo gutambuka mbere",
-   "twembi ntaburenganzira bwo gutambuka mbere gusa tugomba gutambukana ubwitonzi",
-   "ntagisubizo nakimwe kirimo"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 398,
-  "stem_rw": "Mfite uburenganzira bwo gutambuka muri iri sangano ?",
-  "options_rw": [
-   "yego, niba ukata ibumoso",
-   "Oya niba ukata iburyo",
-   "yego , bitewe noho ngana",
-   "ntagisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 400,
-  "stem_rw": "Umuyobozi wikinyabiziga aritegura kunyuraho ibumoso :",
-  "options_rw": [
-   "nshobora kumunyuraho nyuze iburyo",
-   "sinshobora kumunyura",
-   "nshobora kumunyura nciye ibumoso ariko mbonye ko mfite umwanya uhagije",
-   "Ntagisubizo cy’ukuri kirimo"
-  ],
-  "correct": "c",
-  "has_image": false
- },
- {
-  "number": 401,
-  "stem_rw": "Uhereye kuri ibi byapa habujijwe :",
-  "options_rw": [
-   "Kunyuranaho kubinyabiziga bikururwa nibinyabiziga birengeje imitende ibiri ibumoso no kugendera kumuvuduko urengeje 70 km/h",
-   "Kunyuranaho kubinyabiziga bikururwa cyangwa ibinyabiziga birengeje imitende ibiri ibumoso",
-   "kugendera hejuru ya 70 km/h",
-   "ntagisubizo cy’ukuri"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 402,
-  "stem_rw": "Ndashaka gupariki ikinyabiga iburyo kunzira y’ abanyamaguru",
-  "options_rw": [
-   "biremewe munsi yicyi cyapa",
-   "biremewe imbere y’icyi cyapa",
-   "birabujijwe imbere n’inyuma yicyi cyapa",
-   "nta gisubizo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 403,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Guhagarara, aho abanyeshuri bambukira",
-   "Hagarara akanya gato",
-   "Ibindi binyabiziga bigomba kuguha inzira",
-   "Gutanga umwanya ku bindi binyabiziga i buryo bwawe"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 404,
-  "stem_rw": "Iki cyapa gisobanura iki mu nkomane ?",
-  "options_rw": [
-   "Tanga inzira ku binyabiziga binini",
-   "Gabanya umuvuduko uhe inzira abanyamaguru.",
-   "Tanga inzira ku binyabiziga bigenda mu muhanda munini wegera",
-   "Tanga inzira ku ibinyabiziga biturutse iburyo bwawe"
-  ],
-  "correct": "c",
-  "has_image": true
- },
- {
-  "number": 405,
-  "stem_rw": "Iki cyapa gisobanura iki aho banyura bazengurutse ? a)Tanga inzira ku binyabiziga biri mu muhanda munini",
-  "options_rw": [
-   "Komeza imbere gusa",
-   "Tanga inzira ku binyabiziga biturutse i bumoso",
-   "Tanga inzira ku ma kamyo na za otobisi",
-   "Ibinyabiziga byose uretse amapikipiki bigomba gutanga inzira 406 . Iki cyapa gisobanura iki ?"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 407,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Umuhanda urombereje w’ibice byinshi ibumoso",
-   "Umuhanda uyoborejwe i bumoso",
-   "Ibinyabiziga biturutse iburyo bifite uburenganzira bwo gutambuka mbere",
-   "Kata i bumoso gusa"
-  ],
-  "correct": "d",
-  "has_image": true
- },
- {
-  "number": 408,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Kunyuranaho bikorerwa i buryo gusa",
-   "Umuhanda uyoborejwe i buryo",
-   "Kata i buryo gusa",
-   "Umuhanda munini urasukira i bumoso"
-  ],
-  "correct": "c",
-  "has_image": true
- },
- {
-  "number": 409,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Birabujijwe gukata i buryo",
-   "Tanga inzira ku bindi binyabiziga bigenda mu gihe ugiye gukatira iburyo",
-   "Kata i buryo mu gihe nta bindi binyabiziga biturutse mu kindi cyerekezo",
-   "Nta nkengero y’umuhanda yegutse iri i buryo"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 411,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Umuhanda urombereje w’ibice byinshi ku birometero 50",
-   "Intera nto ntarengwa ya metero 50 hagati y’ ibinyabiziga",
-   "Umuvuduko urenga ibirometero 50 mu isaha",
-   "Umuvuduko ntarengwa ugarukira ku birometero 50 mu isaha"
-  ],
-  "correct": "d",
-  "has_image": true
- },
- {
-  "number": 412,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Birabujijwe ku binyabiziga bitwara abakozi ba leta",
-   "Birabujijwe guhagara umwanya munini",
-   "Birabujijwe ku binyabiziga by’abikorera ki giti cyabo",
-   "Parikingi"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 414,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Uburemere ntarengwa bwemewe bwa toni 3",
-   "Ntihanyurwa n’ibinyabiziga bigenewe gutwara ibicuruzwa",
-   "Ntihanyurwa n’ibinyabiziga bifite imitambiko itatu",
-   "Hanyurwa n’ibinyabiziga bifite imitambiko itatu gusa"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 415,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Inkomane banyuramo bazengurutse",
-   "Biremewe guhindukira",
-   "Inzira y’icyerekezo kimwe imbere",
-   "Birabujijwe guhindukira"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 416,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Umuhanda ugabanijwemo ibisate bibiri",
-   "Umuhanda ugabanijwemo ibisate bine",
-   "Inzira y’icyerekezo kimwe",
-   "Ukugendera mu muhanda ubisikanirwamo"
-  ],
-  "correct": "d",
-  "has_image": true
- },
- {
-  "number": 417,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Umuhanda utaringaniye i buryo",
-   "Akamanuko gashobora gutera ibyago",
-   "Ahantu umuhanda umeze nabi",
-   "Uguhinguka ku mwaro cyangwa ku nkombe"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 418,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Akazamuko gashinze cyane",
-   "Umuhanda utaringaniye i bumoso",
-   "Ahantu umuhanda umeze nabi",
-   "Ahegereye utununga"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 420,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Abana",
-   "Inzira y’abanyamaguru – Itegure guhagarara",
-   "Ikibuga cy’imikino cy’abana",
-   "Ikibuga cy’ imyidagaduro"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 421,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Isoko ry’amatungo",
-   "Ivuriro ry’amatungo",
-   "Uruzitiro rw’amatungo",
-   "Akayira k’amatungo"
-  ],
-  "correct": "d",
-  "has_image": true
- },
- {
-  "number": 422,
-  "stem_rw": "Mu byapa bikurikira , ni ikihe cyerekana umuhanda udakomeza:",
-  "options_rw": [
-   "Icyapa C1",
-   "Icyapa E14",
-   "Icyapa C2a",
-   "Icyapa B2a"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 423,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Tanga inzira",
-   "Icyago",
-   "Icyerekezo kimwe",
-   "Ntihanyurwa"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 424,
-  "stem_rw": "Muri ibi byapa bikurikira ni ikihe cyerekana ko umuyobozi ukibonye yemerewe gutambuka mbere y'abaturutse aho agana mu nzira ifunganye:",
-  "options_rw": [
-   "Icyapa B6",
-   "Icyapa A19",
-   "Icyapa B3",
-   "Icyapa A22a"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 425,
-  "stem_rw": "Iki cyapa:",
-  "options_rw": [
-   "Aho banyura bazengurutse",
-   "Cyerekana umuhanda w'ibisate bitatu",
-   "Cyerekana ahegereye inkomane",
-   "Ntagisuzo cy’ukuri kirimo"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 426,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Hanyurwa mu cyerekezo kimwe",
-   "Ntihanyurwa",
-   "Umuhanda udakomeza",
-   "Ntagisuzo cy’ukuri kirimo"
-  ],
-  "correct": "b",
-  "has_image": true
- },
- {
-  "number": 427,
-  "stem_rw": "Ni ikihe icyapa gisobanura umuhanda w'icyerekezo kimwe:",
-  "options_rw": [
-   "Icyapa D1a",
-   "Icyapa E13a",
-   "Icyapa C19",
-   "Icyapa C1"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 428,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Aho imihanda ihurira",
-   "Inkomane y’aho umuhanda umwe urasukira iburyo",
-   "Umuhanda udakomeza",
-   "Nta gisubizo kirimo"
-  ],
-  "correct": "d",
-  "has_image": true
- },
- {
-  "number": 429,
-  "stem_rw": "Iki cyapa gisobanura iki ?",
-  "options_rw": [
-   "Iherezo ry’ umuhanda urombeje w’ibice byinshi",
-   "Birabujijwe kunyura mu mu muhanda w’ ikindi cyerekezo",
-   "Birabujijwe kunyuranaho",
-   "Birabujijwe guhagara ku iteme"
-  ],
-  "correct": "a",
-  "has_image": true
- },
- {
-  "number": 430,
-  "stem_rw": "Iki kimenyetso kiri mu muhanda kivuze iki ?",
-  "options_rw": [
-   "Biremewe kunyuranaho",
-   "Umuyobozi abujijwe kukirenga",
-   "Wegereye icyapa cyo guhagarara umwanya muto",
-   "Umuhanda ufunganye"
-  ],
-  "correct": "b",
-  "has_image": false
- },
- {
-  "number": 431,
-  "stem_rw": "Iki kimenyetso kiri mu muhanda kivuze iki ?",
-  "options_rw": [
-   "Umuyobozi abujijwe kurenga umurongo wera ucagaguye cyeretse mugihe bitateza icyago",
-   "Birabujijwe kunyuranaho",
-   "Biremewe kunyuranaho ariko nturenge umurongo wera ucagaguye",
-   "Birabujijwe gusubira inyuma"
-  ],
-  "correct": "a",
-  "has_image": false
- },
- {
-  "number": 432,
-  "stem_rw": "Mu gihe utwaye ikinyabiziga uva kuri A ugana kuri B, Iki kimenyetso kiri mu muhanda kivuze iki ?",
-  "options_rw": [
-   "Umuyobozi ashobora kurenga umurongo wera udacagaguye mugihe cyo guhindukira gusa",
-   "Umuyobozi w’ikinyabiziga abujijwe kunyuranaho, uretse gusa abayobozi b’ibinyamitende nibo bashobora kurenga umurongo wera udacagaguye",
-   "Umuyobozi w’ikinyabiziga abujijwe kunyuranaho arenze umurongo wera udacagaguye",
-   "Umuyobozi w’ikinyabiziga ashobora kunyuranaho mu gihe bitateza icyago"
-  ],
-  "correct": "d",
-  "has_image": false
- },
- {
-  "number": 433,
-  "stem_rw": "Mu gihe utwaye ikinyabiziga uva kuri A ugana kuri B, Iki kimenyetso kiri mu muhanda kivuze iki ?",
-  "options_rw": [
-   "Umuyobozi w’ikinyabiziga ashobora kunyuranaho arenze umurongo wera udacagaguye",
-   "Umuyobozi w’ikinyabiziga abujijwe kunyuranaho arenze imirongo yera",
-   "Umuyobozi w’ikinyabiziga yemerewe kunyuranaho",
-   "Abayobozi b’ibinyamitende gusa bemerewe kunyuranaho barenze umurongo wera udacagaguye"
-  ],
-  "correct": "b",
-  "has_image": false
- }
+  {
+    "number": 2,
+    "stem_rw": "Ijambo “akayira” bivuga inzira nyabagendwa ifunganye yagenewe gusa:",
+    "options_rw": [
+      "Abanyamaguru",
+      "Ibinyabiziga bigendera ku biziga bibiri",
+      "A na B ni ibisubizo by’ukuri",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 3,
+    "stem_rw": "Umurongo uciyemo uduce umenyesha ahegereye umurongo ushobora kuzuzwa n’ uturanga gukata tw’ibara ryera utwo turanga cyerekezo tumenyesha :",
+    "options_rw": [
+      "Igisate cy’umuhanda abayobozi bagomba gukurikira",
+      "Ahegereye umurongo ukomeje",
+      "Igabanurwa ry’umubare w’ibisate by’ umuhanda mu cyerekezo bajyamo",
+      "A na C nibyo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 4,
+    "stem_rw": "Ahantu ho kugendera mu muhanda herekanwa n’ ibimenyetso bimurika ibinyabiziga ntibishobora kuhagenda :",
+    "options_rw": [
+      "Biteganye",
+      "Ku murongo umwe",
+      "A na B nibyo",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 5,
+    "stem_rw": "Ibinyabiziga bikurikira bigomba gukorerwa isuzumwa buri mwaka:",
+    "options_rw": [
+      "Ibinyabiziga bigenewe gutwara abagenzi muri rusange",
+      "Ibinyabiziga bigenewe gutwara ibintu birengeje toni 3.5",
+      "Ibinyabiziga bigenewe kwigisha gutwara",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 8,
+    "stem_rw": "Ikinyabiziga kibujijwe guhagarara akanya kanini aha hakurikira :",
+    "options_rw": [
+      "Ahatarengeje metero 1 imbere cyangwa inyuma y’ikinyabiziga gihagaze akanya gato cyangwa kanini :",
+      "Ahantu hari ibimenyetso bibuza byabugenewe",
+      "Aho abanyamaguru banyura mu muhanda ngo bakikire inkomyi",
+      "Ibisubizo byose nibyo"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 10,
+    "stem_rw": "Icyapa cyerekana umuvuduko ntarengwa ikinyabiziga kitagomba kurenza gishyirwa gusa ku binyabiziga bifite uburemere ntarengwa bukurikira:",
+    "options_rw": [
+      "Burenga toni 1",
+      "Burenga toni 2",
+      "Burenga toni 24",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 11,
+    "stem_rw": "Ahatari mu nsisiro umuvuduko ntarengwa mu isaha wa velomoteri ni:",
+    "options_rw": [
+      "Km50",
+      "Km40",
+      "Km30",
+      "Nta gisubizo cy’ukuri"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 12,
+    "stem_rw": "Umuyobozi ugenda mu muhanda igihe ubugari bwawo budatuma anyuranaho nta nkomyi ashobora kunyura mu kayira k’abanyamaguru ariko amaze kureba ibi bikurikira:",
+    "options_rw": [
+      "Umuvuduko w’abanyamaguru",
+      "Ubugari bw’umuhanda",
+      "Umubare w’abanyamaguru",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 13,
+    "stem_rw": "Ku byerekeye kwerekana ibinyabiziga n’ ukumurika kwabyo ndetse no kwerekana ihindura ry’ibyerekezo byabyo. Birabujijwe gukora andi matara cyangwa utugarurarumuri uretse ibitegetswe ariko ntibireba amatara akurikira:",
+    "options_rw": [
+      "Amatara ndanga",
+      "Amatara ari imbere mu modoka",
+      "Amatara ndangaburambarare",
+      "Ibisubizo byose nibyo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 15,
+    "stem_rw": "Uburyo bukoreshwa kugirango ikinyabiziga kigende gahoro igihe feri idakora neza babwita:",
+    "options_rw": [
+      "Feri y’urugendo",
+      "Feri yo guhagarara umwanya munini",
+      "Feri yo gutabara",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 16,
+    "stem_rw": "Nibura ikinyabiziga gitegetswe kugira uduhanagurakirahure tungahe:",
+    "options_rw": [
+      "2",
+      "3",
+      "1",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 17,
+    "stem_rw": "Amatara maremare y’ikinyabiziga agomba kuzimwa mu bihe bikurikira:",
+    "options_rw": [
+      "Iyo umuhanda umurikiye umuyobozi abasha kureba muri metero 20",
+      "Iyo ikinyabiziga kigiye kubisikana n’ibindi",
+      "Iyo ari mu nsisiro",
+      "Ibisubizo byose ni ukuri"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 18,
+    "stem_rw": "Ikinyabiziga ntigishobora kugira amatara arenga abiri y’ubwoko bumwe keretse kubyerekeye amatara akurikira:",
+    "options_rw": [
+      "Itara ndangamubyimba",
+      "Itara ryerekana icyerekezo",
+      "Itara ndangaburumbarare",
+      "Ibisubizo byose ni ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 19,
+    "stem_rw": "Ubugari bwa romoruki ikuruwe n’igare cyangwa velomoteri ntiburenza ibipimo bikurikira:",
+    "options_rw": [
+      "cm25",
+      "cm125",
+      "cm45",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 20,
+    "stem_rw": "Ibinyabiziga bikoreshwa nka tagisi, bitegerereza abantu mu nzira nyabagendwa, bishobora gushyirwaho itara ryerekana ko ikinyabiziga kitakodeshejwe. Iryo tara rishyirwaho ku buryo bukurikira:",
+    "options_rw": [
+      "Ni itara ry’icyatsi rishyirwa imbere ku kinyabiziga",
+      "Ni itara ry’icyatsi rishyirwa ibumoso",
+      "Ni itara ry’umuhondo rishyirwa inyuma",
+      "A na C ni ibisubizo by’ukuri"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 21,
+    "stem_rw": "Za otobisi zagenewe gutwara abanyeshuri zishobora gushyirwaho amatara abiri asa n’icunga rihishije amyasa kugirango yerekane ko zihagaze no kwerekana ko bagomba kwitonda, ayo matara ashyirwaho ku buryo bukurikira :",
+    "options_rw": [
+      "Amatara abiri ashyirwa inyuma",
+      "Amatara abiri ashyirwa imbere",
+      "Rimwe rishyirwa imbere irindi inyuma",
+      "b na c ni ibisubizo by’ukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 22,
+    "stem_rw": "Itara ryo guhagarara ry’ibara ritukura rigomba kugaragara igihe ijuru rikeye nibura mu ntera ikurikira:",
+    "options_rw": [
+      "Metero 100 ku manywa na metero 20 mu ijoro",
+      "Metero 150 ku manywa na metero50 mu ijoro",
+      "Metero 200 ku manywa na metero100 mu ijoro",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 25,
+    "stem_rw": "Igice cy'inzira nyabagendwa kigarukira ku mirongo ibiri yera icagaguye ibangikanye kandi gifite ubugari budahagije kugira ngo imodoka zitambuke neza, kiba ari:",
+    "options_rw": [
+      "Ahanyurwa n’amagare na velomoteri",
+      "Ahanyurwa n’ingorofani",
+      "Ahanyurwa n’ibinyamitende",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 26,
+    "stem_rw": "Ubugari bwa romoruki ntiburenza ubugari bw’ ikinyabiziga kiyikurura iyo ikuruwe n’ibinyabiziga bikurikira:",
+    "options_rw": [
+      "Igare",
+      "Velomoteri",
+      "Ipikipiki ifite akanyabiziga kometse ku ruhande rwayo",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 27,
+    "stem_rw": "Iyo hatarimo indi myanya birabujijwe gutwara ku ntebe y’imbere y’imodoka abana badafite imyaka:",
+    "options_rw": [
+      "Imyaka 10",
+      "Imyaka 12",
+      "Imyaka 7",
+      "Ntagisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 28,
+    "stem_rw": "Icyapa kivuga gutambuka mbere y’ ibinyabiziga biturutse imbere gifite amabara akurikira:",
+    "options_rw": [
+      "Ubuso ni umweru",
+      "Ikirango ni umutuku n’umukara",
+      "Ikirango ni umweru n’umukara",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 29,
+    "stem_rw": "Ni ryari itegeko rigenga gutambuka mbere kw’ iburyo rikurikizwa mu masangano:",
+    "options_rw": [
+      "Iyo nta cyapa cyo gutambuka mbere gihari",
+      "Iyo ikimenyetso kimurika cyagenewe ibinyabiziga kidakora",
+      "A na B ni ibisubizo by’ukuri",
+      "Nta gisubizo cy’ukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 30,
+    "stem_rw": "Ibimenyetso bimurika byerekana uburyo bwo kugendera mu muhanda kw'ibinyabiziga bishyirwa iburyo bw'umuhanda. Ariko bishobora no gushyirwa ibumoso cyangwa hejuru y’umuhanda:",
+    "options_rw": [
+      "Hakurikijwe icyerekezo abagenzi bireba baganamo",
+      "Hakurikijwe icyo ibyo bimenyetso bigamije kwerekana",
+      "Kugirango birusheho kugaragara neza",
+      "Ibisubizo byose ni ukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 31,
+    "stem_rw": "Iyo itara ry’umuhondo rimyatsa rikoreshejwe mu masangano y’amayira ahwanyije agaciro rishyirwa ahagana he:",
+    "options_rw": [
+      "Kuri buri nzira",
+      "Hagati y’amasangano",
+      "Iburyo bw’amasangano",
+      "a na b ni ibisubizo by’ ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 32,
+    "stem_rw": "Inkombe z’inzira nyabagendwa cyangwa z’ umuhanda zishobora kugaragazwa n’ibikoresho ngarurarumuri. Ibyo bikoresho bigomba gushyirwaho ku buryo abagenzi babibona :",
+    "options_rw": [
+      "Babona gusa ibumoso bwabo iby’ibara ritukura",
+      "Iburyo babona iby’ibara risa n’icunga rihishije gusa",
+      "Babona iby’ibara ry’umuhondo ibumoso",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 33,
+    "stem_rw": "Ibinyabiziga bikurikira bigomba gukorerwa isuzumwa rimwe mu mezi 6:",
+    "options_rw": [
+      "Ibinyabiziga bitwara abagenzi muri rusange",
+      "Ibinyabiziga bigenewe gutwara ibintu birengeje toni 3.5",
+      "Ibinyabiziga bigenewe kwigisha gutwara",
+      "Ibisubizo byose ni ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 34,
+    "stem_rw": "Iyo kuyobya umuhanda ari ngombwa bigaragazwa kuva aho uhera no kuburebure bwawo n’icyapa gifite ubuso bw’amabara akurikira:",
+    "options_rw": [
+      "Ubururu",
+      "Umweru",
+      "Umutuku",
+      "Nta gisubizo cy’ukuri"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 35,
+    "stem_rw": "Ku mihanda ibyapa bikurikira bigomba kugaragazwa ku buryo bumwe:",
+    "options_rw": [
+      "Ibyapa biyobora n’ibitegeka",
+      "Ibyapa biburira n’ibitegeka",
+      "Ibyapa bibuza n’ibitegeka",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 36,
+    "stem_rw": "Ni iyihe feri ituma imodoka igenda buhoro kandi igahagarara ku buryo bwizewe bubangutse kandi nyabwo, uko imodoka yaba yikoreye kose yaba igeze ahacuramye cyangwa ahaterera:",
+    "options_rw": [
+      "Feri y’urugendo",
+      "Feri yo gutabara",
+      "Feri yo guhagarara umwanya munini",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 37,
+    "stem_rw": "Ibizirikisho by’iminyururu cyangwa by’insinga kimwe n’ibindi by’ingoboka bikoreshwa gusa igihe nta kundi umuntu yabigenza kandi nta kindi bigiriwe uretse gusa kugirango ikinyabiziga kigere aho kigomba gukorerwa kandi nturenze na rimwe km 20 mu isaha, ibyo bizirikisho bigaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "Agatambaro gatukura kuri cm 50 z’umuhanda",
+      "Ikimenyetso cy’itara risa n’icunga rihishije",
+      "Icyapa cyera cya mpande enye zingana gifite cm 20 kuri buri ruhande",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 38,
+    "stem_rw": "Uretse mu mujyi, ku yindi mihanda yajyenwe na minisitiri ushinzwe gutwara abantu n’ibintu, uburemere ntarengwa ku binyabiziga bifite imitambiko itatu cyangwa irenga hatarimo makuzungu ni :",
+    "options_rw": [
+      "Toni 10",
+      "Toni 12",
+      "Toni 16",
+      "Toni 24"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 39,
+    "stem_rw": "Ubugari bw’imizigo yikorewe n’ibinyamitende itatu n’ubwiyikorewe n’ibinyamitende 4 bifite cyangwa bidafite moteri kimwe n’ubw’iyikorewe na romuruki zikuruwe n’ibyo binyabiziga ntibushobora kurenga ibipimo bikurikira:",
+    "options_rw": [
+      "cm 30 ku bugari bw’icyo kinyabiziga kidapakiye",
+      "Ubugari ntarengwa budakuka ni metero 2 na sentimetero 50",
+      "A na B ni ibisubizo by’ukuri",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 40,
+    "stem_rw": "Kunyura ku binyabiziga bindi, uretse icy’ ibiziga bibiri, bibujijwe aha hakurikira:",
+    "options_rw": [
+      "Hafi y’iteme iyo hari umuhanda ufunganye",
+      "Hafi y’aho abanyamaguru banyura",
+      "Hafi y’ibice by’umuhanda bimeze nabi",
+      "Ibi bisubizo byose ni ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 41,
+    "stem_rw": "Iyo nta mategeko awugabanya by’umwihariko, umuvuduko ntarengwa ku modoka zitwara abagenzi mu buryo bwa rusange ni:",
+    "options_rw": [
+      "Km 60 mu isaha",
+      "Km 40 mu isaha",
+      "Km 25 mu isaha",
+      "Km20 mu isaha"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 42,
+    "stem_rw": "Iyo nta mategeko awugabanya by’umwihariko, umuvuduko ntarengwa ku modoka zikoreshwa nk’ amavatiri y’ifasi cyangwa amatagisi zifite uburemere bwemewe butarenga kilogarama 3500 ni:",
+    "options_rw": [
+      "Km 60 mu isaha",
+      "Km 40 mu isaha",
+      "Km 75 mu isaha",
+      "Km20 mu isaha"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 43,
+    "stem_rw": "Ikinyabiziga kibujijwe guhagarara akanya kanini aha hakurikira :",
+    "options_rw": [
+      "Imbere y’ahantu hinjirwa hakasohokerwa n’ abantu benshi",
+      "Mu muhanda aho ugabanyijemo ibisate bigaragazwa n’imirongo idacagaguye",
+      "A na B ni ibisubizo by’ukuri",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 44,
+    "stem_rw": "Iyo bwije kugeza bukeye cyangwa bitewe n’ uko ibihe bimeze nk’igihe cy’ibihu cyangwa cy’ imvura bitagishoboka kubona neza muri m 200, udutsiko twose tw’abanyamaguru nk’imperekerane cyangwa udutsiko tw’abanyeshuri bari ku murongo bayobowe n’umwarimu, iyo bagenda mu muhanda ku isonga hakaba hari abantu barenze umwe bagomba kugaragazwa kuburyo bukurikira :",
+    "options_rw": [
+      "Imbere ni itara ry’umuhondo ritwariwe ibumoso",
+      "Inyuma ni itara ryera ritwariwe ibumoso n’ umuntu uri ku murongo w’inyuma hafi y’ umurongo ugabanya umuhanda mo kabiri",
+      "A na B ni ibisubizo by’ukuri",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 45,
+    "stem_rw": "Utuyira turi ku mpande z’umuhanda n’ inkengero zigiye hejuru biharirwa abanyamaguru mu bihe bikurikira:",
+    "options_rw": [
+      "Iyo hari amategeko yihariye yerekanwa n’ ibimenyetso",
+      "Iyo badatatanye kandi bayobowe n’umwarimu",
+      "Iyo hatari amategeko yihariye yerekanwa n’ ibimenyetso",
+      "Ibisubizo byose ni ukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 46,
+    "stem_rw": "Imburira zimurika zemerewe gukoreshwa kugirango bamenyeshe umuyobozi ko bagiye kumunyuraho aha hakurikira:",
+    "options_rw": [
+      "Mu nsisiro gusa",
+      "Ahegereye inyamaswa zikurura",
+      "Hafi y’amatungo",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 47,
+    "stem_rw": "Uburemere ntarengwa bwemewe ntibushobora kurenga ½ cy’uburemere bw’ikinyabiziga gikurura nubw’umuyobozi kuri romoruki zikurikira :",
+    "options_rw": [
+      "Romoruki ifite feri y’urugendo",
+      "Romoruki idafite feri y’urugendo",
+      "Romoruki itarenza kg 750",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 48,
+    "stem_rw": "Ibinyabiziga bifite ubugari bufite ibipimo bikurikira bigomba kugira amatara ndangaburumbarare :",
+    "options_rw": [
+      "Metero 2 na cm 10",
+      "Metero 2 na cm 50",
+      "Metero 3",
+      "Metero 2"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 49,
+    "stem_rw": "Nta tara na rimwe cyangwa akagarurarumuri bishobora kuba bifunze ku buryo igice cyabyo cyo hasi cyane kimurika kitaba kiri hasi y’ibipimo bikurikira kuva ku butaka igihe ikinyabiziga kidapakiye :",
+    "options_rw": [
+      "Cm 30",
+      "Cm 40",
+      "Cm 50",
+      "Metero 1 na cm 55"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 50,
+    "stem_rw": "Iyo ikinyabiziga gifite amatara abiri cyangwa menshi y’ubwoko bumwe ayo matara agomba kugira ibara rimwe n’ingufu zingana kandi akagomba gushyirwaho ku buryo buteganye uhereye ku murongo ugabanya ikinyabizigamo kabiri mu burebure bwacyo. Ariko ibi ntibikurikizwa ku matara akurikira:",
+    "options_rw": [
+      "itara ndangamubyimba",
+      "itara ndangaburumbarare",
+      "itara ribonesha icyapa kiranga numero y’ ikinyabiziga inyuma",
+      "A na B byose nibyo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 51,
+    "stem_rw": "Ahari hejuru cyane y’ubuso bumurika h’ amatara ndangambere na ndanganyuma ntihashobora kuba aharenze ibipimo bikurikira hejuru y’ubutaka iyo ikinyabiziga kidapakiye:",
+    "options_rw": [
+      "m1 na cm 50",
+      "m1 na cm 75",
+      "m 1 na cm 90",
+      "m2 na cm 10"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 52,
+    "stem_rw": "Ni ryari ikinyabiziga gishobora kugenda mu muhanda moteri itaka cyangwa vitesi idakora:",
+    "options_rw": [
+      "igihe kigenda ahamanuka",
+      "igihe gikuruwe n’ikindi kinyabiziga",
+      "igihe gifite feri y’urugendo",
+      "ibisubizo byose ni byo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 53,
+    "stem_rw": "Buri modoka cyangwa buri romoruki ikuruwe n’iyo modoka bishobora kugira itara risa n’icyatsi kibisi bituma umuyobozi yerekana ko yabonye ikimenyetso cy’uwitegura kumunyuraho. Iryo tara rigomba gushyirwa aha hakurikira:",
+    "options_rw": [
+      "hafi y’inguni y’ibumoso bw’ikinyabiziga",
+      "inyuma hafi y’impera y’iburyo bw’ikinyabiziga",
+      "inyuma ahegereye inguni y’iburyo",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 54,
+    "stem_rw": "Ibinyabiziga bikurikira bigomba kugira icyerekana umuvuduko kiri aho umuyobozi areba neza kandi kigahora kitabwaho kugirango kigume gukora neza:",
+    "options_rw": [
+      "ibinyabiziga bifite umuvuduko nibura wa km 60 mu isaha",
+      "ibinyabiziga bishobora kurenza km 40 mu isaha",
+      "ibinyabiziga bishobora kurenza km 30 mu isaha",
+      "ibinyabiziga bishobora kurenza km 25 mu isaha"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 55,
+    "stem_rw": "Ubugari bw’imizigo yikorewe n’ipikipiki idafite akanyabiziga ko kuruhande kimwe n’ubwa romoruki ikuruwe na bene icyo kinyabiziga ntibushobora kurenza ibipimo bikurikira:",
+    "options_rw": [
+      "m 1.25",
+      "cm 30",
+      "cm 75",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 56,
+    "stem_rw": "Ibinyabiziga bikurikira bigomba kugira itara ry’ ubururu rimyatsa riboneka mu mpande zose:",
+    "options_rw": [
+      "ibinyabiziga bifite ubugari burenga m 2 na cm",
+      "ibinyabiziga bya police y’igihugu",
+      "ibinyabiziga ndakumirwa",
+      "ibisubizo byose ni ukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 57,
+    "stem_rw": "Ibinyabiziga bihinga n’ibindi bikoresho byihariye bikoreshwa n’ibigo bipatana imirimo, iyo bigenda mu nzira nyabagendwa igihe cya nijoro cyangwa bitewe n’uko ibihe bimeze bitagishoboka kubona neza muri m 200 bishobora kugaragazwa inyuma n’amatara 2 atukura, bipfa kuba bitarenza ibipimo bikurikira:",
+    "options_rw": [
+      "kutarenza umuvuduko wa km20 mu isaha",
+      "uburebure bwabyo habariwemo ibyo bitwaye bukaba butarengeje m6",
+      "uburebure ntarengwa ntiburenga m8",
+      "A na B nibyo bisubizo by’ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 58,
+    "stem_rw": "Iyo romoruki iziritse ku kinyamitende, velomoteri n’amapikipiki bidafite akanyabiziga ko kuruhande uretse ikinyamitende na velomoteri bidafite umuyobozi, iyo uburumbarare bwayo cyangwa bw’ibyo yikoreye bituma itara ry’ ikinyabiziga gikurura ritagaragara igihe bitagishoboka kubona neza muri m 200 bigomba kugaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "itara ryera cyangwa ry’umuhondo cyangwa risa n’icunga rihishije riri kuri rumoruki inyuma",
+      "itara ry’icyatsi cyangwa ry’umuhondo cyangwa risa n’icunga rihishije riri kuri rumoruki inyuma",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 59,
+    "stem_rw": "Ku kinyabiziga cyangwa ibinyabiziga bikururana igice kirenga ku biziga ntikigomba kurenga ibipimo bikurikira:",
+    "options_rw": [
+      "inyuma ni m 3 na cm 50",
+      "imbere ni m 1 na cm 70",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 60,
+    "stem_rw": "Iyo amatara y’ikinyabiziga agomba gucanwa kandi igihe imizigo isumba impera y’ikinyabiziga ho metero irenga igice gihera cy’imizigo kigaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "itara ritukura cyangwa akagarurarumuri ku mutuku ku manywa",
+      "agatambaro gatukura gafite nibura cm 50 z’ uruhande mu ijoro",
+      "itara ry’umuhondo cyangwa akagarurarumuri k’ umuhondo",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 61,
+    "stem_rw": "Iyo imizigo igizwe n’ibinyampeke, ikawa, ipamba idatonoye, ibishara, ibyatsi, ibishami cyangwa ubwatsi bw’amatungo bidahambiriye uretse amapaki afunze, ubugari bwayo bushobora kugera ku bipimo bikurikira:",
+    "options_rw": [
+      "m 2.50",
+      "m 2.75",
+      "m 3",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 63,
+    "stem_rw": "Buri modoka cyangwa buri romoruki ikuruwe n’iyo modoka bishobora kugira itara rituma umuyobozi yerekana ko yabonye ikimenyetso cy’ uwitegura kumunyuraho. Iryo tara rifite amabara akurikira:",
+    "options_rw": [
+      "umuhondo",
+      "icyatsi kibisi",
+      "umweru",
+      "umutuku"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 64,
+    "stem_rw": "Ikinyabiziga cyangwa ibinyabiziga bikururana bifite imitambiko ibiri ikurikiranye mu bugari bwayo ni ukuvuga imitambiko yihindukiza kucyo ifungiyeho, uburebure bwabyo ntibugomba kurenza ibipimo bikurikira:",
+    "options_rw": [
+      "m11",
+      "m10",
+      "m7",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 65,
+    "stem_rw": "Bumwe muri ubu bwoko bwa feri ituma imodoka iguma aho iri uko yaba yikoreye kose ku muzamuko cyangwa ku gacuri bya 16%, imyanya ya feri igomba gufata igakomeza kwegera kuburyo bw’ibyuma niyo umuyobozi yaba atarimo:",
+    "options_rw": [
+      "feri yo guhagarara umwanya munini",
+      "feri y’urugendo",
+      "feri yo gutabara",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 66,
+    "stem_rw": "Utugarurarumuri turi mu mbavu z’ikinyabiziga tugomba kugira ibara rikurikira:",
+    "options_rw": [
+      "umweru",
+      "umuhondo",
+      "umutuku",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 67,
+    "stem_rw": "Romoruki zifite ubugari ntarengwa bwa cm 80 zishobora gushyirwaho akagarurarumuri kamwe gusa iyo zikuruwe n’ibinyabiziga bikurikira:",
+    "options_rw": [
+      "velomoteri",
+      "ipikipiki idafite akanyabiziga ku ruhande",
+      "amavatiri y’ifasi",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 68,
+    "stem_rw": "Amatara maremare y’ibara ryera cyangwa ry’ umuhondo agomba, nijoro igihe ijuru rikeye, kumurika mu muhanda mu ntera ya m 100 nibura imbere y’ikinyabiziga, ariko ku binyabiziga bifite moteri itarengeje za sentimetero kibe 125 iyo ntera igira ibipimo bikurikira:",
+    "options_rw": [
+      "m200",
+      "m100",
+      "m85",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 69,
+    "stem_rw": "Iyo banyuze iruhande rw’inkomyi abanyamaguru bagomba gukikira banyuze mu muhanda, abayobozi bagomba gusiga umwanya ufite ubugari bwa m 1 nibura hagati yabo nayo. Iyo ibyo bidashobora kubahirizwa kandi umunyamaguru akaba anyura hafi yiyo nkomyi, umuyobozi agomba kuyikikira afite umuvuduko utarengeje ibipimo bikurikira:",
+    "options_rw": [
+      "km 10 mu isaha",
+      "km 20 mu isaha",
+      "km 30 mu isaha",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 70,
+    "stem_rw": "Guhagarara akanya gato no guhagarara akanya kanini bibujijwe cyane cyane aha hakurikira:",
+    "options_rw": [
+      "ku mihanda y’icyerekezo kimwe hose",
+      "mu ruhande ruteganye n’urwo ikindi kinyabiziga gihagazemo akanya gato cyangwa kanini",
+      "ku mihanda ibisikanirwamo, iyo ubugari bw’ umwanya w’ibinyabiziga ugomba gutuma bibisikana butagifite m12",
+      "ibisubizo byose nibyo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 71,
+    "stem_rw": "Amatara ndangambere n’aya ndanganyuma y’ imodoka zitarengeje m 6 z’uburebure na m 2 z’ ubugari habariwemo imitwaro kdi nta kinyabiziga kindi kiziritseho ashobora gusimburwa n’amatara akurikira, iyo ibyo binyabiziga bihagaze umwanya muto cyangwa munini mu nsisiro bibangikanye ku ruhande rw’umuhanda:",
+    "options_rw": [
+      "amatara magufi",
+      "amatara ndangaburumbarare",
+      "amatara yo guhagarara umwanya munini",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 72,
+    "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe nuko ibihe bimeze nk’igihe cy’igihu cyangwa cy’ imvura bitagishoboka kubona neza muri m 200, imirongo y’ingabo z’igihugu zigendera kuri gahunda n’utundi dutsiko twose tw’abanyamaguru nk’imperekerane cyangwa udutsiko tw’ abanyeshuri bari ku murongo bayobowe na mwarimu, iyo bagenda mu muhanda ku isonga hakaba hari abantu barenze umwe, bagaragzwa ku buryo bukurikira:",
+    "options_rw": [
+      "imbere ni itara ryera ritwariwe ku ruhande rw’ ibumoso n’umuntu uri ku murongo w’imbere hafi y’umurongo ugabanya umuhanda mo kabiri",
+      "inyuma ni itara umuhondo ritwariwe ku ruhande rw’ibumoso n’umuntu uri ku murongo w’inyuma hafi y’umurongo ugabanya umuhanda mo kabiri",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 73,
+    "stem_rw": "Imizigo yikorewe n’amagare, velomoteri, amapikipiki, ibinyamitende by’ibiziga bitatu nibyo ibiziga bine bifite cyangwa bidafite moteri inyuma ntishobora kurenza ibipimo bikurikira:",
+    "options_rw": [
+      "cm 20",
+      "cm 30",
+      "cm 50",
+      "cm 60"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 75,
+    "stem_rw": "Nta tara na rimwe cyangwa utugarurarumuri bishobora kuba bifunze kuburyo igice cyabyo cyo hasi cyane kimurika kitaba kiri hasi ya cm 40 kuva ku butaka igihe ikinyabiziga kidapakiye ariko ibyo ntibikurikizwa ku matara akurikira:",
+    "options_rw": [
+      "amatara kamenabihu",
+      "amatara yo gusubira inyuma",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 76,
+    "stem_rw": "Iyo tumuritswe n’amatara y’urugendo y’i kinyabiziga utugarurarumuri tugomba n’ijoro, igihe ijuru rikeye kubonwa n’umuyobozi w’ ikinyabiziga kiri mu ntera ikurikira:",
+    "options_rw": [
+      "metero 100",
+      "metero 150",
+      "metero 200",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 77,
+    "stem_rw": "Ibinyabiziga bigendeshwa na moteri, hatarimo velomoteri n’ibinyabiziga bidapakiye umuvuduko wabyo udashobora kurenga km 50 mu isaha ahateganye bigomba kuba bifite ibikoresho by’ ihoni byumvikanira mu ntera ikurikira:",
+    "options_rw": [
+      "metero 200",
+      "metero 150",
+      "metero 100",
+      "metero 50"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 78,
+    "stem_rw": "Ahatari mu nsisiro ibyapa biburira n’ibyapa byo gutambuka mbere bigomba gushyirwa mu ntera ikurikira y’ahantu habyerekana:",
+    "options_rw": [
+      "metero 150 kugeza kuri 200",
+      "metero 100 kugeza kuri 150",
+      "metero 50 kugeza kuri 100",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 79,
+    "stem_rw": "Inkombe z’inzira nyabagendwa cyangwa z’ umuhanda zishobora kugaragazwa n’ibikoresho ngarurarumuri. Ibyo bikoresho bigomba gushyirwaho ku buryo abagenzi babibona ku buryo bukurikira:",
+    "options_rw": [
+      "babona iburyo bwabo ibyibara ritukura cyangwa ibisa n’icunga rihishije",
+      "ibumoso babona iby’ibara ryera",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 80,
+    "stem_rw": "Ahatari mu nsisiro, umuyobozi wese ugenza ikinyabiziga kimwe cyangwa ibinyabiziga bikomatanye bifite uburemere ntarengwa bwemewe burenga ibiro 3500 cyangwa bifite uburebure bwite burenga metero 10 agomba, keretse iyo anyuze cyangwa agiye kunyura ku bindi binyabiziga, gusiga hagati y’ikinyabiziga cye n’iki muri imbere umwanya uhagije kugirango ibinyabiziga bimuhiseho bishobore kuhigobeka bidateje impanuka igihe bibaye ngombwa ariko ibyo ntibikurikizwa mu bihe bikurikira:",
+    "options_rw": [
+      "mu gihe ibigendera mu muhanda ari byinshi kimwe no mu duce tw'inzira nyabagendwa aho kunyuranaho bibujijwe",
+      "igihe ibigendera mu muhanda ari byinshi",
+      "mu duce tw’inzira nyabagendwa aho kunyuranaho bibujijwe",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 96,
+    "stem_rw": "Ibiziga by’ibinyabiziga bigendeshwa na moteri n’ibya velomoteri kimwe n’ibya romoruki zabyo bigomba kuba byambaye inziga zihagwa zifite amano n’ubujyakuzimu butari munsi ya milimetero imwe ku migongo yabyo yose nubudodo bwabyo ntibugire ahantu na hamwe bugaragara kandi ntibugire aho byacitse bikomeye mu mpande zabyo ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
+    "options_rw": [
+      "ibinyabiziga bidapakiye kandi bitajya birenza umuvuduko wa km 25 mu isaha ahateganye",
+      "ibinyabiziga bya police bijya ahatarenga km 25 uvuye aho biba",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 81,
+    "stem_rw": "Amatara ndangacyerekezo agomba kuba agizwe n’ibintu bifashe ku rumuri rumyasa, biringaniye ku buryo bigira umubare utari igiharwe ku mpande z’imbere n’inyuma z’ ikinyabiziga ayo matara aba afite amabara akurikira:",
+    "options_rw": [
+      "amatara y’imbere aba yera cyangwa ari umuhondo",
+      "ayinyuma aba atukura cyangwa asa n’icunga rihishije",
+      "A na B ni ibisubizo by’ukuri",
+      "ayinyuma aba asa n’icunga rihishije"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 82,
+    "stem_rw": "Amahoni y’ibinyabiziga bigendeshwa na moteri agomba kohereza ijwi ry’injyana imwe rikomeza kandi ridacengera amatwi ariko ibinyabiziga bikurikira bishobora kugira ihoni ridasanzwe ridahuye n’ibivuzwe haruguru:",
+    "options_rw": [
+      "ibinyabiziga ndakumirwa",
+      "ibinyabiziga bikora ku mihanda",
+      "ibinyabiziga bifite ubugari burenze m 2.10",
+      "A na B ni ibisubizo by’ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 83,
+    "stem_rw": "Icyapa kibuza kunyura kubindi binyabiziga byose uretse ibinyamitende ibiri n’amapikipiki adafite akanyabiziga ku ruhande gifite ibimenyetso by’amabara akurikira:",
+    "options_rw": [
+      "umweru n’umukara",
+      "umutuku n’umukara",
+      "ubururu",
+      "A na B ni ibisubizo by’ukuri"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 84,
+    "stem_rw": "Icyapa kivuga ko hatanyurwa mu byerekezo byombi kirangwa n’ubuso bw’ibara rikurikira:",
+    "options_rw": [
+      "umukara",
+      "umweru",
+      "ubururu",
+      "umutuku"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 85,
+    "stem_rw": "Ibinyabiziga bikurikira bigomba kugira ibikoresho by’ihoni byumvikanira mu ntera ya m 20:",
+    "options_rw": [
+      "amapikipiki",
+      "velomoteri",
+      "ibinyabiziga bigendeshwa na moteri bidapakiye",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 86,
+    "stem_rw": "Imirongo y’ingabo z’igihugu zigendera kuri gahunda n’utundi dutsiko twose tw’abanyamaguru nk’imperekerane cyangwa udutsiko tw’ abanyeshuri iyo bitagishoboka kubona neza muri m200, bagaragazwa ni itara ryera imbere naho inyuma ni itara ry’umutuku ariko iyo uburebure bwiyo mirongo cyangwa bw’utwo dutsiko burenga m6 impande zatwo cyangwa zayo zigaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "itara rimwe cyangwa menshi yera",
+      "amatara menshi y’umuhondo",
+      "amatara menshi asa n’icunga rihishije",
+      "ibisubizo byose nibyo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 87,
+    "stem_rw": "Amatara ndangambere na ndanganyuma y’ imodoka zitarengeje m 6 z’uburebure na m 2 z’ ubugari habariwemo imitwaro kandi nta kindi kinyabiziga kiziritseho ashobora gusimburwa n’ amatara yo guhagarara umwanya munini iyo ibyo binyabiziga bihagaze umwanya muto cyangwa munini mu nsisiro bibangikanye ku ruhande rw’ umuhanda. Ayo matara arangwa n’amabara akurikira:",
+    "options_rw": [
+      "umweru cyangwa umuhondo imbere",
+      "umutuku cyangwa umuhondo inyuma",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 88,
+    "stem_rw": "Amatara ndangaburumbarare agomba kubonwa nijoro igihe ijuru rikeye n’umuyobozi w’ ikinyabiziga kiri mu ntera ya :",
+    "options_rw": [
+      "m 50 nibura",
+      "m 100",
+      "m 150",
+      "m 200 nibura"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 89,
+    "stem_rw": "Uretse ku byerekeye imihanda iromboreje y’ ibisate byinshi n’imihanda yimodoka igice cy’ umuhanda kiri hakurya y’umurongo mugari wera ucibwa ku muhanda ngo ugaragaze inkombe mpimbano zawo kigenewe ibi bikurikira:",
+    "options_rw": [
+      "guhagararwamo umwanya muto gusa",
+      "guhagararwamo umwanya munini gusa",
+      "guhagararwamo umwanya muto n’umunini",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 90,
+    "stem_rw": "Ibimenyetso by’agateganyo bigizwe n’ imitemeri y’ibara risa n’icunga rihishije bishobora gusimbura ibi bikurikira:",
+    "options_rw": [
+      "imirongo yera irombereje idacagaguye gusa",
+      "imirongo yera irombereje idacagaguye n’ icagaguye",
+      "imirongo icagaguye n’idacagaguye ibangikanye",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 91,
+    "stem_rw": "Iyo bitagishoboka kubona muri m 200 imodoka zikuruwe n’inyamaswa, ingorofani, inyamaswa zitwaye imizigo cyangwa zigenderwamo kimwe n’amatungo bigomba kurangwa na :",
+    "options_rw": [
+      "imbere ni itara ryera",
+      "imbere ni itara ry’umuhondo cyangwa risa n’ icunga rihishije",
+      "inyuma ni itara rimwe ritukura",
+      "ibisubizo byose ni ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 93,
+    "stem_rw": "Icyapa cyerekana ahantu hagenewe guhagararwamo n’imodoka nini zagenewe gutwara abantu cyirangwa n’ubuso bw’amabara akurikira:",
+    "options_rw": [
+      "ubururu",
+      "umweru",
+      "umutuku",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 94,
+    "stem_rw": "Icyapa cyerekana ko inzira giteyeho mu ntangiriro idakomeza kigaragazwa n’ikirango (ikimenyetso) cy’amabara akurikira:",
+    "options_rw": [
+      "umukara n’umutuku",
+      "umukara n’umweru",
+      "umweru n’umutuku",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 95,
+    "stem_rw": "Buri modoka yagenewe gutwara abantu, ariko umubare wabo ntarengwa ukaba munsi ya 6 umuyobozi abariwemo igomba kugira imikandara yo kurinda ibyago igenewe aba bakurikira:",
+    "options_rw": [
+      "umuyobozi",
+      "umugenzi wicaye ku ntebe y’imbere",
+      "ishobora no kugira imikandara kuzindi ntebe z’ inyuma",
+      "ibisubizo byose ni ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 97,
+    "stem_rw": "Iyo umukumbi ugizwe n’amatungo maremare arenze ane cyangwa amatungo magufi arenze atandatu mu nzira nyabagendwa iyo hatakibona neza kuburyo umuyobozi abona muri m 200 ugomba kugaragazwa kuburyo bukurikira:",
+    "options_rw": [
+      "itara ry’urumuri rwera cyangwa rusa n’icunga rihishije imbere y’umukumbi",
+      "itara ry’urumuri rutukura cyangwaumuhondo ritwawe inyuma y’umukumbi",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 98,
+    "stem_rw": "Ibinyabiziga biherekeranyije mu butumwa ntibishobora gutonda uburebure burenga umurongo wa m 500. Iyi bibaye bityo ibinyabiziga biherekeranye mu butumwa bishobora kugabanwamo amatsinda atonze umurongo atarengeje m 50 z’uburebure kdi hagati yayo hakaba byibura m 50 ariko ibyo ntibikurikizwa kubinyabiziga bikurikira:",
+    "options_rw": [
+      "ibinyabiziga bya police biherekeranyije",
+      "ibinyabiziga by’abasirikare biherekeranyije mu nsisiro",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 99,
+    "stem_rw": "Iyo ikinyabiziga gikururwa n’inyamaswa nacyo gikuruye ikindi uburebure bw’ibikururwa bukaba burenga m 18 hatabariwemo icyo kinyabiziga cya mbere kiziritseho hagomba ibi bikurikira:",
+    "options_rw": [
+      "umuherekeza w’ikinyabiziga cya kabiri",
+      "abaherekeza babiri",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 100,
+    "stem_rw": "Ibinyabiziga bikurikira ntibitegetswe kugira ibimenyetso bibyerekana iyo byambukiranya umuhanda cyangwa bigenda ku ruhande rwawo:",
+    "options_rw": [
+      "ibinyabiziga bigendwamo n’abana",
+      "ibinyabiziga bigendwamo n’abamugaye",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 101,
+    "stem_rw": "Icyapa cy’inyongera kigaragaza ikibanza cy’ ingando cyangwa cy’abantu benshi bagendera ku nyamaswa kirangwa n’amabara akurikira:",
+    "options_rw": [
+      "ubururu, umweru n’umukara",
+      "umukara umweru n’umuhondo",
+      "icyatsi kibisi, umuhondo n’ikirango cy’umukara",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 102,
+    "stem_rw": "Icyapa cyerekana ahantu amategeko y’ Umuhanda urombeje w’ibice byinshi atangirira gukurikizwa, kirangwa n’ibirango (ibimenyetso) by’amabara akurikira:",
+    "options_rw": [
+      "umweru n’umukara",
+      "umweru n’umutuku",
+      "umweru n’umuhondo",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 103,
+    "stem_rw": "Igihe ikorwa ry’imirimo ribangamiye cyane cyangwa buke uburyo bwo kugenda mu nzira nyabagendwa, ahakorerwa imirimo hagaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "icyapa cyera cya mpande enye, zingana zifite uruhande rwa metero 0.30",
+      "uruzitiro ruri ku mpera y’iburyo",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 104,
+    "stem_rw": "Iyo mu muhanda, imirimo yihariye ubugari butuma abayobozi bagomba kuva mu mwanya wabo usanzwe kugirango bakomeze urugendo, ahategetswe kunyurwa hagaragazwa n’ ikimenyetso gishyirwa aho imirimo irangirira mu ruhande rugenderwamo. Icyo kimenyetso kirangwa n’amabara akurikira:",
+    "options_rw": [
+      "ubuso bw’ubururu ikirango cy’umweru",
+      "umuzenguruko w’umutuku, ubuso umweru n’ ikirango cy’umukara",
+      "umuzenguruko w’umutuku, ubuso mu ibara ryera, ikirango mu ibara ry’umutuku n’umukara",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 105,
+    "stem_rw": "Icyapa cyerekana ko hari amabwiriza yihariye mu buryo bwo kugendera mu cyambu cyangwa ku kibuga cy’indege giteye ku buryo bukurikira:",
+    "options_rw": [
+      "ishusho mpandeshatu, ubuso mu ibara ryera, ikirango mu ibara ry’umukara",
+      "ishusho mpandenye, ubuso mu ibara ry’ ubururu n’ikirango kiri mu ibara ryera",
+      "ishusho y’uruziga mu ibara ry’ubururu ni ikirango kiri mu ibara ryera",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 106,
+    "stem_rw": "Nijoro igihe ijuru rikeye, itara ribonesha icyapa kiranga numero y’ikinyabiziga rigomba gutuma izo numero zisomerwa nibura mu ntera ikurikira:",
+    "options_rw": [
+      "m150",
+      "m50",
+      "m20",
+      "m10"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 107,
+    "stem_rw": "Ibyapa byerekana icyago cyidahoraho kandi bigenewe kwerekana aho bagana cyangwa aho berekeza umuhanda nk’igihe cy’impanuka cyangwa hari imirimo ikorwa mu muhanda birangwa n’amabara akurikira:",
+    "options_rw": [
+      "umweru n’umukara",
+      "umweru n’umuhondo",
+      "ubuso bw’umweru gusa",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 108,
+    "stem_rw": "Birabujijwe kubangamira imigendere isanzwe y’ibindi binyabiziga kubera ibi bikurikira:",
+    "options_rw": [
+      "kugabanya umuvuduko kuburyo budasanzwe",
+      "gukacira feri bidatewe no kwirinda ibyago",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 109,
+    "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe n’uko ibihe bimeze bitagishoboka kubona neza muri m 200, mu nzira nyabagendwa, romoruki iziritse kuri velomoteri cyangwa ipikipiki idafite akanyabiziga ku ruhande, uretse velomoteri idafite umuyobozi, kandi uburumbarare bwayo, cyangwa bw’ibyo yikoreye bukaba butuma itara ry’ikinyabiziga biyikurura ritagaragara, iyo romoruki igaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "itara ryera riri kuri romoruki inyuma",
+      "itara ry’umuhondo riri kuri romoruki inyuma",
+      "itara risa n’icunga riri kuri romoruki inyuma",
+      "ibi bisubizo byose nibyo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 110,
+    "stem_rw": "Amatara maremare y’ikinyabiziga agomba kuzimwa mu bihe bikurikira:",
+    "options_rw": [
+      "iyo umuhanda umurikiwe hose kandi umuyobozi ashobora kubona nibura mu ntera ingana na metero 200",
+      "iyo ikinyabiziga gikurikiye mu ntambwe zitagera muri m100 keretse iyo umuyobozi wacyo ashaka kunyura kucyo akurikiye acana azimya vuba vuba amatara maremare",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 111,
+    "stem_rw": "Iyo akanyabiziga gasunikwa cyangwa ibyo gatwaye bidatuma umuyobozi abona neza imbere ye, uwo muyobozi agomba gukora ibi bikurikira:",
+    "options_rw": [
+      "gushaka umuherekeza",
+      "gukurura ikinyabiziga cye",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 112,
+    "stem_rw": "Uretse igihe hari amategeko yihariye akurikizwa muri ako karere cyangwa imitunganyirize bwite y’aho, ikinyabiziga cyose cyangwa inyamaswa ihagaze umwanya muto cyangwa munini igomba kuba iri aha hakurikira:",
+    "options_rw": [
+      "mu kaboko k’iburyo hakurikijwe aho yaganaga uretse igihe ari mu muhanda w’icyerekezo kimwe",
+      "ahegereye bishobotse akayira k’abanyamaguru iyo umuhanda ugafite ariko umwanya w’ibiziga n’ akayira ntube urenga santimetero 50",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 113,
+    "stem_rw": "Iyo ikinyabiziga gihagaritswe n’ijoro ku buryo abayobozi bakigana badashobora kumenya ko kibabereye imbogamizi, kigomba kurangirwa kure n’ikimenyetso cyabigenewe kiri ahantu hagaragara kugirango kiburire hakiri kare abandi bayobozi baza bagisanga, ariko ntibireba ibinyabiziga bikurikira:",
+    "options_rw": [
+      "velomoteri",
+      "ipikipiki idafite akanyabiziga ku ruhande",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 114,
+    "stem_rw": "Abanyamaguru batatanye cyangwa bagize udutsiko tudafatanyije gahunda kdi batanayobowe n’umwarimu bategetswe kunyura mu tuyira turi ku mpande z’umuhanda no ku nkengero zigiye hejuru uretse ubutaka butsindagiye butandukanya imihanda ibiri bwo kunyurwamo gusa n’aba bakurikira:",
+    "options_rw": [
+      "abanyamaguru bashaka guhagarara akanya gato igihe bambukiranya umuhanda",
+      "abanyamaguru bagize udutsiko tw’abantu benshi",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 115,
+    "stem_rw": "Ibinyabiziga biherekeranyije mu butumwa ntibishobora gutonda uburebure burenga umurongo wa m 500, iyo bibaye bityo ibinyabiziga biherekeranyije mu butumwa bishobora kugabanywamo amatsinda atonze umurongo utarengeje ibipimo bikurikira:",
+    "options_rw": [
+      "utarengeje m50",
+      "utarengeje m100",
+      "utarengeje 150",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 116,
+    "stem_rw": "Ibyapa byereka inkomane y’inzira nyabagendwa n’inzira ya gariyamoshi bigomba iteka kumurikwa cyangwa kugarura urumuri ku buryo bigaragarira nibura mu ntera ikurikira igihe ijuru rikeye:",
+    "options_rw": [
+      "m200",
+      "m 250",
+      "m300",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 117,
+    "stem_rw": "Imbibi ziri ku mpera z’ubwihugiko bw’ abanyamaguru kandi ziri mu muhanda kimwe n’ imbibi n’ibindi bikoresho bigenewe gutuma bagenda mu muhanda nta muvundo zisigwa irangi ry’ibara rikurikira:",
+    "options_rw": [
+      "irangi ry’umuhondo ngarurarumuri",
+      "irangi ry’umweru ngarurarumuri",
+      "irangi risa n’icunga rihishije ngarurarumuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 118,
+    "stem_rw": "Kugirango ikinyabiziga kive ahantu hari urwondo cyangwa hanyerera bidasanzwe hashobora gukoreshwa uburyo bukurikira:",
+    "options_rw": [
+      "inziga zishobora gushyirwaho udushyundu",
+      "inziga zishobora gushyirwaho iminyururu irwanya ubunyerere",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 120,
+    "stem_rw": "Mu mujyi no ku mihanda y’igihugu igenwa na minisitiri ushinzwe gutwara abantu n’ibintu, ubwikorere ntarengwa ku ikamyo iyo ariyo yose ntibushobora kurenga ibipimo bikurikira:",
+    "options_rw": [
+      "toni 10",
+      "toni 16",
+      "toni 24",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 121,
+    "stem_rw": "Iyo bitewe n’imiterere y’ahantu intera itandukanya icyapa n’ahantu habi iri munsi ya m150 ku buryo bugaragara, iyo ntera yerekanishwa icyapa cy’inyongera giteye ku buryo bukurikira:",
+    "options_rw": [
+      "kare ifite ubuso bw’ibara ryera",
+      "urukiramende rufite ubuso bw’ibara ryera",
+      "mpandeshatu ifite umuzenguruko utukura",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 122,
+    "stem_rw": "Nijoro, amatara yo kubisikana y’ibara ryera cyangwa y’umuhondo agomba, igihe ijoro rikeye kumurika mu muhanda nibura mu ntera ikurikira:",
+    "options_rw": [
+      "m100",
+      "m50",
+      "m40",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 123,
+    "stem_rw": "Ikintu cyose cyatuma hahindurwa ibyanditse bireba nyirikarita cyangwa ibiranga ikinyabiziga kigomba kumenyeshwa ibiro by’umusoro haba mu magambo cyangwa mu ibaruwa ishinganye ibyo bikorwa mu gihe kingana gute:",
+    "options_rw": [
+      "mu mezi 2",
+      "mu kwezi kumwe",
+      "mu minsi cumi n’itanu",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 124,
+    "stem_rw": "Kugirango berekane ahantu habi cyane, hakoreshwa ikimenyetso cy’itara ry’umuhondo rimyasa, rivuga uburenganzira bwo gutambuka icyo kimenyetso barushijeho kwitonda. Ese icyo kimenyetso gihindura iki ku mategeko agenga gutambuka mbere:",
+    "options_rw": [
+      "ntacyo gihindura",
+      "abo rireba nibo batambuka mbere",
+      "abatwaye ibinyabiziga binini nibo batambuka mbere",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 125,
+    "stem_rw": "Romoruki zifite ubugari ntarengwa bwa sentimetero 80 zishobora gushyirwaho akagarurarumuri kamwe gusa iyo zikuruwe n’ ibinyabiziga bikurikira:",
+    "options_rw": [
+      "velomoteri",
+      "ipikipiki ifite akanyabiziga kuruhande",
+      "igare",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 126,
+    "stem_rw": "Amatara maremare y’ibara ryera cyangwa ry’ umuhondo agomba nijoro igihe ijuru rikeye kumurika mu ntera ikurikira ku binyabiziga bifite moteri itarengeje ingufu zigera kuri sentimetero kibe 125",
+    "options_rw": [
+      "m100",
+      "m75",
+      "m25",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 127,
+    "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe n’uko ibintu bimeze bitagishoboka kubona muri m 200, ibinyabiziga cyangwa imitwaro bifite ubugari burenga m 2.50 iyo bigenda mu nzira nyabagendwa bigaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "inyuma ni amatara abiri atukura",
+      "iyo bibaye ngombwa no ku mpera y’amabondo y’ikinyabiziga cyangwa y’imitwaro ni itara ndangaburumbarare risa n’icunga rihishije cyangwa ry’umuhondo",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 130,
+    "stem_rw": "Iminyururu n’ibindi byuma bifashisha bishobora kuvanwaho cyangwa binagana, hatabariwemo ibimenyetso byerekana ibyerekezo bigomba gutungurwa ku kinyabiziga ku buryo igihe byizunguza bitarenga impande zihera uburumbarare bw’ikinyabiziga kandi ibyo byuma bifashisha ntibigomba gukururuka ku butaka ariko ibyo ntibibujijwe ku binyabiziga bikurikira:",
+    "options_rw": [
+      "imashini zihinga",
+      "ibinyabiziga bitwaye ibintu bidashobora gufata inkongi",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 131,
+    "stem_rw": "Ku binyabiziga cyangwa ibinyabiziga bikururana igice kirenga ku biziga ntigishobora kurenga ibipimo bikurikira:",
+    "options_rw": [
+      "iby’inyuma : m3",
+      "iby’imbere: m2.70",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 132,
+    "stem_rw": "Uretse bibonewe uruhushya, ubundi birabujijwe gushyira no gukomeza kugendesha imodoka cyangwa romoruki mu nzira nyabagendwa iyo uburemere bw’ibyikorewe burenze uburemere ntarengwa bwemewe n’ikarita iranga ikinyabiziga ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
+    "options_rw": [
+      "ibinyabiziga bya police",
+      "ibinyabiziga bihinga",
+      "imashini zikoreshwa mu kubaka imihanda",
+      "ibisubizo byose ni ukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 133,
+    "stem_rw": "Gushyira mu muhanda ku buryo budasanzwe ibinyabiziga bikururana birenze bitatu bigomba gutangirwa uruhusa, uretse imashini ihinga iyo zigenda uregendo rutarenze km 25, ibinyabiziga bikururana bitwaye ibyamamazwa n’ibindi biteganwa n’iri teka ariko igiteranyo cy’uburebure bw’ibyo binyabiziga bikururana ntigishobora kurenga ibipimo bikurikira:",
+    "options_rw": [
+      "m50",
+      "m35",
+      "m25",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 134,
+    "stem_rw": "Ibinyamitende itatu bifite moteri bigomba kugira amatara akurikira:",
+    "options_rw": [
+      "amatara abiri ndangambere n’amatara abiri ndanganyuma yerekana ko ikinyabiziga gihagaze",
+      "utugarurarumuri tubiri",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 135,
+    "stem_rw": "Ibyapa bibuza n’ibitegeka bikurikizwa gusa aha hakurikira:",
+    "options_rw": [
+      "mu masangano",
+      "mu gice cy’inzira nyabagendwa kiri hagati yaho bishinze n’inkomane ikurikiyeho ku ruhande rw’inzira bishinzeho",
+      "ibyo byapa bishyirwaho hakurikijwe intera ibitandukanya",
+      "B na C ni ibisubizo by’ukuri"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 136,
+    "stem_rw": "Icyapa cy’inyongera kerekana aho bagobokera ibinyabiziga kirangwa n’amabara akurikira:",
+    "options_rw": [
+      "ubururu, umweru, umutuku",
+      "umweru, umukara, ubururu",
+      "umutuku, umweru n’umukara",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 137,
+    "stem_rw": "Icyapa cyerekana uburebure bw’igice cyatera ibyago cyangwa bw’ahantu amabwiriza y’icyo cyapa agomba gukurikizwa kirangwa n’ubuso n’ ibimenyetso bikurikira:",
+    "options_rw": [
+      "ubuso umweru, ikimenyetso ubururu",
+      "ubuso ubururu, ikimenyetso umweru",
+      "ubuso ubururu, ikimenyetso umweru n’umukara",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 138,
+    "stem_rw": "Umurongo w’umuhondo ucagaguye uciye ku nkombe nyayo y’umuhanda, umusezero w’inzira y’ abanyamaguru cyangwa w’inkengero y’umuhanda yegutse uvuga ibi bikurikira:",
+    "options_rw": [
+      "guhagarara umwanya muto birabujijwe ku burebure bw’uwo murongo",
+      "guhagarara umwanya muto n’umunini birabujijwe ku burebure bw’uwo murongo",
+      "aho bahagarara umwanya munini cyangwa muto",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 139,
+    "stem_rw": "Ku binyabiziga cyangwa ibinyabiziga bikururana igice kirenga ku biziga ntigishobora kurenga ibipimo bikurikira:",
+    "options_rw": [
+      "iby’inyuma m 3.40",
+      "iby’imbere m 2.50",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 172,
+    "stem_rw": "Iyo hagati y’uruhande rw’imbere rwa romoruki n’uruhande rw’inyuma rw’ikinyabiziga kiyikurura hari umwanya urenze m 3 ikibizirikanyije kigomba kugaragazwa ku buryo bukurikira iyo amatara y’ikinyabiziga agomba gucanwa:",
+    "options_rw": [
+      "agatambaro gatukura gafite nibura cm 50 z’ uruhande",
+      "itara risa n’icunga rihishije rigaragara mu mbavu igihe ikibizirikanyije kimuritswe",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 173,
+    "stem_rw": "Itara ryo guhagarara ry’ibara ritukura rigomba kuba ridahumisha, kandi rigomba kugaragarira mu ntera ikurikira:",
+    "options_rw": [
+      "nijoro igihe ijuru rikeye nibura muri m 200",
+      "ku manywa igihe cy’umucyo nibura muri m50",
+      "nijoro nibura muri m 100 igihe ijuru rikeye",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 174,
+    "stem_rw": "Birabujijwe kongera ku mpande z’ ikinyabiziga kigendeshwa na moteri cyangwa velomoteri ibi bikurikira:",
+    "options_rw": [
+      "imitako",
+      "ibintu bifite imigongo cyangwa ibirenga ku mubyimba kandi bishobora gutera ibyago abandi bagenzi",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 175,
+    "stem_rw": "Ikintu cyose cyatuma hahindurwa ibyanditswe bireba nyirikarita cyangwa ibiranga ikinyabiziga kigomba kumenyeshwa ibiro by’ imisoro haba mu magambo cyangwa mu ibaruwa ishinganye. Ibyo bikorwa mu gihe kingana gute:",
+    "options_rw": [
+      "mu minsi 5",
+      "mu minsi 8",
+      "mu minsi 15",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 176,
+    "stem_rw": "Kunyuranaho bikorerwa:",
+    "options_rw": [
+      "mu ruhande rw’iburyo gusa",
+      "igihe cyose ni ibumoso",
+      "iburyo iyo unyura ku nyamaswa",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 177,
+    "stem_rw": "Iyo ubugari bw’inzira nyabagendwa igenderwamo n’ibinyabiziga budahagije kugirango bibisikane nta nkomyi abagenzi bategetswe:",
+    "options_rw": [
+      "kunyura mu nzira z’impande z’abanyamaguru",
+      "guhagarara aho bageze",
+      "koroherana",
+      "gukuraho inkomyi"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 178,
+    "stem_rw": "Umuyobozi ugenda mu muhanda igihe ubugari bwawo budatuma anyuranaho nta nkomyi ashobora kunyura mu kayira k’abanyamaguru ariko amaze kureba ibi bikurikira:",
+    "options_rw": [
+      "umuvuduko w’abanyamaguru",
+      "ubugari bw’umuhanda",
+      "umubare w’abanyamaguru",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 179,
+    "stem_rw": "Icyapa cyerekana umuvuduko ntarengwa ikinyabiziga kitagomba kurenza gishyirwa ku binyabiziga bifite uburebure ntarengwa bukurikira:",
+    "options_rw": [
+      "burenga toni 1",
+      "burenga toni 2",
+      "burenga toni 24",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 180,
+    "stem_rw": "Iyo nta mategeko awugabanya by’ umwihariko, umuvuduko ntarengwa w’ amapikipiki mu isaha ni:",
+    "options_rw": [
+      "km 25",
+      "km 70",
+      "km 40",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 181,
+    "stem_rw": "Ahatari mu nsisiro umuvuduko ntarengwa wa velomoteri mu isaha ni:",
+    "options_rw": [
+      "km 50",
+      "km 40",
+      "km 30",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 182,
+    "stem_rw": "Birabujijwe guhagarara akanya kanini aha hakurikira:",
+    "options_rw": [
+      "mu duhanda tw’abanyamagare",
+      "mu duhanda twagenewe velomoteri",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 183,
+    "stem_rw": "Amatara maremare y’ikinyabiziga agomba kutamurika mu bihe bikurikira:",
+    "options_rw": [
+      "iyo umuhanda umurikiwe umuyobozi abasha kureba muri m 200",
+      "iyo ikinyabiziga kigiye kubisikana nikindi",
+      "iyo ari mu nsisiro",
+      "ibisubizo byose nibyo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 184,
+    "stem_rw": "Ubugari bwa romoruki ikuruwe n’igare cyangwa velomoteri ntiburenza ibipimo bikurikira:",
+    "options_rw": [
+      "cm 25",
+      "cm 125",
+      "cm 45",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 185,
+    "stem_rw": "Uburyo bukoreshwa kugirango ikinyabiziga kigende gahoro igihe feri idakora neza bwitwa:",
+    "options_rw": [
+      "feri y’urugendo",
+      "feri yo guhagarara",
+      "feri yo gutabara",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 186,
+    "stem_rw": "Nta mwanya n’umwe feri ifungiraho ushobora kurekurana n’ibiziga keretse:",
+    "options_rw": [
+      "iyo bireba feri y’urugendo",
+      "iyo kurekurana ari ibyakanya gato",
+      "iyo bireba feri yo guhagarara umwanya munini, ubwo kurekurana bikaba bidashoboka bidakozwe n'umuyobozi",
+      "byose ni ibisubizo by’ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 187,
+    "stem_rw": "Ikinyabiziga ntigishobora kugira amatara arenze abiri y’ubwoko bumwe keretse kubyerekeye amatara akurikira:",
+    "options_rw": [
+      "itara ndangamubyimba",
+      "itara ryerekana icyerekezo",
+      "itara ndangaburumbarare",
+      "ibisubizo byose ni ukuri"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 188,
+    "stem_rw": "Itara ndanganyuma rigomba gushyirwa aha hakurikira:",
+    "options_rw": [
+      "ku nguni y’iburyo y’ikinyabiziga",
+      "ku gice cy’inyuma ku kinyabiziga",
+      "ahegereye inguni y’ibumoso y’ikinyabiziga",
+      "ibisubizo byose ni ukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 190,
+    "stem_rw": "Ibiziga by’ibinyabiziga bigendeshwa na moteri n’ibya velomoteri kimwe n’ibya romoruki zabyo bigomba kuba byambaye inziga zihagwa zifite amano n’ubujyakuzimu butari munsi ya milimetero imwe ku migongo yabyo yose, n’ ubudodo bwabyo ntibugire ahantu na hamwe bugaragara kdi ntibigire aho byacitse bikomeye mu mpande zabyo. Ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
+    "options_rw": [
+      "ibinyabiziga bidapakiye kdi bitajya birenza umuvuduko wa km 25 mu isaha ahateganye",
+      "ibinyabiziga bya police bijya ahatarenga km 25 uvuye aho biba",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 191,
+    "stem_rw": "Birabujijwe kugenza ibinyabiziga bigendeshwa na moteri na za romoruki zikururwa nabyo, iyo ibiziga byambaye inziga zidahagwa cyangwa inziga zikururuka zifite umubyimba uri hasi ya cm 4. Ariko ibyo ntibikurikizwa ku binyabiziga bikurikira:",
+    "options_rw": [
+      "ku binyabiziga by’ingabo",
+      "ibinyabiziga bihinga iyo bigendeshwa mu karere katarenga km 25 uvuye aho ziba",
+      "ibinyabiziga bya police",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 192,
+    "stem_rw": "Imirongo yera iteganye n’umurongo ugabanya umuhanda mo kabiri mu burebure bwawo ugaragaza:",
+    "options_rw": [
+      "ahanyurwa n’amagare na velomoteri",
+      "ahanyurwa n’ingorofani n’ibinyamitende",
+      "ahanyurwa n’abanyamaguru",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 193,
+    "stem_rw": "Iyo harimo indi myanya birabujijwe gutwara ku ntebe y’imbere y’imodoka abana badafite imyaka ikurikira:",
+    "options_rw": [
+      "imyaka 10",
+      "imyaka 12",
+      "imyaka 7",
+      "nta gisubizocy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 194,
+    "stem_rw": "Iyo ikinyabiziga kitagikora cyangwa cyoherejwe mu mahanga burundu ibyapa ndanga bigomba gukurwaho bikoherezwa mu biro by’ imisoro, ibyo bikorwa mu gihe kingana gute:",
+    "options_rw": [
+      "ibyumweru bibiri",
+      "amezi abiri",
+      "ukwezi kumwe",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 195,
+    "stem_rw": "Inkombe z’inzira nyabagendwa cyangwa z’ umuhanda zishobora kugaragazwa n’ibikoresho ngarurarumuri ibyo bikoresho bigomba gushyirwaho ku buryo abagenzi babibona ku buryo bukurikira:",
+    "options_rw": [
+      "babona gusa ibumoso bwabo ibyibara ryera",
+      "iburyo babona iby’ibara ritukura cyangwa risa n’ icunga rihishije gusa",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 196,
+    "stem_rw": "Iyo kuyobya umuhanda ari ngombwa bigaragazwa kuva aho uhera no kuburebure bwawo n’icyapa gifite ubuso bw’amabara akurikira:",
+    "options_rw": [
+      "umukara",
+      "umweru",
+      "umutuku",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 197,
+    "stem_rw": "Ku mihanda yagenwe na minisitiri ubifite mu nshingano ibyapa biburira n’ibyapa byerekana bigomba kugaragazwa kuva bwije kugera bukeye n’urumuri rwihariye cyangwa amatara ku mihanda cyangwa ibintu ngarurarumuri. Igihe ijuru rikeye intera y’ahagaragara igomba kuba nibura:",
+    "options_rw": [
+      "m50",
+      "m120",
+      "m150",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 198,
+    "stem_rw": "Ibizirikisho by’iminyururu cyangwa by’ insinga kimwe n’ibindi by’ingoboka bikoreshwa gusa igihe nta kundi umuntu yabigenza kandi nta kindi bigiriwe uretse gusa kugirango ikinyabiziga kigere aho kigomba gukorerwa kandi nturenze na rimwe km 20 mu isaha, ibyo bizirikisho bigaragazwa ku buryo bukurikira:",
+    "options_rw": [
+      "agatambaro gatukura kuri cm 50 z’umuhanda",
+      "ikimenyetso cy’itara risa n’icunga rihishije",
+      "icyapa cyera cya mpande enye zingana gifite cm 30 kuri buri ruhande",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 199,
+    "stem_rw": "Uretse mu mijyi, kuyindi mihanda yagenywe na minisiteri ushinzwe gutwara ibintu n’abantu, uburemere ntarengwa bwemewe ku binyabiziga bifatanye bifite imitambiko itatu ni:",
+    "options_rw": [
+      "toni 12",
+      "toni 16",
+      "toni 10",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 200,
+    "stem_rw": "Uretse mu mujyi kuyindi mihanda yajyenwe na minisitiri ushinzwe gutwara abantu n’ibintu, uburemere ntarengwa ku binyabiziga bifite imitambiko itatu cyangwa irenga hatarimo mukuzungu ni :",
+    "options_rw": [
+      "toni 10",
+      "toni 12",
+      "toni 15",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 201,
+    "stem_rw": "Iyo nta mategeko awugabanya by’ umwihariko umuvuduko ntarengwa ku modoka zidafite ibizibuza kwiceka kuberako ariko zakozwe ni:",
+    "options_rw": [
+      "km 70 mu isaha",
+      "km 40 mu isaha",
+      "km 25 mu isaha",
+      "km20 mu isaha"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 202,
+    "stem_rw": "Iyo nta mategeko awugabanya by’ umwihariko umuvuduko ntarengwa ku modoka zidafite ibizibuza kwiceka kuberako ariko zakozwe ni:",
+    "options_rw": [
+      "km 20 mu isaha",
+      "km 40 mu isaha",
+      "km 35 mu isaha",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 203,
+    "stem_rw": "Ikinyabiziga kibujijwe guhagarara akanya kanini aha hakurikira :",
+    "options_rw": [
+      "imbere y’ahantu nyabagendwa hinjirwa n’ ahasohokerwa n’abantu benshi",
+      "mu muhanda aho ugabanyijemo ibisate bigaragazwa n’imirongo icagaguye",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 204,
+    "stem_rw": "Iyo kuva bwije kugeza bukeye cyangwa bitewe n’uko ibihe bimeze nk’igihe cy’ibihu cyangwa cy’imvura bitagishoboka kubona neza muri m 200, udutsiko twose tw’abanyamaguru nk’ imperekerane cyangwa udutsiko tw’abanyeshuri bari ku murongo bayobowe n’umwarimu, iyo bagenda mu muhanda ku isonga hakaba hari abantu barenze umwe bagomba kugaragazwa kuburyo bukurikira:",
+    "options_rw": [
+      "imbere ni itara ry’umuhondo ritwariwe ibumoso",
+      "inyuma ni itara ryumutuku ritwariwe ibumoso n’umuntu uri ku murongo w’inyuma hafi y’ umurongo ugabanya umuhanda mo kabiri",
+      "A na B ni ibisubizo by’ukuri",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 205,
+    "stem_rw": "Imburira zimurika zemerewe gukoreshwa kugirango bamenyeshe umuyobozi ko bagiye kumunyuraho aha hakurikira:",
+    "options_rw": [
+      "mu nsisiro cyangwa ahandi hose",
+      "ahegereye inyamaswa zikurura",
+      "hafi y’amatungo",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 206,
+    "stem_rw": "Ibinyabiziga bifite ubugari bufite ibipimo bikurikira bigomba kugira amatara ndangaburumbarare",
+    "options_rw": [
+      "metero 3",
+      "metero 2 na cm 50",
+      "metero 1 na cm 10",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 207,
+    "stem_rw": "Nta tara na rimwe cyangwa akagarurarumuri bishobora kuba bifunze kuburyo igice cyabyo cyo hasi cyane kimurika kiba kiri hasi y’ibipimo bikurikira kuva ku butaka igihe ikinyabiziga kidapakiye:",
+    "options_rw": [
+      "cm 30",
+      "cm 20",
+      "cm 50",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 208,
+    "stem_rw": "Ahari hejuru cyane y’ubuso bumurika h’ amatara ndangambere na ndanganyuma ntihashobora kuba aharenze ibipimo bikurikira hejuru y’ubutaka iyo ikinyabiziga kidapakiye:",
+    "options_rw": [
+      "m1 na cm 50",
+      "m1 na cm 75",
+      "m 1 na cm 80",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 209,
+    "stem_rw": "Buri modoka cyangwa buri romoruki ikuruwe n’iyo modoka bishobora kugira itara risa n’icyatsi kibisi bituma umuyobozi yerekana ko yabonye ikimenyetso cy’uwitegura kumunyuraho. Iryo tara rigomba gushyirwa aha hakurikira:",
+    "options_rw": [
+      "hafi y’inguni y’ibumoso bw’ikinyabiziga",
+      "inyuma hafi y’impera y’ibumoso bw’ ikinyabiziga",
+      "inyuma ahegereye inguni y’iburyo",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 210,
+    "stem_rw": "Ubugari bw’imizigo yikorewe n’ipikipiki ifite akanyabiziga ko kuruhande kimwe n’ubwa romoruki ikuruwe na bene icyo kinyabiziga ntibushobora kurenza ibipimo bikurikira ku bugari bw’icyo kinyabiziga kidapakiye:",
+    "options_rw": [
+      "m 1.25",
+      "cm 30",
+      "cm 75",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 211,
+    "stem_rw": "Mu gihe telefone yawe ihamagawe utwaye imodoka wakora iki?",
+    "options_rw": [
+      "Kwitaba cyangwa guhagarara ako kanya",
+      "kutayitaba",
+      "Gushyira imodoka iruhande ukayitaba",
+      "B na c ni ibisubizo byukuri"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 212,
+    "stem_rw": "Mu gihe telefone yawe ihamagawe utwaye imodoka wakora iki?",
+    "options_rw": [
+      "Kwitaba cyangwa guhagarara ako kanya",
+      "kutayitaba",
+      "Gushyira imodoka iruhande ukayitaba",
+      "B na c ni ibisubizo byukuri 213.Niki wakora mbere y’uko uhindura icyerekezo?"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 214,
+    "stem_rw": "Niki muribi wakwirinda mugihe ushaka kunyuranaho?",
+    "options_rw": [
+      "Nyuma y’ikona ugategereza kubona uburyo bwo kunyuranaho.",
+      "Mumuhanda w’icyerekezo kimwe",
+      "Aho utagomba kurenza ibirometero 30 mu isaha.",
+      "Ugeze mumuhanda utaringaniye neza"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 216,
+    "stem_rw": "Utegereje gukata iburyo kwiherezo ry’ umuhanda.ukingirijwe nimodoka ihagaze.niki wakora?",
+    "options_rw": [
+      "Guhagarara hanyuma ukagenda gake gake witonze kugezaho ureba neza.",
+      "Kwihuta wegera imbere aho ushobora kureba ugafunga ikindi cyerekezo.",
+      "Gutegereza abanyamaguru bakakumenyesha ko ntakibazo wakata.",
+      "Guhindukiza imodoka vuba kugirango ushake indi nzira wakoresha."
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 217,
+    "stem_rw": "Mugihe uri murugendo rurerure mumuhanda urombereje w’ibice byinshi.niki wakora mugihe wumva utangiye kugira ibitotsi?",
+    "options_rw": [
+      "Gucuranga umuziki cyane.",
+      "Kwihuta cyane kugirango usoze urugendo vuba.",
+      "Kuva mumuhanda urombereje w’ibice byinshi, ugahagarara ahantu hatekanye.",
+      "Ntagisubizo cy’ukuri kirimo."
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 218,
+    "stem_rw": "Kuki ugomba gucana amatara mugihe hatangiye kwijima?",
+    "options_rw": [
+      "Kugirango akerekanamuvuduko kagaragare neza.",
+      "Kugirango abandi biborohere kukubona.",
+      "Kugira ngo ujyane nabandi bayobozi bibinyabiziga.",
+      "Kuko amatara yo ku muhanda ari kwaka"
+    ],
+    "correct": "b",
+    "has_image": false
+  },
+  {
+    "number": 219,
+    "stem_rw": "Urimo kugenda munzira nyabagendwa ni gute wanyura k’umuyobozi w’igare?",
+    "options_rw": [
+      "Kuvuza ihoni mugihe umunyuraho",
+      "Kumunyuraho umwegereye",
+      "Gusiga umwanya uhagije igihe umunyuraho",
+      "Kugabanya umuvuduko mbere y’uko umunyuraho"
+    ],
+    "correct": "c",
+    "has_image": false
+  },
+  {
+    "number": 223,
+    "stem_rw": "Utwaye ikinyabiziga inyuma ya romoruki.umuyobozi wayo akaguha ikimenyetso cyo kumutambukaho iburyo kandi ugana ibumoso, wakora iki ?",
+    "options_rw": [
+      "Kugabanya umuvuduko ukareka akagenda",
+      "Gukomeza iburyo bwawe",
+      "Kumunyuraho iburyo bwe",
+      "Kugumana umuvuduko wari ufite ukamuvugiriza ihoni 225 Wegereye inzira y’abanyamaguru ugasanga bategereje kwambuka. Ugomba gukora iki?"
+    ],
+    "correct": "a",
+    "has_image": false
+  },
+  {
+    "number": 224,
+    "stem_rw": "Uri hafi kunyura k’umuyobozi w’ ikinyamitende. Muri ibi byapa bikurikira nikihe wakwitondera?",
+    "options_rw": [
+      "b)",
+      "Amatara kamena-bihu y’imbere",
+      "d) 227.Kumanywa urumuri rudahagije hatabona neza .Ni ayahe matara y’urugendo ugomba gukoresha.",
+      "Amatara kamena-bihu y’inyuma"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 227,
+    "stem_rw": "Niyihe mpamvu ituma tugomba kugabanya umuvuduko mugihe hari ibihu ?",
+    "options_rw": [
+      "Igihe feri idakora",
+      "Igihe uhumishijwe n’amatara yo kubisikana",
+      "Igihe moteri imara ngo izime",
+      "Nuko biba bitoroshye kubona ikiri imbere"
+    ],
+    "correct": "d",
+    "has_image": false
+  },
+  {
+    "number": 230,
+    "stem_rw": "Icyapa gikurikira kivuze iki?",
+    "options_rw": [
+      "Ntihanyurwa",
+      "Birabujijwe guhagarara umwanya munini",
+      "Umuvuduko utarengeje",
+      "Inzira yabanyeshuli"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 238,
+    "stem_rw": "Imbere yawe iki cyapa kikubwiye iki ?",
+    "options_rw": [
+      "Umuvuduko ntarengwa wemewe",
+      "Iherezo ry’ibyo wabuzwaga",
+      "Aho banyura bazengurutse",
+      "Ibisubizo byose nibyo 240.Iki cyapa gisubanura iki?"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 241,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Umuyaga w’intambike",
+      "Urusaku rwo mu muhanda",
+      "Ikibuga cy’indege",
+      "Ibisubizko byose nibyo"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 242,
+    "stem_rw": "Iki Cyapa Gisobanura Iki?",
+    "options_rw": [
+      "Iherezo Ry’inzira Y’abanyamaguru",
+      "Iherezo Ry’umuhanda Urombereje W’ibice Byinshi",
+      "A Na B Ni Ibisubizo By’ukuri",
+      "Nta nzira ihari 243.Iki cyapa gisobanura Iki?"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 246,
+    "stem_rw": "wakora iki ubonye icyi cyapa ?",
+    "options_rw": [
+      "guhagarara gusa igihe ibinyabiziga bikwegereye",
+      "guhagarara niyo nta kinyabiziga ubona",
+      "Guhagarara gusa niba hari abana bategereje kwambuka",
+      "Guhagarara gusa igihe ikimenyetso cyaka ari umutuku"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 247,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Uguhinguka ku mwaro cyangwa ku nkombe cyangwa ahegereye icyome",
+      "Inzira nyabagendwa iri kumusozi ucuramye",
+      "Umuhanda utaringaniye",
+      "Umuhanda wangijwe n’isuri"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 248,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Hanyurwa na velomoteri gusa",
+      "Nta modoka",
+      "Hanyurwa nimodoka gusa",
+      "Ntihanyurwa n’amapikipiki"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 250,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Ahegereye amasangano y’inzira nyabagendwa n’inzira ya gari ya moshi ibambiye",
+      "Inzira ibambiye imbere",
+      "Inzira itabambiye itanafunze",
+      "Imbere hari ikiraro cy’amatungo 251.Iki cyapa gisobanura iki?"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 252,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Guhindura icyerekezo ibumoso ugana aho bahagarara",
+      "Umuhanda udakomeza",
+      "Nti byemewe guhindura icyerekezo ibumoso",
+      "Guhindura ikirekezo ibumoso ugana ku cyome"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 253,
+    "stem_rw": "Mu bimenyetso bimurika itara ritukura rivuga iki ?",
+    "options_rw": [
+      "Hagarara kereste niba ushaka gukata ibumoso",
+      "Hagarara niba ubona ntabyago byaguteza",
+      "Birabujijwe kurenga icyo kimenyetso",
+      "Wemerewe kugenda niba aho asohokera mu masangano y’umuhanda hafunze"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 254,
+    "stem_rw": "Mubimenyetso bimurika itara ry’umuhondo risobanura iki ?",
+    "options_rw": [
+      "Itegure kugenda",
+      "Birabujijwe gutambuka umurongo wo guhagarara umwanya muto cg igihe uwo murongo udahari icyo kimenyetso ubwacyo",
+      "A na b ni ibisubizo by’ukuri",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 255,
+    "stem_rw": "Mubimenyetso bimurika itara ry’icyatsi risobanura iki ?",
+    "options_rw": [
+      "Kwitegura kugenda",
+      "Uburenganzira bwo kurenga icyo kimenyetso",
+      "Hagarara niba inzira isohoka mu isangano ry’imihanda ifunze",
+      "Ntagisubizo cyukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 257,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Ukugendera mu muhanda ubisikanirwamo",
+      "Ukugendera mu muhanda ubisikanirwamo ntibyemewe",
+      "Cyerekana aho umunyegare agomba kunyura",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 258,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Ahatangirwa serivisi ni muri metero 30.",
+      "Umuvuduko munini ntarengwa utegetswe ni 30 km/h.",
+      "Umuvuduko muto ntarengwa utegetswe ni 30 km/h.",
+      "Aho ibinyabiziga bihagarara ni imbere mu birometero 30."
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 261,
+    "stem_rw": "Muri iri sangano ry’umuhanda hari icyapa gisobanura “guhagarara” n’umurongo wera urombereje munzira . Niyihe mpamvu hari iki cyapa cyo “guhagarara” hano?",
+    "options_rw": [
+      "Biragoye kubona neza mu muhanda munini",
+      "Umuvuduko mu muhanda munini wavanyweho",
+      "Ni mwisangano ry’umuhanda rikoreshwa cyane",
+      "Hari imirongo iburira ibyago bitunguranye 262.Ni iki gikenewe muri ibi bikurikira kugirango ubashe gutwara imodoka mu muhanda biteganywa nitegeko"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 268,
+    "stem_rw": "Uhuye n’ingorane utwaye ikinyabiziga , mu muhanda ufite ibyerekezo bibiri, ufite ikimenyetso kiburira cya mpandeshatu . wagishyira mu ntera ingana iki uvuye aho ikinyabiziga cyahagaze",
+    "options_rw": [
+      "Metero 5",
+      "Metero 25",
+      "Metero 45",
+      "Metero 100"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 271,
+    "stem_rw": "Iki cyapa gisobanura :",
+    "options_rw": [
+      "uburenganzira bwo gutambuka mbere",
+      "uburenganzira bwo gutambuka mbere mu yandi masangano y’umuhanda akwegereye",
+      "ibyago imbere mu masangano y’umuhanda ukwegereye",
+      "a na b ni ibisubizo by’ukuri"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 272,
+    "stem_rw": "Iki cyapa gisobanura:",
+    "options_rw": [
+      "Ntihanyurwa n’abanyamaguru",
+      "Akayira kabanyamaguru",
+      "Aho abanayamaguru bambukira",
+      "B na c ni ibisubizo by’ukuri"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 273,
+    "stem_rw": "Urenze munsisiro ,ukahasanga ibyapa bibiri iburyo bwawe bimenyesha ko irangira ry’imirimo bitewe nicyo ibyo byapa bemenyesha wagendera kuwuhe muvuduko ?",
+    "options_rw": [
+      "70 km/h",
+      "50 km/h",
+      "40 km/h",
+      "80 km/h"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 274,
+    "stem_rw": "Iki cyapa gisobanura iki?",
+    "options_rw": [
+      "Hoteli",
+      "Ibitaro",
+      "Ahagenewe kugwa kajugujugu",
+      "B na c ni ibisubizo by’ukuri"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 275,
+    "stem_rw": "igice kinzira nyabagendwa gikikijwe n’ imirongo ibiri y’umweru iciyemo uduce kandi iteganye :",
+    "options_rw": [
+      "ahagenewe guhagarara umwanya munini n’ umuto",
+      "ahagenewe abanayamaguru",
+      "ahagenewe inzira y’ibinyamitende",
+      "a na b ni ibisubizo by’ukuri"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 276,
+    "stem_rw": "iki cyapa kibuza abayobozi bibinyabiziga kunyuranaho :",
+    "options_rw": [
+      "iburyo",
+      "ibumoso",
+      "iburyo n’ibumoso",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 277,
+    "stem_rw": "Iki cyapa kibuza kunyuranaho ibumoso ku binyabiziga bikurikira :",
+    "options_rw": [
+      "ku binyabiziga byose",
+      "ku binyabiziga byose bifite moteri",
+      "kubinyabiziga byose uretse ibinyamitende ibiri n’amapikipiki adafite akanyabiziga ko k’ uruhande",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 278,
+    "stem_rw": "iki kimenyetso cyaka kinyemerera gukomeza:",
+    "options_rw": [
+      "yego",
+      "yego ariko utanga inzira kubanyamaguru",
+      "yego utanga inzira kubandi bayobozi b’ ibinyabizaga baturutse mukindi cyerekezo",
+      "oya"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 279,
+    "stem_rw": "Mu muhanda ufite uruhererekane rw’amakoni, feri y’urugendo ikoreshwa ryari?",
+    "options_rw": [
+      "Mbere ya buri koni",
+      "Muri buri koni",
+      "Nyuma ya buri koni",
+      "Nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 280,
+    "stem_rw": "Ni ikihe cyapa muri ibi kintegeka gutanga inzira:",
+    "options_rw": [
+      "Icyapa A19",
+      "Icyapa B5",
+      "Icyapa B6",
+      "Ntagisubizo cy’ukuri kirimo 281.Iki cyapa gisobanura :"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 282,
+    "stem_rw": "Uri umuyobozi wa velomoteri, uhuye n’ umwe munshuti zawe agusaba ko wa mutwara ukamusiga ku’wundi muhanda. ufite imyaka 18 ariko nta ngofero yindi yabigenewe ufite. wamutwara?",
+    "options_rw": [
+      "yego",
+      "yego usibye urugendo rurerure",
+      "yego usibye urugendo rugufi",
+      "Oya 283.Ni ikihe cyapa cy’inyemerera gutambuka mbere mu masangano y’umuhanda?"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 284,
+    "stem_rw": "Mbere yo kunyura kumuyobozi w’ ikinyabiziga cy’imitende ibiri, ngomba gucana akaranga cyerekezo k’ibumoso?",
+    "options_rw": [
+      "Yego buri gihe",
+      "Yego igihe hari ikinyabiziga kinkurikiye",
+      "Yego iyo nkurikiwe nibindi binyabiziga by’ imitende ibiri",
+      "Oya nta na rimwe kunyura kubinyabiziga by’ imitende ibiri"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 285,
+    "stem_rw": "Nshobora kunyuraho umuyobozi w’ ikinyabiziga wahagaze imbere y’inzira yabanyamaguru?",
+    "options_rw": [
+      "yego",
+      "yego nyuma yo kuvuza ihoni",
+      "yego mu gihe nkurikiwe n’ibindi binyabiziga",
+      "Oya 286.Hejuru y’aka kanunga:"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 303,
+    "stem_rw": "N’iyihe myifatire myiza wagira ugeze aho abana bari hafi y’inzira nyabagendwa?",
+    "options_rw": [
+      "Itonde , witegereze ni biba ngongwa ubaburire unitegura kuba wahagarara.",
+      "Ihute urenge aho abo bana bari c ) Komeza ugume ku muvuduko munini",
+      "Emerera umunyegare akomeze inzira ye d. Ongera umuvuuko kugira ngo umutange gukata mbere ye",
+      "Komeza ugendere kuruhande rw’iburyo 304.Umuyobozi w’ikinyabiziga yegereye aho umwana w’umuhungu utwaye akagare k’abana asezera ku nshuti ye . N’iyihe myifatire myiza wagira imbere yabo? a. Ikomereze nkaho ataragera munzira nyabagendwa"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 360,
+    "stem_rw": "Ugeze mu masangano y’umuhanda aho usanga ibimenyetso bimurika bidakora, wakora iki igihe umukozi ubifiye ububasha aguhaye iki kimenyesto ?",
+    "options_rw": [
+      "gukata ibumoso gusa",
+      "gukata iburyo gusa ugakomeza imbere",
+      "Guhagarara kumurongo wo guhagarara umwanya moto",
+      "komeza imbere gusa 361.Amatara ndangacyerekezo agomba kugaragara nijoro igihe ijuru rikeye mu ntera nibura ya: a.m 100 b.m 200"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 390,
+    "stem_rw": "Umuhanda urombereje w’ibice byinshi. Ndashaka kunyura kuri izi kamyo ibyiri mugihe gito ibumoso icyarimwe , biremewe ?",
+    "options_rw": [
+      "yego,",
+      "oya",
+      "yego bikorewe ibumoso",
+      "ntagisubizo cy’ukuri"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 391,
+    "stem_rw": "K’umuyobozi w’ivatiri, iki cyapa kivuze iki ?",
+    "options_rw": [
+      "kirambuza gutwara ku muvuduko utarengeje 5km/h",
+      "ntaburenganzira kimpa, mugihe gikurikizwa ku binyabiziga bifite hejuru y atoni 5",
+      "ntacyo bindebaho mugihe bireba gusa zipima tone 5 no kurengaho.",
+      "Ntagisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 392,
+    "stem_rw": "Ndashaka gukata iburyo. Biremewe ?",
+    "options_rw": [
+      "yego",
+      "yego, ariko nyuma yo guhagarara",
+      "ntabwo byemewe",
+      "ntagisubizo cyukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 393,
+    "stem_rw": "Umuhanda wambukiranya inzira ya gariyamoshi",
+    "options_rw": [
+      "nshobora gukomeza nkambuka umuhanda kubera ko uruzitiro rufunguye",
+      "ngomba guhagarara munsi yitara ry’umutuku rimyatsa",
+      "ntabwo nakomeza urugendo rwanjye. Ngomba gihita mpagarara",
+      "ntagisubizo cy’ukuri"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 394,
+    "stem_rw": "Kuri iki cyapa cyo mu muhanda cyambere kintegeka ?",
+    "options_rw": [
+      "Kugendera k’umuvuduko uri hejuru ya 30km/h",
+      "kutarenza umuvuduko wa 30km/h",
+      "birabujijwe kugendera kumuvuduko uri hejuru ya 30km/h",
+      "nta gisubizo cyukuri"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 396,
+    "stem_rw": "Ngomba :",
+    "options_rw": [
+      "guhagarara igihe gito kuri icyi cyapa cy’ umuhanda",
+      "guhagarara ngatanga inzira kuri metero 100 ntaragera kuri icyi cyapa",
+      "gutanga inzira nkanahagarara iyo ari ngombwa muri m100 ntaragera kuri icyi cyapa",
+      "ntagisubizo cy’ukuri"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 397,
+    "stem_rw": "Ndashaka kugata ibumoso. Imodoka y’icyatsi yaje irahagarara. Ninde ufite uburenganzira bwo gutambuka mbere?",
+    "options_rw": [
+      "mfite uburenganzira bwo gutambuka mbere",
+      "imodoka y’icyatsi ifite uburenganzira bwo gutambuka mbere",
+      "twembi ntaburenganzira bwo gutambuka mbere gusa tugomba gutambukana ubwitonzi",
+      "ntagisubizo nakimwe kirimo"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 398,
+    "stem_rw": "Mfite uburenganzira bwo gutambuka muri iri sangano ?",
+    "options_rw": [
+      "yego, niba ukata ibumoso",
+      "Oya niba ukata iburyo",
+      "yego , bitewe noho ngana",
+      "ntagisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 400,
+    "stem_rw": "Umuyobozi wikinyabiziga aritegura kunyuraho ibumoso :",
+    "options_rw": [
+      "nshobora kumunyuraho nyuze iburyo",
+      "sinshobora kumunyura",
+      "nshobora kumunyura nciye ibumoso ariko mbonye ko mfite umwanya uhagije",
+      "Ntagisubizo cy’ukuri kirimo"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 401,
+    "stem_rw": "Uhereye kuri ibi byapa habujijwe :",
+    "options_rw": [
+      "Kunyuranaho kubinyabiziga bikururwa nibinyabiziga birengeje imitende ibiri ibumoso no kugendera kumuvuduko urengeje 70 km/h",
+      "Kunyuranaho kubinyabiziga bikururwa cyangwa ibinyabiziga birengeje imitende ibiri ibumoso",
+      "kugendera hejuru ya 70 km/h",
+      "ntagisubizo cy’ukuri"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 402,
+    "stem_rw": "Ndashaka gupariki ikinyabiga iburyo kunzira y’ abanyamaguru",
+    "options_rw": [
+      "biremewe munsi yicyi cyapa",
+      "biremewe imbere y’icyi cyapa",
+      "birabujijwe imbere n’inyuma yicyi cyapa",
+      "nta gisubizo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 403,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Guhagarara, aho abanyeshuri bambukira",
+      "Hagarara akanya gato",
+      "Ibindi binyabiziga bigomba kuguha inzira",
+      "Gutanga umwanya ku bindi binyabiziga i buryo bwawe"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 404,
+    "stem_rw": "Iki cyapa gisobanura iki mu nkomane ?",
+    "options_rw": [
+      "Tanga inzira ku binyabiziga binini",
+      "Gabanya umuvuduko uhe inzira abanyamaguru.",
+      "Tanga inzira ku binyabiziga bigenda mu muhanda munini wegera",
+      "Tanga inzira ku ibinyabiziga biturutse iburyo bwawe"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 405,
+    "stem_rw": "Iki cyapa gisobanura iki aho banyura bazengurutse ? a)Tanga inzira ku binyabiziga biri mu muhanda munini",
+    "options_rw": [
+      "Komeza imbere gusa",
+      "Tanga inzira ku binyabiziga biturutse i bumoso",
+      "Tanga inzira ku ma kamyo na za otobisi",
+      "Ibinyabiziga byose uretse amapikipiki bigomba gutanga inzira 406 . Iki cyapa gisobanura iki ?"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 407,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Umuhanda urombereje w’ibice byinshi ibumoso",
+      "Umuhanda uyoborejwe i bumoso",
+      "Ibinyabiziga biturutse iburyo bifite uburenganzira bwo gutambuka mbere",
+      "Kata i bumoso gusa"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 408,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Kunyuranaho bikorerwa i buryo gusa",
+      "Umuhanda uyoborejwe i buryo",
+      "Kata i buryo gusa",
+      "Umuhanda munini urasukira i bumoso"
+    ],
+    "correct": "c",
+    "has_image": true
+  },
+  {
+    "number": 409,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Birabujijwe gukata i buryo",
+      "Tanga inzira ku bindi binyabiziga bigenda mu gihe ugiye gukatira iburyo",
+      "Kata i buryo mu gihe nta bindi binyabiziga biturutse mu kindi cyerekezo",
+      "Nta nkengero y’umuhanda yegutse iri i buryo"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 411,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Umuhanda urombereje w’ibice byinshi ku birometero 50",
+      "Intera nto ntarengwa ya metero 50 hagati y’ ibinyabiziga",
+      "Umuvuduko urenga ibirometero 50 mu isaha",
+      "Umuvuduko ntarengwa ugarukira ku birometero 50 mu isaha"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 412,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Birabujijwe ku binyabiziga bitwara abakozi ba leta",
+      "Birabujijwe guhagara umwanya munini",
+      "Birabujijwe ku binyabiziga by’abikorera ki giti cyabo",
+      "Parikingi"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 414,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Uburemere ntarengwa bwemewe bwa toni 3",
+      "Ntihanyurwa n’ibinyabiziga bigenewe gutwara ibicuruzwa",
+      "Ntihanyurwa n’ibinyabiziga bifite imitambiko itatu",
+      "Hanyurwa n’ibinyabiziga bifite imitambiko itatu gusa"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 415,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Inkomane banyuramo bazengurutse",
+      "Biremewe guhindukira",
+      "Inzira y’icyerekezo kimwe imbere",
+      "Birabujijwe guhindukira"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 416,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Umuhanda ugabanijwemo ibisate bibiri",
+      "Umuhanda ugabanijwemo ibisate bine",
+      "Inzira y’icyerekezo kimwe",
+      "Ukugendera mu muhanda ubisikanirwamo"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 417,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Umuhanda utaringaniye i buryo",
+      "Akamanuko gashobora gutera ibyago",
+      "Ahantu umuhanda umeze nabi",
+      "Uguhinguka ku mwaro cyangwa ku nkombe"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 418,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Akazamuko gashinze cyane",
+      "Umuhanda utaringaniye i bumoso",
+      "Ahantu umuhanda umeze nabi",
+      "Ahegereye utununga"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 420,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Abana",
+      "Inzira y’abanyamaguru – Itegure guhagarara",
+      "Ikibuga cy’imikino cy’abana",
+      "Ikibuga cy’ imyidagaduro"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 421,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Isoko ry’amatungo",
+      "Ivuriro ry’amatungo",
+      "Uruzitiro rw’amatungo",
+      "Akayira k’amatungo"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 422,
+    "stem_rw": "Mu byapa bikurikira , ni ikihe cyerekana umuhanda udakomeza:",
+    "options_rw": [
+      "Icyapa C1",
+      "Icyapa E14",
+      "Icyapa C2a",
+      "Icyapa B2a"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 423,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Tanga inzira",
+      "Icyago",
+      "Icyerekezo kimwe",
+      "Ntihanyurwa"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 424,
+    "stem_rw": "Muri ibi byapa bikurikira ni ikihe cyerekana ko umuyobozi ukibonye yemerewe gutambuka mbere y'abaturutse aho agana mu nzira ifunganye:",
+    "options_rw": [
+      "Icyapa B6",
+      "Icyapa A19",
+      "Icyapa B3",
+      "Icyapa A22a"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 425,
+    "stem_rw": "Iki cyapa:",
+    "options_rw": [
+      "Aho banyura bazengurutse",
+      "Cyerekana umuhanda w'ibisate bitatu",
+      "Cyerekana ahegereye inkomane",
+      "Ntagisuzo cy’ukuri kirimo"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 426,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Hanyurwa mu cyerekezo kimwe",
+      "Ntihanyurwa",
+      "Umuhanda udakomeza",
+      "Ntagisuzo cy’ukuri kirimo"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 427,
+    "stem_rw": "Ni ikihe icyapa gisobanura umuhanda w'icyerekezo kimwe:",
+    "options_rw": [
+      "Icyapa D1a",
+      "Icyapa E13a",
+      "Icyapa C19",
+      "Icyapa C1"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 428,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Aho imihanda ihurira",
+      "Inkomane y’aho umuhanda umwe urasukira iburyo",
+      "Umuhanda udakomeza",
+      "Nta gisubizo kirimo"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 429,
+    "stem_rw": "Iki cyapa gisobanura iki ?",
+    "options_rw": [
+      "Iherezo ry’ umuhanda urombeje w’ibice byinshi",
+      "Birabujijwe kunyura mu mu muhanda w’ ikindi cyerekezo",
+      "Birabujijwe kunyuranaho",
+      "Birabujijwe guhagara ku iteme"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 430,
+    "stem_rw": "Iki kimenyetso kiri mu muhanda kivuze iki ?",
+    "options_rw": [
+      "Biremewe kunyuranaho",
+      "Umuyobozi abujijwe kukirenga",
+      "Wegereye icyapa cyo guhagarara umwanya muto",
+      "Umuhanda ufunganye"
+    ],
+    "correct": "b",
+    "has_image": true
+  },
+  {
+    "number": 431,
+    "stem_rw": "Iki kimenyetso kiri mu muhanda kivuze iki ?",
+    "options_rw": [
+      "Umuyobozi abujijwe kurenga umurongo wera ucagaguye cyeretse mugihe bitateza icyago",
+      "Birabujijwe kunyuranaho",
+      "Biremewe kunyuranaho ariko nturenge umurongo wera ucagaguye",
+      "Birabujijwe gusubira inyuma"
+    ],
+    "correct": "a",
+    "has_image": true
+  },
+  {
+    "number": 432,
+    "stem_rw": "Mu gihe utwaye ikinyabiziga uva kuri A ugana kuri B, Iki kimenyetso kiri mu muhanda kivuze iki ?",
+    "options_rw": [
+      "Umuyobozi ashobora kurenga umurongo wera udacagaguye mugihe cyo guhindukira gusa",
+      "Umuyobozi w’ikinyabiziga abujijwe kunyuranaho, uretse gusa abayobozi b’ibinyamitende nibo bashobora kurenga umurongo wera udacagaguye",
+      "Umuyobozi w’ikinyabiziga abujijwe kunyuranaho arenze umurongo wera udacagaguye",
+      "Umuyobozi w’ikinyabiziga ashobora kunyuranaho mu gihe bitateza icyago"
+    ],
+    "correct": "d",
+    "has_image": true
+  },
+  {
+    "number": 433,
+    "stem_rw": "Mu gihe utwaye ikinyabiziga uva kuri A ugana kuri B, Iki kimenyetso kiri mu muhanda kivuze iki ?",
+    "options_rw": [
+      "Umuyobozi w’ikinyabiziga ashobora kunyuranaho arenze umurongo wera udacagaguye",
+      "Umuyobozi w’ikinyabiziga abujijwe kunyuranaho arenze imirongo yera",
+      "Umuyobozi w’ikinyabiziga yemerewe kunyuranaho",
+      "Abayobozi b’ibinyamitende gusa bemerewe kunyuranaho barenze umurongo wera udacagaguye"
+    ],
+    "correct": "b",
+    "has_image": true
+  }
 ]

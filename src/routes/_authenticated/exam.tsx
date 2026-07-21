@@ -195,11 +195,13 @@ function ExamPage() {
                 }`}
               >
                 <span
-                  className={`grid h-7 w-7 shrink-0 place-items-center rounded-full border text-xs font-bold ${
-                    selected ? "border-primary bg-primary text-primary-foreground" : "border-border bg-background text-muted-foreground"
+                  role="radio"
+                  aria-checked={selected}
+                  className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full border-2 transition ${
+                    selected ? "border-primary" : "border-border bg-background"
                   }`}
                 >
-                  {o.letter.toUpperCase()}
+                  {selected && <span className="h-2.5 w-2.5 rounded-full bg-primary" />}
                 </span>
                 <span className="pt-0.5 text-sm sm:text-[15px]">{o.text}</span>
                 <span className="ml-auto text-[10px] text-muted-foreground opacity-0 group-hover:opacity-100">

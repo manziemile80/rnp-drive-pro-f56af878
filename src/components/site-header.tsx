@@ -60,7 +60,7 @@ export function SiteHeader() {
             <img
               src={rnpLogo.url}
               alt="Rwanda National Police"
-              className="h-11 w-11 shrink-0 rounded-full bg-[oklch(0.14_0.04_260)] object-contain ring-2 ring-[oklch(0.82_0.15_84)]"
+              className="h-11 w-11 shrink-0 rounded-full bg-white object-contain p-0.5 ring-2 ring-[oklch(0.82_0.15_84)]"
             />
             <div className="min-w-0">
               <div className="truncate text-sm font-bold uppercase tracking-wider text-[oklch(0.82_0.15_84)]">Provisional Licence Exam</div>

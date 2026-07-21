@@ -160,10 +160,14 @@ function ExamPage() {
         {q.hasImage && (() => {
           const src = getQuestionImage(q.id);
           return src ? (
-            <div className="mb-4 overflow-hidden rounded-md border bg-white">
-              <img src={src} alt={`Road sign for question ${q.id}`} className="mx-auto max-h-[420px] w-full object-contain" />
-              <div className="border-t bg-muted/60 px-3 py-1.5 text-[10px] text-muted-foreground">
-                📷 Reference image from the official Rwanda Provisional Licence PDF (page context shown).
+            <div className="mx-auto mb-4 w-fit max-w-full overflow-hidden rounded-md border bg-white">
+              <img
+                src={src}
+                alt={`Road sign for question ${q.id}`}
+                className="mx-auto max-h-[220px] w-auto max-w-[280px] object-contain p-2"
+              />
+              <div className="border-t bg-muted/60 px-3 py-1 text-[10px] text-muted-foreground">
+                📷 Reference image from the official Rwanda Provisional Licence PDF.
               </div>
             </div>
           ) : (

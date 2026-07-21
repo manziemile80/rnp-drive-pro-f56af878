@@ -105,15 +105,21 @@ function ReviewPage() {
                       }`}
                     >
                       <span
-                        className={`grid h-6 w-6 shrink-0 place-items-center rounded-full text-xs font-bold ${
+                        role="radio"
+                        aria-checked={isAns}
+                        className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full border-2 ${
                           isRight
-                            ? "bg-[oklch(0.55_0.16_150)] text-white"
+                            ? "border-[oklch(0.55_0.16_150)]"
                             : isAns
-                              ? "bg-destructive text-destructive-foreground"
-                              : "bg-secondary text-muted-foreground"
+                              ? "border-destructive"
+                              : "border-border bg-background"
                         }`}
                       >
-                        {o.letter.toUpperCase()}
+                        {isRight ? (
+                          <span className="h-2.5 w-2.5 rounded-full bg-[oklch(0.55_0.16_150)]" />
+                        ) : isAns ? (
+                          <span className="h-2.5 w-2.5 rounded-full bg-destructive" />
+                        ) : null}
                       </span>
                       <span className="pt-0.5">{o.text}</span>
                       {isRight && <Check className="ml-auto h-4 w-4 shrink-0 text-[oklch(0.5_0.16_150)]" />}

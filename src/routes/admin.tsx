@@ -11,7 +11,6 @@ import {
 } from "@/lib/exam/store";
 import { supabase } from "@/integrations/supabase/client";
 import {
-  getMyRole,
   createTokens,
   listTokens,
   setTokenRevoked,
@@ -33,8 +32,14 @@ function AdminPage() {
       const { data } = await supabase.auth.getUser();
       if (!data.user) return setState("unauth");
       try {
-        const r = await getMyRole();
-        setState(r.isAdmin ? "ok" : "notadmin");
+        const { data: rows, error } = await supabase
+          .from("user_roles")
+          .select("role")
+          .eq("user_id", data.user.id)
+          .eq("role", "admin")
+          .limit(1);
+        if (error) throw error;
+        setState(rows && rows.length > 0 ? "ok" : "notadmin");
       } catch {
         setState("notadmin");
       }

@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { Clock, ListChecks, Target, Trophy, Play, RotateCcw, ShieldCheck } from "lucide-react";
 import { LANGS, t, type Lang } from "@/lib/exam/i18n";
 import { supabase } from "@/integrations/supabase/client";
-import { checkAccess, redeemToken } from "@/lib/exam/exam.functions";
 import {
   EXAM_LENGTH,
   EXAM_MINUTES,
@@ -28,10 +27,6 @@ function Index() {
   const [bankSize, setBank] = useState(0);
   const [hasResume, setResume] = useState(false);
   const [historyCount, setHC] = useState(0);
-  const [tokenModal, setTokenModal] = useState(false);
-  const [tokenCode, setTokenCode] = useState("");
-  const [tokenErr, setTokenErr] = useState<string | null>(null);
-  const [tokenBusy, setTokenBusy] = useState(false);
 
   useEffect(() => {
     setL(getLang());
@@ -46,37 +41,9 @@ function Index() {
       navigate({ to: "/auth", search: { redirect: "/" } as never });
       return;
     }
-    try {
-      const access = await checkAccess();
-      if (!access.hasAccess) {
-        setTokenModal(true);
-        return;
-      }
-    } catch {
-      setTokenModal(true);
-      return;
-    }
     clearCurrent();
     buildExam(getLang());
     navigate({ to: "/exam" });
-  };
-
-  const submitToken = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setTokenErr(null);
-    setTokenBusy(true);
-    try {
-      await redeemToken({ data: { code: tokenCode.trim() } });
-      setTokenModal(false);
-      setTokenCode("");
-      clearCurrent();
-      buildExam(getLang());
-      navigate({ to: "/exam" });
-    } catch (e) {
-      setTokenErr(e instanceof Error ? e.message : "Invalid token");
-    } finally {
-      setTokenBusy(false);
-    }
   };
 
   return (
@@ -189,30 +156,6 @@ function Index() {
           </Link>
         </div>
       </section>
-
-      {tokenModal && (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-black/60 p-4">
-          <form onSubmit={submitToken} className="w-full max-w-md rounded-lg border bg-card p-6 shadow-2xl">
-            <h3 className="text-lg font-bold">Enter access token</h3>
-            <p className="mt-1 text-sm text-muted-foreground">Enter the token you received from the administrator to start your exam.</p>
-            <input
-              autoFocus
-              value={tokenCode}
-              onChange={(e) => setTokenCode(e.target.value.toUpperCase())}
-              className="mt-4 w-full rounded-md border bg-background px-3 py-2 font-mono text-lg tracking-widest"
-              placeholder="XXXXXXXXXX"
-              maxLength={16}
-            />
-            {tokenErr && <div className="mt-2 rounded-md border border-destructive/40 bg-destructive/10 px-3 py-2 text-xs text-destructive">{tokenErr}</div>}
-            <div className="mt-4 flex justify-end gap-2">
-              <button type="button" onClick={() => setTokenModal(false)} className="rounded-md border px-4 py-2 text-sm hover:bg-secondary">Cancel</button>
-              <button type="submit" disabled={tokenBusy || tokenCode.length < 4} className="rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground disabled:opacity-50">
-                {tokenBusy ? "Verifying…" : "Redeem"}
-              </button>
-            </div>
-          </form>
-        </div>
-      )}
     </div>
   );
 }

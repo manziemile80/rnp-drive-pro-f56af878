@@ -77,9 +77,10 @@ function ReviewPage() {
                 )}
               </div>
               <p className="font-semibold leading-relaxed">{q.stem}</p>
-              {q.hasImage && (() => {
+              {(() => {
                 const src = getQuestionImage(q.id);
-                return src ? (
+                if (!src) return null;
+                return (
                   <div className="mx-auto mt-3 w-fit max-w-full overflow-hidden rounded-md border bg-white">
                     <img
                       src={src}
@@ -87,7 +88,7 @@ function ReviewPage() {
                       className="mx-auto max-h-[200px] w-auto max-w-[260px] object-contain p-2"
                     />
                   </div>
-                ) : null;
+                );
               })()}
               <div className="mt-4 space-y-1.5">
                 {q.options.map((o) => {

@@ -157,9 +157,10 @@ function ExamPage() {
             <span>{t("no_translation", state.lang)} <em>({state.lang === "rw" ? "" : "Kinyarwanda"})</em></span>
           </div>
         )}
-        {q.hasImage && (() => {
+        {(() => {
           const src = getQuestionImage(q.id);
-          return src ? (
+          if (src) {
+            return (
             <div className="mx-auto mb-4 w-fit max-w-full overflow-hidden rounded-md border bg-white">
               <img
                 src={src}
@@ -170,11 +171,16 @@ function ExamPage() {
                 📷 Reference image from the official Rwanda Provisional Licence PDF.
               </div>
             </div>
-          ) : (
-            <div className="mb-3 rounded-md border border-dashed bg-muted/60 p-3 text-xs text-muted-foreground">
-              📷 This question references a road sign image (not available).
-            </div>
-          );
+            );
+          }
+          if (q.hasImage) {
+            return (
+              <div className="mb-3 rounded-md border border-dashed bg-muted/60 p-3 text-xs text-muted-foreground">
+                📷 This question references a road sign image (not available).
+              </div>
+            );
+          }
+          return null;
         })()}
         <h2 className="text-base font-semibold leading-relaxed sm:text-lg">
           <span className="mr-2 rounded bg-primary/10 px-2 py-0.5 font-mono text-xs text-primary">Q{q.id}</span>

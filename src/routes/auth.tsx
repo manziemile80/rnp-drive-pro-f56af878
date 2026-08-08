@@ -2,12 +2,12 @@ import { createFileRoute, useNavigate, useSearch } from "@tanstack/react-router"
 import { useEffect, useState } from "react";
 import { z } from "zod";
 import { supabase } from "@/integrations/supabase/client";
-import { LogIn, UserPlus, ShieldCheck } from "lucide-react";
+import { LogIn, UserPlus, ShieldCheck, Mail } from "lucide-react";
 
 const searchSchema = z.object({ redirect: z.string().optional() });
 
 // Where the email verification link should land the user.
-const VERIFY_REDIRECT_URL = "https://rnp-drive-pro.vercel.app";
+const VERIFY_REDIRECT_URL = "https://rnp-drive-pro.vercel.app/verified";
 
 export const Route = createFileRoute("/auth")({
   validateSearch: searchSchema,
@@ -23,6 +23,7 @@ function AuthPage() {
   const [pw, setPw] = useState("");
   const [err, setErr] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [sentTo, setSentTo] = useState<string | null>(null);
 
   useEffect(() => {
     supabase.auth.getUser().then(({ data }) => {
@@ -36,12 +37,16 @@ function AuthPage() {
     setLoading(true);
     try {
       if (mode === "signup") {
-        const { error } = await supabase.auth.signUp({
+        const { data, error } = await supabase.auth.signUp({
           email,
           password: pw,
           options: { emailRedirectTo: VERIFY_REDIRECT_URL },
         });
         if (error) throw error;
+        if (!data.session) {
+          setSentTo(email);
+          return;
+        }
       } else {
         const { error } = await supabase.auth.signInWithPassword({ email, password: pw });
         if (error) throw error;
@@ -53,6 +58,27 @@ function AuthPage() {
       setLoading(false);
     }
   };
+
+  if (sentTo) {
+    return (
+      <div className="mx-auto grid min-h-[75vh] max-w-md items-center px-4">
+        <div className="w-full rounded-xl border bg-card p-8 text-center shadow-[var(--shadow-card)]">
+          <Mail className="mx-auto h-12 w-12 text-[oklch(0.5_0.14_78)]" />
+          <h1 className="mt-5 text-2xl font-bold">Confirm your email</h1>
+          <p className="mt-2 text-sm text-muted-foreground">
+            We sent a verification link to <span className="font-semibold text-foreground">{sentTo}</span>.
+            Open it on any device and click the link — you'll see a confirmation message once your email is verified.
+          </p>
+          <button
+            onClick={() => { setSentTo(null); setMode("signin"); }}
+            className="mt-6 text-xs text-muted-foreground hover:text-foreground"
+          >
+            Back to sign in
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto grid min-h-[75vh] max-w-md items-center px-4">

@@ -6,6 +6,9 @@ import { LogIn, UserPlus, ShieldCheck } from "lucide-react";
 
 const searchSchema = z.object({ redirect: z.string().optional() });
 
+// Where the email verification link should land the user.
+const VERIFY_REDIRECT_URL = "https://rnp-drive-pro.vercel.app";
+
 export const Route = createFileRoute("/auth")({
   validateSearch: searchSchema,
   head: () => ({ meta: [{ title: "Sign in · Rwanda Provisional Licence Exam" }] }),
@@ -36,7 +39,7 @@ function AuthPage() {
         const { error } = await supabase.auth.signUp({
           email,
           password: pw,
-          options: { emailRedirectTo: window.location.origin },
+          options: { emailRedirectTo: VERIFY_REDIRECT_URL },
         });
         if (error) throw error;
       } else {

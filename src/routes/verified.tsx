@@ -1,9 +1,11 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import { z } from "zod";
 import { supabase } from "@/integrations/supabase/client";
 import { CheckCircle2, XCircle, Loader2 } from "lucide-react";
 
 export const Route = createFileRoute("/verified")({
+  validateSearch: z.object({ next: z.string().optional() }),
   head: () => ({
     meta: [
       { title: "Email verified · Rwanda Provisional Licence Exam" },
@@ -20,6 +22,7 @@ export const Route = createFileRoute("/verified")({
 type State = "checking" | "success" | "error";
 
 function VerifiedPage() {
+  const navigate = useNavigate();
   const [state, setState] = useState<State>("checking");
   const [message, setMessage] = useState("Verifying your email…");
 
@@ -63,7 +66,16 @@ function VerifiedPage() {
         window.history.replaceState({}, "", window.location.pathname);
         if (!cancelled) {
           setState("success");
-          setMessage("Your email has been verified successfully. You can now sign in and start your exam.");
+          const { data } = await supabase.auth.getUser();
+          if (data.user) {
+            setMessage("Your email is verified and you're signed in. Taking you back…");
+            const params = new URLSearchParams(window.location.search);
+            const next = params.get("next");
+            const to = next && next.startsWith("/") ? next : "/";
+            setTimeout(() => { if (!cancelled) navigate({ to: to as "/" }); }, 1400);
+          } else {
+            setMessage("Your email has been verified successfully. You can now sign in and start your exam.");
+          }
         }
       } catch (e) {
         if (!cancelled) {
@@ -74,7 +86,7 @@ function VerifiedPage() {
     };
     void run();
     return () => { cancelled = true; };
-  }, []);
+  }, [navigate]);
 
   return (
     <div className="mx-auto grid min-h-[75vh] max-w-md items-center px-4">

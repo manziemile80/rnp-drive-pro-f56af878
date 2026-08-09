@@ -11,7 +11,6 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
-import { bridgeVerificationRedirect } from "@/lib/auth-redirect";
 import { SiteHeader, SiteFooter } from "@/components/site-header";
 
 function NotFoundComponent() {
@@ -121,10 +120,6 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
-
-  useEffect(() => {
-    bridgeVerificationRedirect();
-  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>

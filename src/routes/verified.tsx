@@ -30,6 +30,7 @@ function VerifiedPage() {
     let cancelled = false;
     const run = async () => {
       const url = new URL(window.location.href);
+      const nextParam = url.searchParams.get("next");
       const hash = new URLSearchParams(url.hash.replace(/^#/, ""));
       const q = url.searchParams;
 
@@ -69,9 +70,7 @@ function VerifiedPage() {
           const { data } = await supabase.auth.getUser();
           if (data.user) {
             setMessage("Your email is verified and you're signed in. Taking you back…");
-            const params = new URLSearchParams(window.location.search);
-            const next = params.get("next");
-            const to = next && next.startsWith("/") ? next : "/";
+            const to = nextParam && nextParam.startsWith("/") ? nextParam : "/";
             setTimeout(() => { if (!cancelled) navigate({ to: to as "/" }); }, 1400);
           } else {
             setMessage("Your email has been verified successfully. You can now sign in and start your exam.");

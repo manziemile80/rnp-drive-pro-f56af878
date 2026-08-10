@@ -31,11 +31,11 @@ function StatsPage() {
   const leastMissed = [...missed].reverse().slice(0, 8);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-6xl px-3 py-6 sm:px-6 sm:py-8">
       <Link to="/" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
         <ArrowLeft className="h-3.5 w-3.5" /> Home
       </Link>
-      <h1 className="mt-2 text-3xl font-bold tracking-tight">Statistics Dashboard</h1>
+      <h1 className="mt-2 text-2xl font-bold tracking-tight sm:text-3xl">Statistics Dashboard</h1>
       <p className="mt-1 text-sm text-muted-foreground">Personal performance across all practice attempts saved on this device.</p>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -88,7 +88,7 @@ function StatsPage() {
           <p className="text-sm text-muted-foreground">No attempts yet.</p>
         ) : (
           <div className="overflow-x-auto">
-            <table className="w-full text-sm">
+            <table className="w-full min-w-[520px] text-sm">
               <thead>
                 <tr className="text-left text-xs uppercase text-muted-foreground">
                   <th className="p-2">Date</th>

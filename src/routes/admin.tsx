@@ -74,14 +74,14 @@ type Tab = "bank" | "tokens" | "attempts" | "admins";
 function AdminPanel() {
   const [tab, setTab] = useState<Tab>("tokens");
   return (
-    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-6xl px-3 py-6 sm:px-6 sm:py-8">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Admin Panel</h1>
+          <h1 className="text-xl font-bold sm:text-2xl">Admin Panel</h1>
           <p className="text-sm text-muted-foreground">Manage access tokens, review candidate performance, and edit the question bank.</p>
         </div>
       </div>
-      <div className="mt-6 flex flex-wrap gap-1 border-b">
+      <div className="-mx-3 mt-6 flex gap-1 overflow-x-auto border-b px-3 sm:mx-0 sm:flex-wrap sm:px-0">
         {([
           ["tokens", "Access Tokens", KeyRound],
           ["attempts", "Attempts", ClipboardCheck],
@@ -91,7 +91,7 @@ function AdminPanel() {
           <button
             key={id}
             onClick={() => setTab(id)}
-            className={`inline-flex items-center gap-1.5 border-b-2 px-4 py-2 text-sm font-semibold transition ${
+            className={`inline-flex shrink-0 items-center gap-1.5 border-b-2 px-3 py-2.5 text-sm font-semibold transition sm:px-4 ${
               tab === id ? "border-primary text-primary" : "border-transparent text-muted-foreground hover:text-foreground"
             }`}
           >
@@ -152,8 +152,8 @@ function TokensTab() {
         {err && <div className="mt-2 text-xs text-destructive">{err}</div>}
       </div>
 
-      <div className="mt-4 overflow-hidden rounded-lg border bg-card">
-        <table className="w-full text-sm">
+      <div className="mt-4 overflow-x-auto rounded-lg border bg-card">
+        <table className="w-full min-w-[560px] text-sm">
           <thead className="bg-secondary/70 text-left text-xs uppercase text-muted-foreground">
             <tr><th className="p-3">Code</th><th className="p-3">Status</th><th className="p-3">Redeemed</th><th className="p-3">Note</th><th className="p-3"></th></tr>
           </thead>
@@ -203,8 +203,8 @@ function AttemptsTab() {
         <Card label="Passed" value={String(rows.filter((r) => r.passed).length)} />
       </div>
       {err && <div className="mt-3 rounded-md border border-destructive/40 bg-destructive/10 px-3 py-2 text-xs text-destructive">{err}</div>}
-      <div className="mt-4 overflow-hidden rounded-lg border bg-card">
-        <table className="w-full text-sm">
+      <div className="mt-4 overflow-x-auto rounded-lg border bg-card">
+        <table className="w-full min-w-[640px] text-sm">
           <thead className="bg-secondary/70 text-left text-xs uppercase text-muted-foreground">
             <tr><th className="p-3">User</th><th className="p-3">Score</th><th className="p-3">%</th><th className="p-3">Status</th><th className="p-3">Lang</th><th className="p-3">When</th></tr>
           </thead>
@@ -382,8 +382,8 @@ function BankTab() {
       </div>
 
       <div className="mt-4 overflow-hidden rounded-lg border bg-card">
-        <div className="max-h-[65vh] overflow-y-auto">
-          <table className="w-full text-sm">
+        <div className="max-h-[65vh] overflow-auto">
+          <table className="w-full min-w-[560px] text-sm">
             <thead className="sticky top-0 bg-secondary/70 backdrop-blur">
               <tr className="text-left text-xs uppercase text-muted-foreground">
                 <th className="w-16 p-3">#</th>
@@ -469,8 +469,8 @@ function QuestionEditor({
   );
 
   return (
-    <div className="fixed inset-0 z-50 grid place-items-center bg-black/60 p-4">
-      <div className="w-full max-w-2xl rounded-xl border bg-card p-6 shadow-2xl">
+    <div className="fixed inset-0 z-50 grid place-items-center overflow-y-auto bg-black/60 p-3 sm:p-4">
+      <div className="max-h-[92dvh] w-full max-w-2xl overflow-y-auto rounded-xl border bg-card p-4 shadow-2xl sm:p-6">
         <h3 className="text-lg font-bold">{initial ? `Edit question #${initial.number}` : "New question"}</h3>
         <div className="mt-4 grid gap-3">
           <div className="grid grid-cols-[100px_1fr] items-center gap-2">

@@ -246,7 +246,7 @@ function ExamPage() {
       {/* Question grid */}
       <div className="mt-8 rounded-lg border bg-card p-4">
         <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">Navigate</div>
-        <div className="grid grid-cols-5 gap-1.5 xs:grid-cols-8 sm:grid-cols-10">
+        <div className="grid grid-cols-5 gap-1.5 sm:grid-cols-10">
           {state.questions.map((qq, i) => {
             const isCur = i === state.currentIndex;
             const isAns = !!state.answers[qq.id];

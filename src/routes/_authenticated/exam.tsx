@@ -112,9 +112,9 @@ function ExamPage() {
   const critTime = remaining <= 60_000;
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-6 sm:px-6">
+    <div className="mx-auto max-w-4xl px-3 py-4 sm:px-6 sm:py-6">
       {/* Sticky header row */}
-      <div className="sticky top-[72px] z-30 -mx-4 mb-4 border-b bg-background/95 px-4 py-3 backdrop-blur sm:mx-0 sm:rounded-lg sm:border sm:px-4 sm:shadow-[var(--shadow-card)]">
+      <div className="static -mx-3 mb-4 border-b bg-background/95 px-3 py-3 backdrop-blur sm:sticky sm:top-[76px] sm:z-30 sm:mx-0 sm:rounded-lg sm:border sm:px-4 sm:shadow-[var(--shadow-card)]">
         <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3 sm:flex sm:justify-between">
           <div className="min-w-0">
             <div className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
@@ -128,7 +128,7 @@ function ExamPage() {
             </div>
           </div>
           <div
-            className={`inline-flex shrink-0 items-center gap-2 rounded-md px-3 py-2 font-mono text-lg font-bold ${
+            className={`inline-flex shrink-0 items-center gap-1.5 rounded-md px-2.5 py-2 font-mono text-base font-bold sm:gap-2 sm:px-3 sm:text-lg ${
               critTime
                 ? "animate-pulse bg-destructive text-destructive-foreground"
                 : lowTime
@@ -150,7 +150,7 @@ function ExamPage() {
       )}
 
       {/* Question */}
-      <div className="rounded-lg border bg-card p-5 shadow-[var(--shadow-card)] sm:p-7">
+      <div className="rounded-lg border bg-card p-4 shadow-[var(--shadow-card)] sm:p-7">
         {q.fellBack && (
           <div className="mb-3 flex items-start gap-2 rounded-md bg-secondary p-2 text-xs text-muted-foreground">
             <Info className="mt-0.5 h-3.5 w-3.5 shrink-0" />
@@ -161,11 +161,11 @@ function ExamPage() {
           const src = getQuestionImage(q.id);
           if (src) {
             return (
-            <div className="mx-auto mb-4 w-fit max-w-full overflow-hidden rounded-md border bg-white">
+              <div className="mx-auto mb-4 w-fit max-w-full overflow-hidden rounded-md border bg-white">
               <img
                 src={src}
                 alt={`Road sign for question ${q.id}`}
-                className="mx-auto max-h-[220px] w-auto max-w-[280px] object-contain p-2"
+                className="mx-auto max-h-[180px] w-auto max-w-[220px] object-contain p-2 sm:max-h-[220px] sm:max-w-[280px]"
               />
               <div className="border-t bg-muted/60 px-3 py-1 text-[10px] text-muted-foreground">
                 📷 Reference image from the official Rwanda Provisional Licence PDF.
@@ -194,7 +194,7 @@ function ExamPage() {
               <button
                 key={o.letter}
                 onClick={() => setAnswer(q.id, o.letter)}
-                className={`group flex w-full items-start gap-3 rounded-md border p-3 text-left transition ${
+                className={`group flex w-full items-start gap-3 rounded-md border p-3 text-left transition active:scale-[0.99] ${
                   selected
                     ? "border-primary bg-primary/5 ring-2 ring-primary/20"
                     : "border-border hover:border-primary/40 hover:bg-secondary/50"
@@ -209,8 +209,8 @@ function ExamPage() {
                 >
                   {selected && <span className="h-2.5 w-2.5 rounded-full bg-primary" />}
                 </span>
-                <span className="pt-0.5 text-sm sm:text-[15px]">{o.text}</span>
-                <span className="ml-auto text-[10px] text-muted-foreground opacity-0 group-hover:opacity-100">
+                <span className="min-w-0 flex-1 break-words pt-0.5 text-sm sm:text-[15px]">{o.text}</span>
+                <span className="ml-auto hidden text-[10px] text-muted-foreground opacity-0 group-hover:opacity-100 lg:inline">
                   Press {i + 1}
                 </span>
               </button>
@@ -220,35 +220,33 @@ function ExamPage() {
       </div>
 
       {/* Nav */}
-      <div className="mt-5 flex flex-wrap justify-between gap-2">
+      <div className="mt-5 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:justify-between">
         <button
           onClick={() => goto(state.currentIndex - 1)}
           disabled={state.currentIndex === 0}
-          className="inline-flex items-center gap-1 rounded-md border px-4 py-2 text-sm font-medium hover:bg-secondary disabled:opacity-40"
+          className="inline-flex min-h-11 items-center justify-center gap-1 rounded-md border px-4 py-2 text-sm font-medium hover:bg-secondary disabled:opacity-40"
         >
           <ChevronLeft className="h-4 w-4" /> {t("previous", state.lang)}
         </button>
-        <div className="flex gap-2">
-          <button
-            onClick={() => setConfirming(true)}
-            className="inline-flex items-center gap-1 rounded-md bg-destructive px-4 py-2 text-sm font-semibold text-destructive-foreground hover:opacity-90"
-          >
-            <Flag className="h-4 w-4" /> {t("finish", state.lang)}
-          </button>
-          <button
-            onClick={() => goto(state.currentIndex + 1)}
-            disabled={state.currentIndex === state.questions.length - 1}
-            className="inline-flex items-center gap-1 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:opacity-95 disabled:opacity-40"
-          >
-            {t("next", state.lang)} <ChevronRight className="h-4 w-4" />
-          </button>
-        </div>
+        <button
+          onClick={() => goto(state.currentIndex + 1)}
+          disabled={state.currentIndex === state.questions.length - 1}
+          className="inline-flex min-h-11 items-center justify-center gap-1 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:opacity-95 disabled:opacity-40 sm:order-3"
+        >
+          {t("next", state.lang)} <ChevronRight className="h-4 w-4" />
+        </button>
+        <button
+          onClick={() => setConfirming(true)}
+          className="col-span-2 inline-flex min-h-11 items-center justify-center gap-1 rounded-md bg-destructive px-4 py-2 text-sm font-semibold text-destructive-foreground hover:opacity-90 sm:order-2 sm:col-span-1"
+        >
+          <Flag className="h-4 w-4" /> {t("finish", state.lang)}
+        </button>
       </div>
 
       {/* Question grid */}
       <div className="mt-8 rounded-lg border bg-card p-4">
         <div className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">Navigate</div>
-        <div className="grid grid-cols-10 gap-1.5">
+        <div className="grid grid-cols-5 gap-1.5 xs:grid-cols-8 sm:grid-cols-10">
           {state.questions.map((qq, i) => {
             const isCur = i === state.currentIndex;
             const isAns = !!state.answers[qq.id];
@@ -272,8 +270,8 @@ function ExamPage() {
       </div>
 
       {confirming && (
-        <div className="fixed inset-0 z-50 grid place-items-center bg-black/60 p-4">
-          <div className="w-full max-w-md rounded-lg border bg-card p-6 shadow-2xl">
+        <div className="fixed inset-0 z-50 grid place-items-center overflow-y-auto bg-black/60 p-4">
+          <div className="max-h-[90dvh] w-full max-w-md overflow-y-auto rounded-lg border bg-card p-5 shadow-2xl sm:p-6">
             <h3 className="text-lg font-bold">{t("finish", state.lang)}</h3>
             <p className="mt-2 text-sm text-muted-foreground">{t("confirm_finish", state.lang)}</p>
             <p className="mt-2 text-sm">

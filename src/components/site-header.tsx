@@ -42,7 +42,7 @@ export function SiteHeader() {
   const link = (to: string, label: string) => (
     <Link
       to={to}
-      className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+      className={`shrink-0 whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium transition-colors ${
         pathname === to
           ? "bg-primary-foreground/10 text-primary-foreground"
           : "text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/5"

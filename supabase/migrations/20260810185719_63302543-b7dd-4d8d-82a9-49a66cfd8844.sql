@@ -1,0 +1,3 @@
+delete from public.exam_attempts where user_id in (select u.id from auth.users u where not exists (select 1 from public.user_roles r where r.user_id=u.id and r.role='admin'));
+delete from public.user_roles where user_id in (select u.id from auth.users u where not exists (select 1 from public.user_roles r where r.user_id=u.id and r.role='admin'));
+delete from auth.users u where not exists (select 1 from public.user_roles r where r.user_id=u.id and r.role='admin');

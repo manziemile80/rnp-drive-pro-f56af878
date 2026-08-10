@@ -55,15 +55,15 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-primary-foreground/10 print:hidden" style={{ background: "var(--gradient-hero)" }}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-3 md:flex md:justify-between">
+        <div className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3 py-2.5 sm:gap-4 sm:py-3 md:flex md:justify-between">
           <Link to="/" className="flex min-w-0 items-center gap-3">
             <img
               src={rnpLogo.url}
               alt="Rwanda National Police"
-              className="h-11 w-11 shrink-0 rounded-full bg-white object-contain p-0.5 ring-2 ring-[oklch(0.82_0.15_84)]"
+              className="h-9 w-9 shrink-0 rounded-full bg-white object-contain p-0.5 ring-2 ring-[oklch(0.82_0.15_84)] sm:h-11 sm:w-11"
             />
             <div className="min-w-0">
-              <div className="truncate text-sm font-bold uppercase tracking-wider text-[oklch(0.82_0.15_84)]">Provisional Licence Exam</div>
+              <div className="truncate text-[13px] font-bold uppercase tracking-wider text-[oklch(0.82_0.15_84)] sm:text-sm">Provisional Licence Exam</div>
               <div className="truncate text-[11px] text-primary-foreground/70">Republic of Rwanda · Practice System</div>
             </div>
           </Link>
@@ -72,13 +72,13 @@ export function SiteHeader() {
             {link("/stats", t("stats", lang))}
             {link("/admin", t("admin", lang))}
           </nav>
-          <div className="col-span-2 flex items-center justify-between gap-2 border-t border-primary-foreground/10 pt-3 md:col-span-1 md:border-0 md:pt-0">
+          <div className="col-span-2 flex flex-wrap items-center justify-between gap-2 border-t border-primary-foreground/10 pt-2.5 md:col-span-1 md:flex-nowrap md:border-0 md:pt-0">
             <div className="flex items-center gap-1 rounded-md bg-primary-foreground/5 p-1">
               {LANGS.map((l) => (
                 <button
                   key={l.code}
                   onClick={() => changeLang(l.code)}
-                  className={`rounded px-2 py-1 text-xs font-medium transition ${
+                  className={`rounded px-2.5 py-1.5 text-xs font-medium transition ${
                     lang === l.code
                       ? "bg-[oklch(0.82_0.15_84)] text-[oklch(0.2_0.05_260)]"
                       : "text-primary-foreground/70 hover:text-primary-foreground"
@@ -122,7 +122,7 @@ export function SiteHeader() {
             </button>
           </div>
         </div>
-        <nav className="flex items-center gap-1 pb-2 md:hidden">
+      <nav className="-mx-1 flex items-center gap-1 overflow-x-auto pb-2 md:hidden">
           {link("/", t("home", lang))}
           {link("/stats", t("stats", lang))}
           {link("/admin", t("admin", lang))}

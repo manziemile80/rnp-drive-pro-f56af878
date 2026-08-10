@@ -34,21 +34,21 @@ function ReviewPage() {
   });
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-4xl px-3 py-6 sm:px-6 sm:py-8">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <div>
           <Link to="/result" className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
             <ArrowLeft className="h-3.5 w-3.5" /> Back to result
           </Link>
-          <h1 className="mt-1 text-2xl font-bold">{t("review_answers", r.lang)}</h1>
+          <h1 className="mt-1 text-xl font-bold sm:text-2xl">{t("review_answers", r.lang)}</h1>
         </div>
-        <div className="flex items-center gap-1 rounded-md border bg-card p-1 text-xs">
-          <Filter className="ml-2 h-3.5 w-3.5 text-muted-foreground" />
+        <div className="-mx-3 flex w-[calc(100%+1.5rem)] items-center gap-1 overflow-x-auto rounded-md border bg-card p-1 text-xs sm:mx-0 sm:w-auto">
+          <Filter className="ml-2 h-3.5 w-3.5 shrink-0 text-muted-foreground" />
           {(["all", "correct", "wrong", "unanswered"] as const).map((f) => (
             <button
               key={f}
               onClick={() => setFilter(f)}
-              className={`rounded px-3 py-1.5 font-medium capitalize ${filter === f ? "bg-primary text-primary-foreground" : "hover:bg-secondary"}`}
+              className={`shrink-0 rounded px-3 py-2 font-medium capitalize ${filter === f ? "bg-primary text-primary-foreground" : "hover:bg-secondary"}`}
             >
               {f}
             </button>
@@ -61,7 +61,7 @@ function ReviewPage() {
           const ans = r.answers[q.id];
           const isCorrect = ans === q.correctLetter;
           return (
-            <div key={q.id} className="rounded-lg border bg-card p-5 shadow-[var(--shadow-card)]">
+            <div key={q.id} className="rounded-lg border bg-card p-4 shadow-[var(--shadow-card)] sm:p-5">
               <div className="mb-3 flex items-center gap-2 text-xs">
                 <span className="rounded bg-secondary px-2 py-0.5 font-mono">#{idx + 1} · Q{q.id}</span>
                 {!ans ? (
@@ -76,7 +76,7 @@ function ReviewPage() {
                   </span>
                 )}
               </div>
-              <p className="font-semibold leading-relaxed">{q.stem}</p>
+              <p className="break-words text-sm font-semibold leading-relaxed sm:text-base">{q.stem}</p>
               {(() => {
                 const src = getQuestionImage(q.id);
                 if (!src) return null;
@@ -85,7 +85,7 @@ function ReviewPage() {
                     <img
                       src={src}
                       alt={`Road sign for question ${q.id}`}
-                      className="mx-auto max-h-[200px] w-auto max-w-[260px] object-contain p-2"
+                      className="mx-auto max-h-[170px] w-auto max-w-[210px] object-contain p-2 sm:max-h-[200px] sm:max-w-[260px]"
                     />
                   </div>
                 );
@@ -122,7 +122,7 @@ function ReviewPage() {
                           <span className="h-2.5 w-2.5 rounded-full bg-destructive" />
                         ) : null}
                       </span>
-                      <span className="pt-0.5">{o.text}</span>
+                      <span className="min-w-0 flex-1 break-words pt-0.5">{o.text}</span>
                       {isRight && <Check className="ml-auto h-4 w-4 shrink-0 text-[oklch(0.5_0.16_150)]" />}
                       {isAns && !isRight && <X className="ml-auto h-4 w-4 shrink-0 text-destructive" />}
                     </div>

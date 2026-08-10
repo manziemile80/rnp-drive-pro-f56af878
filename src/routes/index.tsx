@@ -51,24 +51,24 @@ function Index() {
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ background: "var(--gradient-hero)" }}>
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, oklch(0.82 0.15 84) 0%, transparent 40%), radial-gradient(circle at 80% 70%, oklch(0.55 0.15 260) 0%, transparent 45%)" }} />
-        <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:py-24">
+        <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:py-24">
           <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-center">
             <div className="text-primary-foreground">
               <div className="inline-flex items-center gap-2 rounded-full border border-[oklch(0.82_0.15_84)]/40 bg-[oklch(0.82_0.15_84)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[oklch(0.82_0.15_84)]">
                 <ShieldCheck className="h-3.5 w-3.5" />
                 {t("inspired_by", lang)}
               </div>
-              <h1 className="mt-4 text-3xl font-black leading-tight sm:text-4xl md:text-5xl">
+              <h1 className="mt-4 text-2xl font-black leading-tight sm:text-4xl md:text-5xl">
                 {t("app_title", lang)}
               </h1>
-              <p className="mt-3 max-w-2xl text-base text-primary-foreground/80 sm:text-lg">
+              <p className="mt-3 max-w-2xl text-sm text-primary-foreground/80 sm:text-lg">
                 {t("app_subtitle", lang)}
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <button
                   onClick={start}
-                  className="group inline-flex items-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-wider text-[oklch(0.2_0.05_260)] shadow-lg transition hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-[oklch(0.82_0.15_84)] focus:ring-offset-2 focus:ring-offset-[oklch(0.22_0.08_260)]"
+                  className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-wider text-[oklch(0.2_0.05_260)] shadow-lg transition hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-[oklch(0.82_0.15_84)] focus:ring-offset-2 focus:ring-offset-[oklch(0.22_0.08_260)]"
                   style={{ background: "var(--gradient-gold)" }}
                 >
                   <Play className="h-4 w-4" />
@@ -77,7 +77,7 @@ function Index() {
                 {hasResume && (
                   <Link
                     to="/exam"
-                    className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/30 bg-primary-foreground/5 px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary-foreground/10"
+                    className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-primary-foreground/30 bg-primary-foreground/5 px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary-foreground/10"
                   >
                     <RotateCcw className="h-4 w-4" />
                     {t("resume_exam", lang)}
@@ -107,9 +107,9 @@ function Index() {
             </div>
 
             {/* Stat card */}
-            <div className="rounded-xl border border-primary-foreground/10 bg-primary-foreground/5 p-6 backdrop-blur">
+            <div className="rounded-xl border border-primary-foreground/10 bg-primary-foreground/5 p-4 backdrop-blur sm:p-6">
               <div className="text-xs font-semibold uppercase tracking-widest text-[oklch(0.82_0.15_84)]">Exam Overview</div>
-              <dl className="mt-4 grid grid-cols-2 gap-4">
+              <dl className="mt-4 grid grid-cols-2 gap-3 sm:gap-4">
                 <Stat icon={<ListChecks className="h-4 w-4" />} label={t("question_bank", lang)} value={String(bankSize)} />
                 <Stat icon={<Target className="h-4 w-4" />} label={t("per_exam", lang)} value={String(EXAM_LENGTH)} />
                 <Stat icon={<Clock className="h-4 w-4" />} label={t("duration", lang)} value={`${EXAM_MINUTES} ${t("minutes", lang)}`} />
@@ -126,9 +126,9 @@ function Index() {
       </section>
 
       {/* Instructions */}
-      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-        <h2 className="text-2xl font-bold tracking-tight">{t("instructions", lang)}</h2>
-        <div className="mt-6 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 sm:py-12">
+        <h2 className="text-xl font-bold tracking-tight sm:text-2xl">{t("instructions", lang)}</h2>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { icon: ListChecks, text: t("instr_1", lang) },
             { icon: Clock, text: t("instr_2", lang) },
@@ -144,14 +144,14 @@ function Index() {
           ))}
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-3">
+        <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           <button
             onClick={start}
-            className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow hover:opacity-95"
+            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow hover:opacity-95"
           >
             <Play className="h-4 w-4" /> {t("start_exam", lang)}
           </button>
-          <Link to="/stats" className="inline-flex items-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
+          <Link to="/stats" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
             {t("stats", lang)}
           </Link>
         </div>

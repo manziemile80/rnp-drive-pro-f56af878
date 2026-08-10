@@ -65,26 +65,26 @@ function ResultPage() {
   };
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8 sm:px-6">
+    <div className="mx-auto max-w-4xl px-3 py-6 sm:px-6 sm:py-8">
       <div className="overflow-hidden rounded-xl border bg-card shadow-[var(--shadow-elegant)]">
-        <div className="p-8 text-primary-foreground" style={{ background: "var(--gradient-hero)" }}>
+        <div className="p-5 text-primary-foreground sm:p-8" style={{ background: "var(--gradient-hero)" }}>
           <div className="text-xs font-semibold uppercase tracking-widest text-[oklch(0.82_0.15_84)]">
             Rwanda Provisional Licence — Result
           </div>
-          <div className="mt-4 flex flex-wrap items-center gap-4">
+          <div className="mt-4 flex flex-wrap items-center gap-3 sm:gap-4">
             <div
-              className={`inline-flex items-center gap-2 rounded-full px-5 py-2 text-lg font-black uppercase tracking-widest ${
+              className={`inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-base font-black uppercase tracking-widest sm:px-5 sm:py-2 sm:text-lg ${
                 r.passed ? "bg-[oklch(0.65_0.16_150)] text-white" : "bg-destructive text-destructive-foreground"
               }`}
             >
-              {r.passed ? <CheckCircle2 className="h-6 w-6" /> : <XCircle className="h-6 w-6" />}
+              {r.passed ? <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6" /> : <XCircle className="h-5 w-5 sm:h-6 sm:w-6" />}
               {r.passed ? t("pass", lang) : t("fail", lang)}
             </div>
-            <div className="text-5xl font-black">
+            <div className="text-4xl font-black sm:text-5xl">
               {r.score}
-              <span className="text-2xl text-primary-foreground/60">/{r.total}</span>
+              <span className="text-xl text-primary-foreground/60 sm:text-2xl">/{r.total}</span>
             </div>
-            <div className="text-3xl font-bold text-[oklch(0.82_0.15_84)]">{pct}%</div>
+            <div className="text-2xl font-bold text-[oklch(0.82_0.15_84)] sm:text-3xl">{pct}%</div>
           </div>
           <p className="mt-3 text-sm text-primary-foreground/70">
             {t("pass_mark", lang)}: {PASS_MARK}/{EXAM_LENGTH} (60%)
@@ -98,7 +98,7 @@ function ResultPage() {
           <Metric icon={<Clock className="h-4 w-4 text-primary" />} label={t("time_used", lang)} value={formatTime(r.timeUsedMs)} />
         </div>
 
-        <div className="border-t p-6">
+        <div className="border-t p-4 sm:p-6">
           <div className="mb-4 flex flex-wrap items-center gap-4">
             <div className="text-sm">
               <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">{t("accuracy", lang)}</div>
@@ -111,27 +111,27 @@ function ResultPage() {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-2">
-            <button onClick={retake} className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:opacity-95">
+          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
+            <button onClick={retake} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:opacity-95">
               <RotateCw className="h-4 w-4" /> {t("new_exam", lang)}
             </button>
-            <Link to="/review" className="inline-flex items-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
+            <Link to="/review" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
               <Target className="h-4 w-4" /> {t("review_answers", lang)}
             </Link>
-            <button onClick={() => window.print()} className="inline-flex items-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
+            <button onClick={() => window.print()} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
               <Printer className="h-4 w-4" /> {t("print", lang)}
             </button>
-            <button onClick={() => window.print()} className="inline-flex items-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
+            <button onClick={() => window.print()} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
               <Download className="h-4 w-4" /> {t("download_pdf", lang)}
             </button>
-            <Link to="/" className="inline-flex items-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
+            <Link to="/" className="col-span-2 inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary sm:col-span-1">
               {t("home", lang)}
             </Link>
           </div>
         </div>
       </div>
 
-      <div className="mt-4 rounded-lg border bg-card p-4 text-xs text-muted-foreground">
+      <div className="mt-4 break-words rounded-lg border bg-card p-4 text-xs text-muted-foreground">
         <Award className="mr-1 inline h-3.5 w-3.5" />
         Attempt ID: <code>{r.id}</code> · Finished {new Date(r.finishedAt).toLocaleString()}
       </div>

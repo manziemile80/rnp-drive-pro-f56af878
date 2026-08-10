@@ -52,8 +52,12 @@ function AuthPage() {
         });
         if (error) throw error;
         if (!data.session) {
-          setSentTo(email);
-          return;
+          // Fallback: confirmation still required on this backend.
+          const { error: signInErr } = await supabase.auth.signInWithPassword({ email, password: pw });
+          if (signInErr) {
+            setSentTo(email);
+            return;
+          }
         }
       } else {
         const { error } = await supabase.auth.signInWithPassword({ email, password: pw });
@@ -100,7 +104,7 @@ function AuthPage() {
         <p className="mt-1 text-sm text-muted-foreground">
           {mode === "signin"
             ? "Sign in to access your exam and results."
-            : "Register — we'll email you a confirmation link to verify your address."}
+            : "Register with your email and password — your account is ready right away."}
         </p>
         <form className="mt-5 space-y-3" onSubmit={submit}>
           <div>

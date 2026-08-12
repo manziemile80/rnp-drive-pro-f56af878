@@ -70,18 +70,22 @@ function ExamPage() {
   }, [state, warned5, warned1, finish]);
 
   const setAnswer = (qid: number, letter: "a" | "b" | "c" | "d") => {
-    if (!state) return;
-    const next = { ...state, answers: { ...state.answers, [qid]: letter } };
-    setState(next);
-    saveCurrent(next);
+    setState((prev) => {
+      if (!prev) return prev;
+      const next = { ...prev, answers: { ...prev.answers, [qid]: letter } };
+      saveCurrent(next);
+      return next;
+    });
   };
 
   const goto = (idx: number) => {
-    if (!state) return;
-    const clamped = Math.max(0, Math.min(state.questions.length - 1, idx));
-    const next = { ...state, currentIndex: clamped };
-    setState(next);
-    saveCurrent(next);
+    setState((prev) => {
+      if (!prev) return prev;
+      const clamped = Math.max(0, Math.min(prev.questions.length - 1, idx));
+      const next = { ...prev, currentIndex: clamped };
+      saveCurrent(next);
+      return next;
+    });
   };
 
   // Keyboard shortcuts

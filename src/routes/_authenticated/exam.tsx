@@ -70,18 +70,22 @@ function ExamPage() {
   }, [state, warned5, warned1, finish]);
 
   const setAnswer = (qid: number, letter: "a" | "b" | "c" | "d") => {
-    if (!state) return;
-    const next = { ...state, answers: { ...state.answers, [qid]: letter } };
-    setState(next);
-    saveCurrent(next);
+    setState((prev) => {
+      if (!prev) return prev;
+      const next = { ...prev, answers: { ...prev.answers, [qid]: letter } };
+      saveCurrent(next);
+      return next;
+    });
   };
 
   const goto = (idx: number) => {
-    if (!state) return;
-    const clamped = Math.max(0, Math.min(state.questions.length - 1, idx));
-    const next = { ...state, currentIndex: clamped };
-    setState(next);
-    saveCurrent(next);
+    setState((prev) => {
+      if (!prev) return prev;
+      const clamped = Math.max(0, Math.min(prev.questions.length - 1, idx));
+      const next = { ...prev, currentIndex: clamped };
+      saveCurrent(next);
+      return next;
+    });
   };
 
   // Keyboard shortcuts
@@ -187,29 +191,35 @@ function ExamPage() {
           {q.stem}
         </h2>
 
-        <div className="mt-6 space-y-2">
+        <div className="mt-6 space-y-2" role="radiogroup" aria-label="Answer options">
           {q.options.map((o, i) => {
             const selected = answered === o.letter;
             return (
               <button
                 key={o.letter}
+                type="button"
+                role="radio"
+                aria-checked={selected}
                 onClick={() => setAnswer(q.id, o.letter)}
-                className={`group flex w-full items-start gap-3 rounded-md border p-3 text-left transition active:scale-[0.99] ${
+                onPointerUp={() => setAnswer(q.id, o.letter)}
+                style={{ touchAction: "manipulation" }}
+                className={`group flex w-full select-none items-start gap-3 rounded-md border p-3 text-left transition active:scale-[0.99] ${
                   selected
-                    ? "border-primary bg-primary/5 ring-2 ring-primary/20"
+                    ? "border-primary bg-primary/10 ring-2 ring-primary/30"
                     : "border-border hover:border-primary/40 hover:bg-secondary/50"
                 }`}
               >
                 <span
-                  role="radio"
-                  aria-checked={selected}
+                  aria-hidden="true"
                   className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full border-2 transition ${
-                    selected ? "border-primary" : "border-border bg-background"
+                    selected ? "border-primary bg-primary/10" : "border-border bg-background"
                   }`}
                 >
                   {selected && <span className="h-2.5 w-2.5 rounded-full bg-primary" />}
                 </span>
-                <span className="min-w-0 flex-1 break-words pt-0.5 text-sm sm:text-[15px]">{o.text}</span>
+                <span className={`min-w-0 flex-1 break-words pt-0.5 text-sm sm:text-[15px] ${selected ? "font-semibold text-primary" : ""}`}>
+                  {o.text}
+                </span>
                 <span className="ml-auto hidden text-[10px] text-muted-foreground opacity-0 group-hover:opacity-100 lg:inline">
                   Press {i + 1}
                 </span>

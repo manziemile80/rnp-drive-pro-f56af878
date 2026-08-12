@@ -69,6 +69,7 @@
 
 :root {
   --radius: 0.5rem;
+  color-scheme: light;
   /* Rwanda National Police inspired: deep navy, gold, white, gray */
   --background: oklch(0.985 0.003 250);
   --foreground: oklch(0.18 0.04 260);
@@ -115,6 +116,7 @@
 }
 
 .dark {
+  color-scheme: dark;
   --background: oklch(0.14 0.03 260);
   --foreground: oklch(0.97 0.005 250);
   --card: oklch(0.2 0.04 260);
@@ -167,5 +169,12 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    /* Prevent OS/browser auto-dark from recoloring the app on other devices */
+    forced-color-adjust: none;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  html {
+    forced-color-adjust: none;
   }
 }

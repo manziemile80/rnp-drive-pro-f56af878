@@ -69,6 +69,7 @@
 
 :root {
   --radius: 0.5rem;
+  color-scheme: light;
   /* Rwanda National Police inspired: deep navy, gold, white, gray */
   --background: oklch(0.985 0.003 250);
   --foreground: oklch(0.18 0.04 260);

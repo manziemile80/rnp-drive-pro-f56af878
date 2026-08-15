@@ -184,3 +184,93 @@
     forced-color-adjust: none;
   }
 }
+
+/*
+ * Legacy-browser fallback (older Android/Chrome/WebView, e.g. some Sony phones).
+ * These browsers do not understand oklch(), which makes every themed color
+ * invalid and the page renders unstyled. Re-declare every token in sRGB hex.
+ */
+@supports not (color: oklch(0.5 0.1 260)) {
+  :root {
+    --background: #f7f8fb;
+    --foreground: #161c2e;
+    --card: #ffffff;
+    --card-foreground: #161c2e;
+    --popover: #ffffff;
+    --popover-foreground: #161c2e;
+    --primary: #1b2a55;
+    --primary-foreground: #ffffff;
+    --secondary: #eef0f5;
+    --secondary-foreground: #232c47;
+    --muted: #f0f2f6;
+    --muted-foreground: #6a7286;
+    --accent: #d8a93a;
+    --accent-foreground: #1e2440;
+    --destructive: #c62828;
+    --destructive-foreground: #ffffff;
+    --border: #dfe3ea;
+    --input: #e5e8ee;
+    --ring: #2a3a6b;
+    --success: #1f9254;
+    --success-foreground: #ffffff;
+    --success-strong: #16713f;
+    --gold: #d8a93a;
+    --gold-foreground: #1e2440;
+    --gold-strong: #7a5a12;
+    --navy: #16224a;
+    --navy-foreground: #ffffff;
+    --gradient-hero: linear-gradient(135deg, #16224a 0%, #26386e 55%, #1b2a55 100%);
+    --gradient-gold: linear-gradient(135deg, #e2b544, #c9962f);
+    --sidebar: #f7f8fb;
+    --sidebar-foreground: #161c2e;
+    --sidebar-primary: #1b2a55;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #eef0f5;
+    --sidebar-accent-foreground: #1b2a55;
+    --sidebar-border: #dfe3ea;
+    --sidebar-ring: #9aa2b4;
+  }
+
+  .dark {
+    --background: #0d1224;
+    --foreground: #f3f5fa;
+    --card: #182041;
+    --card-foreground: #f3f5fa;
+    --popover: #182041;
+    --popover-foreground: #f3f5fa;
+    --primary: #d8a93a;
+    --primary-foreground: #1e2440;
+    --secondary: #232c52;
+    --secondary-foreground: #f3f5fa;
+    --muted: #1e2646;
+    --muted-foreground: #aab2c6;
+    --accent: #d8a93a;
+    --accent-foreground: #1e2440;
+    --destructive: #e04343;
+    --destructive-foreground: #ffffff;
+    --border: rgba(255, 255, 255, 0.1);
+    --input: rgba(255, 255, 255, 0.12);
+    --ring: #d8a93a;
+    --success: #2fb56b;
+    --success-foreground: #0b1220;
+    --success-strong: #62d597;
+    --gold: #e2b544;
+    --gold-foreground: #131a2e;
+    --gold-strong: #edc86c;
+    --navy: #090e1f;
+    --navy-foreground: #ffffff;
+    --gradient-hero: linear-gradient(135deg, #090e1f 0%, #1c264c 60%, #0d1224 100%);
+    --gradient-gold: linear-gradient(135deg, #e2b544, #c08f2a);
+  }
+
+  /* color-mix() is unsupported in the same browsers: give the selected answer
+     state a visible solid fallback so radio choices are obvious. */
+  [role="radio"][aria-checked="true"] {
+    background-color: #eef1f8;
+    border-color: #1b2a55;
+  }
+  [role="radio"][aria-checked="true"] > span:first-child {
+    background-color: #ffffff;
+    border-color: #1b2a55;
+  }
+}

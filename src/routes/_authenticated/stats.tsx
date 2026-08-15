@@ -63,7 +63,7 @@ function StatsPage() {
             </ul>
           )}
         </Panel>
-        <Panel title="Least missed questions" icon={<TrendingUp className="h-4 w-4 text-[oklch(0.55_0.16_150)]" />}>
+        <Panel title="Least missed questions" icon={<TrendingUp className="h-4 w-4 text-success" />}>
           {leastMissed.length === 0 ? (
             <p className="text-sm text-muted-foreground">No data yet.</p>
           ) : (
@@ -74,7 +74,7 @@ function StatsPage() {
                   <span className="text-muted-foreground">
                     wrong <b>{m.wrong}</b> of <b>{m.seen}</b>
                   </span>
-                  <span className="font-semibold text-[oklch(0.5_0.16_150)]">{Math.round(m.rate * 100)}%</span>
+                  <span className="font-semibold text-success-strong">{Math.round(m.rate * 100)}%</span>
                 </li>
               ))}
             </ul>
@@ -107,7 +107,7 @@ function StatsPage() {
                     <td className="p-2">{Math.round((r.score / r.total) * 100)}%</td>
                     <td className="p-2">
                       {r.passed ? (
-                        <span className="rounded bg-[oklch(0.55_0.16_150)]/15 px-2 py-0.5 text-xs font-semibold text-[oklch(0.4_0.16_150)]">PASS</span>
+                        <span className="rounded bg-success/15 px-2 py-0.5 text-xs font-semibold text-success-strong">PASS</span>
                       ) : (
                         <span className="rounded bg-destructive/15 px-2 py-0.5 text-xs font-semibold text-destructive">FAIL</span>
                       )}
@@ -127,7 +127,7 @@ function StatsPage() {
 
 function KPI({ icon, label, value, accent }: { icon: React.ReactNode; label: string; value: string; accent?: boolean }) {
   return (
-    <div className={`rounded-lg border p-4 ${accent ? "bg-[oklch(0.82_0.15_84)]/10" : "bg-card"} shadow-[var(--shadow-card)]`}>
+    <div className={`rounded-lg border p-4 ${accent ? "bg-gold/10" : "bg-card"} shadow-[var(--shadow-card)]`}>
       <div className="flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
         {icon} {label}
       </div>

@@ -67,7 +67,7 @@ function ReviewPage() {
                 {!ans ? (
                   <span className="rounded bg-muted px-2 py-0.5 text-muted-foreground">Unanswered</span>
                 ) : isCorrect ? (
-                  <span className="inline-flex items-center gap-1 rounded bg-[oklch(0.55_0.16_150)]/15 px-2 py-0.5 text-[oklch(0.4_0.16_150)]">
+                  <span className="inline-flex items-center gap-1 rounded bg-success/15 px-2 py-0.5 text-success-strong">
                     <Check className="h-3 w-3" /> Correct
                   </span>
                 ) : (
@@ -99,7 +99,7 @@ function ReviewPage() {
                       key={o.letter}
                       className={`flex items-start gap-2 rounded-md border p-2.5 text-sm ${
                         isRight
-                          ? "border-[oklch(0.55_0.16_150)]/40 bg-[oklch(0.55_0.16_150)]/10"
+                          ? "border-success/40 bg-success/10"
                           : isAns
                             ? "border-destructive/40 bg-destructive/10"
                             : "border-transparent"
@@ -110,20 +110,20 @@ function ReviewPage() {
                         aria-checked={isAns}
                         className={`mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full border-2 ${
                           isRight
-                            ? "border-[oklch(0.55_0.16_150)]"
+                            ? "border-success"
                             : isAns
                               ? "border-destructive"
                               : "border-border bg-background"
                         }`}
                       >
                         {isRight ? (
-                          <span className="h-2.5 w-2.5 rounded-full bg-[oklch(0.55_0.16_150)]" />
+                          <span className="h-2.5 w-2.5 rounded-full bg-success" />
                         ) : isAns ? (
                           <span className="h-2.5 w-2.5 rounded-full bg-destructive" />
                         ) : null}
                       </span>
                       <span className="min-w-0 flex-1 break-words pt-0.5">{o.text}</span>
-                      {isRight && <Check className="ml-auto h-4 w-4 shrink-0 text-[oklch(0.5_0.16_150)]" />}
+                      {isRight && <Check className="ml-auto h-4 w-4 shrink-0 text-success-strong" />}
                       {isAns && !isRight && <X className="ml-auto h-4 w-4 shrink-0 text-destructive" />}
                     </div>
                   );

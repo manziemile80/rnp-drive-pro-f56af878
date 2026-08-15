@@ -75,7 +75,7 @@ function AuthPage() {
     return (
       <div className="mx-auto grid min-h-[75vh] max-w-md items-center px-4">
         <div className="w-full rounded-xl border bg-card p-8 text-center shadow-[var(--shadow-card)]">
-          <Mail className="mx-auto h-12 w-12 text-[oklch(0.5_0.14_78)]" />
+          <Mail className="mx-auto h-12 w-12 text-gold-strong" />
           <h1 className="mt-5 text-2xl font-bold">Confirm your email</h1>
           <p className="mt-2 text-sm text-muted-foreground">
             We sent a verification link to <span className="font-semibold text-foreground">{sentTo}</span>.
@@ -95,7 +95,7 @@ function AuthPage() {
   return (
     <div className="mx-auto grid min-h-[75vh] max-w-md items-center px-4">
       <div className="w-full rounded-xl border bg-card p-6 shadow-[var(--shadow-card)]">
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[oklch(0.82_0.15_84)]/40 bg-[oklch(0.82_0.15_84)]/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-[oklch(0.5_0.14_78)]">
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-gold-strong">
           <ShieldCheck className="h-3.5 w-3.5" /> Secure access
         </div>
         <h1 className="text-2xl font-bold">
@@ -119,7 +119,7 @@ function AuthPage() {
               value={pw} onChange={(e) => setPw(e.target.value)}
               className="w-full rounded-md border bg-background px-3 py-2 text-sm" />
           </div>
-          {info && !err && <div className="rounded-md border border-[oklch(0.82_0.15_84)]/40 bg-[oklch(0.82_0.15_84)]/10 px-3 py-2 text-xs text-[oklch(0.5_0.14_78)]">{info}</div>}
+          {info && !err && <div className="rounded-md border border-gold/40 bg-gold/10 px-3 py-2 text-xs text-gold-strong">{info}</div>}
           {err && <div className="rounded-md border border-destructive/40 bg-destructive/10 px-3 py-2 text-xs text-destructive">{err}</div>}
           <button type="submit" disabled={loading}
             className="inline-flex w-full items-center justify-center gap-2 rounded-md bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground hover:opacity-95 disabled:opacity-50">

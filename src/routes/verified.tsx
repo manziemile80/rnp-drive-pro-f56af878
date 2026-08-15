@@ -91,7 +91,7 @@ function VerifiedPage() {
     <div className="mx-auto grid min-h-[75vh] max-w-md items-center px-4">
       <div className="w-full rounded-xl border bg-card p-8 text-center shadow-[var(--shadow-card)]">
         {state === "checking" && <Loader2 className="mx-auto h-12 w-12 animate-spin text-muted-foreground" />}
-        {state === "success" && <CheckCircle2 className="mx-auto h-14 w-14 text-[oklch(0.6_0.15_150)]" />}
+        {state === "success" && <CheckCircle2 className="mx-auto h-14 w-14 text-success-strong" />}
         {state === "error" && <XCircle className="mx-auto h-14 w-14 text-destructive" />}
 
         <h1 className="mt-5 text-2xl font-bold">

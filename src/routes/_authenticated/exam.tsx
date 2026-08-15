@@ -123,6 +123,9 @@ function ExamPage() {
           <div className="min-w-0">
             <div className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
               {t("question", state.lang)} {state.currentIndex + 1} {t("of", state.lang)} {state.questions.length}
+              <span className="ml-2 rounded bg-primary/10 px-1.5 py-0.5 font-mono text-[10px] normal-case tracking-normal text-primary">
+                Q{q.id}
+              </span>
             </div>
             <div className="mt-2 h-2 w-full overflow-hidden rounded-full bg-muted">
               <div className="h-full rounded-full transition-all" style={{ width: `${progress}%`, background: "var(--gradient-gold)" }} />

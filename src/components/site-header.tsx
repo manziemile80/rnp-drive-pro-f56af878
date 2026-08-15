@@ -60,10 +60,10 @@ export function SiteHeader() {
             <img
               src={rnpLogo.url}
               alt="Rwanda National Police"
-              className="h-9 w-9 shrink-0 rounded-full bg-white object-contain p-0.5 ring-2 ring-[oklch(0.82_0.15_84)] sm:h-11 sm:w-11"
+              className="h-9 w-9 shrink-0 rounded-full bg-white object-contain p-0.5 ring-2 ring-gold sm:h-11 sm:w-11"
             />
             <div className="min-w-0">
-              <div className="truncate text-[13px] font-bold uppercase tracking-wider text-[oklch(0.82_0.15_84)] sm:text-sm">Provisional Licence Exam</div>
+              <div className="truncate text-[13px] font-bold uppercase tracking-wider text-gold sm:text-sm">Provisional Licence Exam</div>
               <div className="truncate text-[11px] text-primary-foreground/70">Republic of Rwanda · Practice System</div>
             </div>
           </Link>
@@ -80,7 +80,7 @@ export function SiteHeader() {
                   onClick={() => changeLang(l.code)}
                   className={`rounded px-2.5 py-1.5 text-xs font-medium transition ${
                     lang === l.code
-                      ? "bg-[oklch(0.82_0.15_84)] text-[oklch(0.2_0.05_260)]"
+                      ? "bg-gold text-gold-foreground"
                       : "text-primary-foreground/70 hover:text-primary-foreground"
                   }`}
                   aria-label={l.label}
@@ -108,7 +108,7 @@ export function SiteHeader() {
             ) : (
               <Link
                 to="/auth"
-                className="inline-flex items-center gap-1 rounded-md bg-[oklch(0.82_0.15_84)] px-3 py-1.5 text-xs font-semibold text-[oklch(0.2_0.05_260)] hover:brightness-105"
+                className="inline-flex items-center gap-1 rounded-md bg-gold px-3 py-1.5 text-xs font-semibold text-gold-foreground hover:brightness-105"
               >
                 <LogIn className="h-3.5 w-3.5" /> Sign in
               </Link>

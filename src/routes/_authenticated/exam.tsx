@@ -136,7 +136,7 @@ function ExamPage() {
               critTime
                 ? "animate-pulse bg-destructive text-destructive-foreground"
                 : lowTime
-                  ? "bg-[oklch(0.82_0.15_84)]/20 text-[oklch(0.4_0.14_78)]"
+                  ? "bg-gold/20 text-gold-strong"
                   : "bg-primary text-primary-foreground"
             }`}
           >
@@ -147,7 +147,7 @@ function ExamPage() {
       </div>
 
       {banner && (
-        <div className="mb-4 flex items-center gap-2 rounded-md border border-[oklch(0.82_0.15_84)]/40 bg-[oklch(0.82_0.15_84)]/10 px-4 py-2 text-sm font-medium text-[oklch(0.4_0.14_78)]">
+        <div className="mb-4 flex items-center gap-2 rounded-md border border-gold/40 bg-gold/10 px-4 py-2 text-sm font-medium text-gold-strong">
           <AlertTriangle className="h-4 w-4" />
           {banner}
         </div>
@@ -268,7 +268,7 @@ function ExamPage() {
                   isCur
                     ? "bg-primary text-primary-foreground ring-2 ring-primary/40"
                     : isAns
-                      ? "bg-[oklch(0.82_0.15_84)]/25 text-[oklch(0.35_0.13_78)] hover:bg-[oklch(0.82_0.15_84)]/40"
+                      ? "bg-gold/25 text-gold-strong hover:bg-gold/40"
                       : "bg-secondary text-muted-foreground hover:bg-secondary/70"
                 }`}
               >

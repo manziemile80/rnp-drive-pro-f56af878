@@ -163,7 +163,7 @@ function TokensTab() {
                 <td className="p-3 font-mono">{t.code}</td>
                 <td className="p-3">
                   {t.revoked ? <span className="rounded bg-destructive/10 px-2 py-0.5 text-xs text-destructive">Revoked</span>
-                    : t.assigned_to ? <span className="rounded bg-[oklch(0.65_0.16_150)]/15 px-2 py-0.5 text-xs text-[oklch(0.45_0.15_150)]">Used</span>
+                    : t.assigned_to ? <span className="rounded bg-success/15 px-2 py-0.5 text-xs text-success-strong">Used</span>
                     : <span className="rounded bg-secondary px-2 py-0.5 text-xs">Available</span>}
                 </td>
                 <td className="p-3 text-xs text-muted-foreground">{t.redeemed_at ? new Date(t.redeemed_at).toLocaleString() : "—"}</td>
@@ -215,7 +215,7 @@ function AttemptsTab() {
                 <td className="p-3 font-mono">{r.score}/{r.total}</td>
                 <td className="p-3 font-semibold">{Math.round(r.percentage)}%</td>
                 <td className="p-3">
-                  {r.passed ? <span className="rounded bg-[oklch(0.65_0.16_150)]/15 px-2 py-0.5 text-xs text-[oklch(0.45_0.15_150)]">Pass</span>
+                  {r.passed ? <span className="rounded bg-success/15 px-2 py-0.5 text-xs text-success-strong">Pass</span>
                     : <span className="rounded bg-destructive/10 px-2 py-0.5 text-xs text-destructive">Fail</span>}
                 </td>
                 <td className="p-3 text-xs uppercase">{r.lang}</td>
@@ -249,7 +249,7 @@ function AdminsTab() {
       <h3 className="text-sm font-semibold">Grant admin role</h3>
       <p className="mt-1 text-xs text-muted-foreground">The user must have signed up at least once with this email.</p>
       <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="user@example.com" className="mt-3 w-full rounded-md border bg-background px-3 py-2 text-sm" />
-      {msg && <div className={`mt-2 rounded-md px-3 py-2 text-xs ${msg.type === "ok" ? "border border-[oklch(0.65_0.16_150)]/40 bg-[oklch(0.65_0.16_150)]/10 text-[oklch(0.45_0.15_150)]" : "border border-destructive/40 bg-destructive/10 text-destructive"}`}>{msg.text}</div>}
+      {msg && <div className={`mt-2 rounded-md px-3 py-2 text-xs ${msg.type === "ok" ? "border border-success/40 bg-success/10 text-success-strong" : "border border-destructive/40 bg-destructive/10 text-destructive"}`}>{msg.text}</div>}
       <button type="submit" disabled={busy} className="mt-3 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground disabled:opacity-50">Grant admin</button>
     </form>
   );

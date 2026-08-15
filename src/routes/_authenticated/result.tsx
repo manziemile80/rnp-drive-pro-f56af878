@@ -68,13 +68,13 @@ function ResultPage() {
     <div className="mx-auto max-w-4xl px-3 py-6 sm:px-6 sm:py-8">
       <div className="overflow-hidden rounded-xl border bg-card shadow-[var(--shadow-elegant)]">
         <div className="p-5 text-primary-foreground sm:p-8" style={{ background: "var(--gradient-hero)" }}>
-          <div className="text-xs font-semibold uppercase tracking-widest text-[oklch(0.82_0.15_84)]">
+          <div className="text-xs font-semibold uppercase tracking-widest text-gold">
             Rwanda Provisional Licence — Result
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3 sm:gap-4">
             <div
               className={`inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-base font-black uppercase tracking-widest sm:px-5 sm:py-2 sm:text-lg ${
-                r.passed ? "bg-[oklch(0.65_0.16_150)] text-white" : "bg-destructive text-destructive-foreground"
+                r.passed ? "bg-success text-white" : "bg-destructive text-destructive-foreground"
               }`}
             >
               {r.passed ? <CheckCircle2 className="h-5 w-5 sm:h-6 sm:w-6" /> : <XCircle className="h-5 w-5 sm:h-6 sm:w-6" />}
@@ -84,7 +84,7 @@ function ResultPage() {
               {r.score}
               <span className="text-xl text-primary-foreground/60 sm:text-2xl">/{r.total}</span>
             </div>
-            <div className="text-2xl font-bold text-[oklch(0.82_0.15_84)] sm:text-3xl">{pct}%</div>
+            <div className="text-2xl font-bold text-gold sm:text-3xl">{pct}%</div>
           </div>
           <p className="mt-3 text-sm text-primary-foreground/70">
             {t("pass_mark", lang)}: {PASS_MARK}/{EXAM_LENGTH} (60%)
@@ -92,7 +92,7 @@ function ResultPage() {
         </div>
 
         <div className="grid grid-cols-2 divide-x divide-y border-t md:grid-cols-4 md:divide-y-0">
-          <Metric icon={<CheckCircle2 className="h-4 w-4 text-[oklch(0.55_0.16_150)]" />} label={t("correct_answers", lang)} value={r.score} />
+          <Metric icon={<CheckCircle2 className="h-4 w-4 text-success" />} label={t("correct_answers", lang)} value={r.score} />
           <Metric icon={<XCircle className="h-4 w-4 text-destructive" />} label={t("wrong_answers", lang)} value={wrong} />
           <Metric icon={<ListChecks className="h-4 w-4 text-muted-foreground" />} label={t("unanswered", lang)} value={unanswered} />
           <Metric icon={<Clock className="h-4 w-4 text-primary" />} label={t("time_used", lang)} value={formatTime(r.timeUsedMs)} />

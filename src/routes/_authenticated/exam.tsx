@@ -189,10 +189,12 @@ function ExamPage() {
           }
           return null;
         })()}
-        <h2 className="text-base font-semibold leading-relaxed sm:text-lg">
-          <span className="mr-2 rounded bg-primary/10 px-2 py-0.5 font-mono text-xs text-primary">Q{q.id}</span>
-          {q.stem}
-        </h2>
+        <div className="flex items-start gap-3">
+          <span className="shrink-0 rounded-md bg-primary px-3 py-2 font-mono text-sm font-bold text-primary-foreground shadow-sm sm:text-base">
+            Q{q.id}
+          </span>
+          <h2 className="text-base font-semibold leading-relaxed sm:text-lg">{q.stem}</h2>
+        </div>
 
         <div className="mt-6 space-y-2" role="radiogroup" aria-label="Answer options">
           {q.options.map((o, i) => {

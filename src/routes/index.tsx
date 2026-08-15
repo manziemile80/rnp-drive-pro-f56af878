@@ -50,7 +50,7 @@ function Index() {
     <div>
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ background: "var(--gradient-hero)" }}>
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, oklch(0.82 0.15 84) 0%, transparent 40%), radial-gradient(circle at 80% 70%, oklch(0.55 0.15 260) 0%, transparent 45%)" }} />
+        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, var(--gold) 0%, transparent 40%), radial-gradient(circle at 80% 70%, var(--primary) 0%, transparent 45%)" }} />
         <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:py-24">
           <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-center">
             <div className="text-primary-foreground">

@@ -104,7 +104,7 @@ function ResultPage() {
               <div className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">{t("accuracy", lang)}</div>
               <div className="mt-1 flex items-center gap-2">
                 <div className="h-2 w-40 overflow-hidden rounded-full bg-muted">
-                  <div className="h-full rounded-full" style={{ width: `${pct}%`, background: r.passed ? "oklch(0.55 0.16 150)" : "var(--destructive)" }} />
+                  <div className="h-full rounded-full" style={{ width: `${pct}%`, background: r.passed ? "var(--success)" : "var(--destructive)" }} />
                 </div>
                 <span className="text-sm font-semibold">{pct}%</span>
               </div>

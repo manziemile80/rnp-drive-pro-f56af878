@@ -48,8 +48,10 @@
   --color-ring-offset-background: var(--background);
   --color-success: var(--success);
   --color-success-foreground: var(--success-foreground);
+  --color-success-strong: var(--success-strong);
   --color-gold: var(--gold);
   --color-gold-foreground: var(--gold-foreground);
+  --color-gold-strong: var(--gold-strong);
   --color-navy: var(--navy);
   --color-navy-foreground: var(--navy-foreground);
   --color-chart-1: var(--chart-1);
@@ -92,8 +94,10 @@
   --ring: oklch(0.35 0.1 260);
   --success: oklch(0.55 0.16 150);
   --success-foreground: oklch(0.99 0 0);
+  --success-strong: oklch(0.45 0.15 150);
   --gold: oklch(0.78 0.14 82);
   --gold-foreground: oklch(0.2 0.05 260);
+  --gold-strong: oklch(0.42 0.13 78);
   --navy: oklch(0.22 0.08 260);
   --navy-foreground: oklch(0.99 0 0);
   --gradient-hero: linear-gradient(135deg, oklch(0.22 0.08 260) 0%, oklch(0.34 0.11 262) 55%, oklch(0.28 0.09 260) 100%);
@@ -138,8 +142,10 @@
   --ring: oklch(0.78 0.14 82);
   --success: oklch(0.65 0.16 150);
   --success-foreground: oklch(0.1 0.02 260);
+  --success-strong: oklch(0.78 0.16 150);
   --gold: oklch(0.82 0.15 82);
   --gold-foreground: oklch(0.15 0.03 260);
+  --gold-strong: oklch(0.86 0.14 84);
   --navy: oklch(0.1 0.03 260);
   --navy-foreground: oklch(0.99 0 0);
   --gradient-hero: linear-gradient(135deg, oklch(0.1 0.03 260) 0%, oklch(0.2 0.06 262) 60%, oklch(0.14 0.04 260) 100%);

@@ -139,11 +139,11 @@ function Index() {
             { icon: Trophy, text: t("instr_3", lang) },
             { icon: Target, text: t("instr_4", lang) },
           ].map((item, i) => (
-            <div key={i} className="rounded-lg border bg-card p-5 shadow-[var(--shadow-card)]">
-              <div className="grid h-10 w-10 place-items-center rounded-md bg-gold/15 text-gold-strong">
+            <div key={i} className="rounded-xl border bg-card p-5 shadow-[var(--shadow-card)]">
+              <div className="grid h-10 w-10 place-items-center rounded-lg bg-primary/10 text-primary">
                 <item.icon className="h-5 w-5" />
               </div>
-              <p className="mt-3 text-sm text-foreground/80">{item.text}</p>
+              <p className="mt-3 text-sm text-card-foreground/80">{item.text}</p>
             </div>
           ))}
         </div>
@@ -151,11 +151,11 @@ function Index() {
         <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           <button
             onClick={start}
-            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow hover:opacity-95"
+            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-gold px-5 py-2.5 text-sm font-bold text-gold-foreground shadow-lg shadow-gold/10 hover:bg-gold-strong"
           >
             <Play className="h-4 w-4" /> {t("start_exam", lang)}
           </button>
-          <Link to="/stats" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
+          <Link to="/stats" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-border bg-card px-5 py-2.5 text-sm font-semibold text-foreground hover:bg-secondary">
             {t("stats", lang)}
           </Link>
         </div>
@@ -166,8 +166,8 @@ function Index() {
 
 function Stat({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-primary-foreground/10 bg-primary-foreground/5 p-3">
-      <div className="flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider text-primary-foreground/60">
+    <div className="rounded-xl border border-white/10 bg-white/5 p-3">
+      <div className="flex items-center gap-1.5 text-[10px] font-extrabold uppercase tracking-wider text-primary-foreground/70">
         {icon}
         <span className="truncate">{label}</span>
       </div>

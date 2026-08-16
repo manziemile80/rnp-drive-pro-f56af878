@@ -50,26 +50,30 @@ function Index() {
     <div>
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ background: "var(--gradient-hero)" }}>
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, var(--gold) 0%, transparent 40%), radial-gradient(circle at 80% 70%, var(--primary) 0%, transparent 45%)" }} />
+        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 30%, var(--gold) 0%, transparent 40%), radial-gradient(circle at 80% 70%, rgba(255,255,255,0.3) 0%, transparent 45%)" }} />
         <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:py-24">
-          <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-center">
+          <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_380px] lg:items-center">
             <div className="text-primary-foreground">
-              <div className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-gold">
-                <ShieldCheck className="h-3.5 w-3.5" />
-                {t("inspired_by", lang)}
+              <div className="mb-5 flex items-center gap-3">
+                <div className="grid h-10 w-10 place-items-center rounded-lg bg-gold shadow-lg shadow-gold/20">
+                  <ShieldCheck className="h-6 w-6 text-gold-foreground" />
+                </div>
+                <span className="text-xs font-extrabold uppercase tracking-[0.2em] text-gold/90">
+                  Official Portal
+                </span>
               </div>
-              <h1 className="mt-4 text-2xl font-black leading-tight sm:text-4xl md:text-5xl">
-                {t("app_title", lang)}
+
+              <h1 className="mt-4 text-3xl font-extrabold leading-[1.1] tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
+                Rwanda National Police <span className="text-gold">Provisional Licence</span> Exam
               </h1>
-              <p className="mt-3 max-w-2xl text-sm text-primary-foreground/80 sm:text-lg">
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-primary-foreground/80 sm:text-lg">
                 {t("app_subtitle", lang)}
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <button
                   onClick={start}
-                  className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-bold uppercase tracking-wider text-gold-foreground shadow-lg transition hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy"
-                  style={{ background: "var(--gradient-gold)" }}
+                  className="group inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gold px-6 py-3 text-sm font-extrabold uppercase tracking-wider text-gold-foreground shadow-xl shadow-gold/10 transition hover:bg-gold-strong hover:shadow-gold/20 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy"
                 >
                   <Play className="h-4 w-4" />
                   {t("start_exam", lang)}
@@ -77,7 +81,7 @@ function Index() {
                 {hasResume && (
                   <Link
                     to="/exam"
-                    className="inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-primary-foreground/30 bg-primary-foreground/5 px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-primary-foreground/10"
+                    className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 text-sm font-semibold text-primary-foreground hover:bg-white/10"
                   >
                     <RotateCcw className="h-4 w-4" />
                     {t("resume_exam", lang)}
@@ -96,8 +100,8 @@ function Index() {
                     }}
                     className={`rounded-full border px-3 py-1 transition ${
                       lang === l.code
-                        ? "border-gold bg-gold text-gold-foreground"
-                        : "border-primary-foreground/20 hover:border-primary-foreground/40"
+                        ? "border-gold bg-gold font-semibold text-gold-foreground"
+                        : "border-white/20 hover:border-white/40"
                     }`}
                   >
                     {l.flag} {l.native}
@@ -107,16 +111,16 @@ function Index() {
             </div>
 
             {/* Stat card */}
-            <div className="rounded-xl border border-primary-foreground/10 bg-primary-foreground/5 p-4 backdrop-blur sm:p-6">
-              <div className="text-xs font-semibold uppercase tracking-widest text-gold">Exam Overview</div>
-              <dl className="mt-4 grid grid-cols-2 gap-3 sm:gap-4">
+            <div className="rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur sm:p-6">
+              <div className="text-xs font-extrabold uppercase tracking-[0.2em] text-gold">Exam Overview</div>
+              <dl className="mt-5 grid grid-cols-2 gap-3 sm:gap-4">
                 <Stat icon={<ListChecks className="h-4 w-4" />} label={t("question_bank", lang)} value={String(bankSize)} />
                 <Stat icon={<Target className="h-4 w-4" />} label={t("per_exam", lang)} value={String(EXAM_LENGTH)} />
                 <Stat icon={<Clock className="h-4 w-4" />} label={t("duration", lang)} value={`${EXAM_MINUTES} ${t("minutes", lang)}`} />
                 <Stat icon={<Trophy className="h-4 w-4" />} label={t("pass_mark", lang)} value={`${PASS_MARK}/${EXAM_LENGTH}`} />
               </dl>
               {historyCount > 0 && (
-                <div className="mt-4 rounded-md border border-primary-foreground/10 bg-primary-foreground/5 p-3 text-xs text-primary-foreground/80">
+                <div className="mt-4 rounded-md border border-white/10 bg-white/5 p-3 text-xs text-primary-foreground/80">
                   {historyCount} previous {historyCount === 1 ? "attempt" : "attempts"} saved on this device.
                 </div>
               )}
@@ -135,11 +139,11 @@ function Index() {
             { icon: Trophy, text: t("instr_3", lang) },
             { icon: Target, text: t("instr_4", lang) },
           ].map((item, i) => (
-            <div key={i} className="rounded-lg border bg-card p-5 shadow-[var(--shadow-card)]">
-              <div className="grid h-10 w-10 place-items-center rounded-md bg-gold/15 text-gold-strong">
+            <div key={i} className="rounded-xl border bg-card p-5 shadow-[var(--shadow-card)]">
+              <div className="grid h-10 w-10 place-items-center rounded-lg bg-primary/10 text-primary">
                 <item.icon className="h-5 w-5" />
               </div>
-              <p className="mt-3 text-sm text-foreground/80">{item.text}</p>
+              <p className="mt-3 text-sm text-card-foreground/80">{item.text}</p>
             </div>
           ))}
         </div>
@@ -147,11 +151,11 @@ function Index() {
         <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           <button
             onClick={start}
-            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground shadow hover:opacity-95"
+            className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-gold px-5 py-2.5 text-sm font-bold text-gold-foreground shadow-lg shadow-gold/10 hover:bg-gold-strong"
           >
             <Play className="h-4 w-4" /> {t("start_exam", lang)}
           </button>
-          <Link to="/stats" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-md border px-5 py-2.5 text-sm font-semibold hover:bg-secondary">
+          <Link to="/stats" className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-border bg-card px-5 py-2.5 text-sm font-semibold text-foreground hover:bg-secondary">
             {t("stats", lang)}
           </Link>
         </div>
@@ -162,8 +166,8 @@ function Index() {
 
 function Stat({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
   return (
-    <div className="rounded-lg border border-primary-foreground/10 bg-primary-foreground/5 p-3">
-      <div className="flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-wider text-primary-foreground/60">
+    <div className="rounded-xl border border-white/10 bg-white/5 p-3">
+      <div className="flex items-center gap-1.5 text-[10px] font-extrabold uppercase tracking-wider text-primary-foreground/70">
         {icon}
         <span className="truncate">{label}</span>
       </div>

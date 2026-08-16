@@ -208,7 +208,7 @@ function ExamPage() {
                 onClick={() => setAnswer(q.id, o.letter)}
                 onPointerUp={() => setAnswer(q.id, o.letter)}
                 style={{ touchAction: "manipulation" }}
-                className={`group flex w-full select-none items-start gap-3 rounded-md border p-3 text-left transition active:scale-[0.99] ${
+                className={`group flex w-full select-none items-start gap-3 rounded-xl border p-3 text-left transition active:scale-[0.99] ${
                   selected
                     ? "border-primary bg-primary/10 ring-2 ring-primary/30"
                     : "border-border hover:border-primary/40 hover:bg-secondary/50"

@@ -175,6 +175,7 @@
   }
 
   body {
+    font-family: var(--font-sans);
     background-color: var(--color-background);
     color: var(--color-foreground);
     /* Prevent OS/browser auto-dark from recoloring the app on other devices */
@@ -184,6 +185,10 @@
 
   html {
     forced-color-adjust: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
   }
 }
 
